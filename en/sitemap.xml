@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://github.com/Rei-XY/ChristinaHugoBlogSrc.git/en/categories/</loc>
+    <loc>https://example.com/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://github.com/Rei-XY/ChristinaHugoBlogSrc.git/categories/"
+                href="https://example.com/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://github.com/Rei-XY/ChristinaHugoBlogSrc.git/en/categories/"
+                href="https://example.com/en/categories/"
                 />
   </url><url>
-    <loc>https://github.com/Rei-XY/ChristinaHugoBlogSrc.git/en/</loc>
+    <loc>https://example.com/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://github.com/Rei-XY/ChristinaHugoBlogSrc.git/"
+                href="https://example.com/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://github.com/Rei-XY/ChristinaHugoBlogSrc.git/en/"
+                href="https://example.com/en/"
                 />
   </url><url>
-    <loc>https://github.com/Rei-XY/ChristinaHugoBlogSrc.git/en/tags/</loc>
+    <loc>https://example.com/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://github.com/Rei-XY/ChristinaHugoBlogSrc.git/tags/"
+                href="https://example.com/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://github.com/Rei-XY/ChristinaHugoBlogSrc.git/en/tags/"
+                href="https://example.com/en/tags/"
                 />
   </url>
 </urlset>
