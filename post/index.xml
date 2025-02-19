@@ -7,7 +7,20 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Rei</copyright>
-        <lastBuildDate>Wed, 19 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 19 Feb 2025 19:26:46 +0800</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>TestForDraft</title>
+        <link>https://example.com/p/blog-post-slughugo-new-posts/my-first-post.md/</link>
+        <pubDate>Wed, 19 Feb 2025 19:26:46 +0800</pubDate>
+        
+        <guid>https://example.com/p/blog-post-slughugo-new-posts/my-first-post.md/</guid>
+        <description>&lt;p&gt;从这里开始撰写正文……&lt;/p&gt;
+&lt;h2 id=&#34;参考文献&#34;&gt;参考文献
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;参考文献 1&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
         <title>Obsidian&#43;Enveloppe</title>
         <link>https://example.com/p/obsidian-enveloppe/</link>
         <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
@@ -38,7 +51,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;Hugo是否支持latex公示的输入，测试&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;Hugo是否支持latex公示的输入，测试000&lt;/p&gt;
 $$a+b=c$$$$    
 \begin{aligned}
 KL(\hat{y} || y) &amp;= \sum_{c=1}^{M}\hat{y}_c \log{\frac{\hat{y}_c}{y_c}} \\
