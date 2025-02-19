@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Test on NERV Christina</title>
+        <link>https://example.com/tags/test/</link>
+        <description>Recent content in Test on NERV Christina</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Rei</copyright>
+        <lastBuildDate>Wed, 19 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/test/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title> Obsidian&#43;Enveloppe</title>
+        <link>https://example.com/p/blog-post-slug22/</link>
+        <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/p/blog-post-slug22/</guid>
+        <description>&lt;img src="https://example.com/helena-hertz-wWZzXlDpMog-unsplash.jpg" alt="Featured image of post  Obsidian&#43;Enveloppe" /&gt;&lt;p&gt;使用Obsidian的插件来自动化提交到github仓库&lt;/p&gt;
+&lt;h2 id=&#34;参考文献&#34;&gt;参考文献
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;参考文献 1&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
