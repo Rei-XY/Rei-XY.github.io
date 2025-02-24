@@ -459,7 +459,7 @@
 <h2 id="frp">Frp
 </h2><p>之前淘了台云服务，有了公网服务器，那这不是可以<del>肆意妄为?</del>，肆意折腾。
 Frp可以自定义TLS加密，支持frpc和frps之间的流量通过TLS协议加密，并且支持客户端或服务端单向验证，双向验证等功能。
-当 ==frps.toml== 中 ==transport.tls.force = true== 时，表示 server 端只接受 TLS 连接的客户端，这也是 frps 验证 frpc 身份的前提条件。如果 <code>frps.toml</code> 中 <code>transport.tls.trustedCaFile</code> 内容是有效的话，那么默认就会开启 <code>transport.tls.force = true</code>。</p>
+当 <code>frps.toml</code> 中 <code>transport.tls.force = true</code> 时，表示 server 端只接受 TLS 连接的客户端，这也是 frps 验证 frpc 身份的前提条件。如果 <code>frps.toml</code> 中 <code>transport.tls.trustedCaFile</code> 内容是有效的话，那么默认就会开启 <code>transport.tls.force = true</code>。</p>
 <blockquote>
 <p><strong>从 v0.50.0 开始，<code>transport.tls.enable</code> 的默认值将会为 true，默认开启 TLS 协议加密。</strong>
 如果 frps 端没有配置证书，则会使用随机生成的证书来加密流量。
