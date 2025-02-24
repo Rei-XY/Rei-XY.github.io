@@ -8,12 +8,12 @@
         <language>zh-cn</language>
         <copyright>Rei</copyright>
         <lastBuildDate>Mon, 24 Feb 2025 10:00:00 +0800</lastBuildDate><atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Webservice</title>
+        <title>WebService</title>
         <link>https://example.com/categories/webservice/</link>
         <pubDate>Mon, 24 Feb 2025 10:00:00 +0800</pubDate>
         
         <guid>https://example.com/categories/webservice/</guid>
-        <description></description>
+        <description>&lt;img src="https://example.com/categories/webservice/cover.png" alt="Featured image of post WebService" /&gt;</description>
         </item>
         <item>
         <title>分类</title>
