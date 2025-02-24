@@ -215,7 +215,7 @@ WebChristina用的系统镜像是Ubuntu22.04，对应frp_0.61.1_linux_amd64版�
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo systemctl &lt;span class=&#34;nb&#34;&gt;enable&lt;/span&gt; frps
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;==记得在服务器内打开各项服务的端口==&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;&lt;code&gt;记得在服务器内打开各项服务的端口&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&#34;客户端-配置&#34;&gt;客户端-配置
 &lt;/h3&gt;&lt;h4 id=&#34;下载客户端软件&#34;&gt;下载客户端软件
 &lt;/h4&gt;&lt;p&gt;下载地址: &lt;a class=&#34;link&#34; href=&#34;https://github.com/fatedier/frp/releases&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
