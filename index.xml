@@ -7,7 +7,20 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Rei</copyright>
-        <lastBuildDate>Mon, 24 Feb 2025 21:06:57 +0800</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 25 Feb 2025 22:28:15 +0800</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>赛博小屋装修记</title>
+        <link>https://example.com/post/blog-post-slughugo-new-posts/my-first-post.md/</link>
+        <pubDate>Tue, 25 Feb 2025 22:28:15 +0800</pubDate>
+        
+        <guid>https://example.com/post/blog-post-slughugo-new-posts/my-first-post.md/</guid>
+        <description>&lt;p&gt;从这里开始撰写正文……&lt;/p&gt;
+&lt;h2 id=&#34;参考文献&#34;&gt;参考文献
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;参考文献 1&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
         <title>你的颜色|山田尚子</title>
         <link>https://example.com/post/2025movie-%E4%BD%A0%E7%9A%84%E9%A2%9C%E8%89%B2/</link>
         <pubDate>Mon, 24 Feb 2025 21:06:57 +0800</pubDate>
@@ -431,8 +444,20 @@ $$</description>
         
         <guid>https://example.com/about/</guid>
         <description>&lt;img src="https://example.com/about/Ayanami_Rei%20_4k.png" alt="Featured image of post About" /&gt;&lt;p&gt;This page is just a brief introduction.(I hope so.)&lt;/p&gt;
+&lt;h2 id=&#34;关于站名&#34;&gt;关于站名
+&lt;/h2&gt;&lt;p&gt;起因是和朋友说我要像Tony Stark一样有一个自己的赛博AI助手，用live2d捏形象，接入发声程序的API等等，甚至名字我都起好了『Christina』。&lt;/p&gt;
+&lt;p&gt;精力有限，尽管在这个AI兴起的时代，一些简单的api搭建已经是很平常的事了，ai绘画，ai音声这些都可以实现，但是要把它们整合到一块去还是有点难度的，所以系统搭建暂时处于搁浅状态，转而变成搭建赛博小屋计划.&lt;/p&gt;
+&lt;p&gt;NERV的含义? 我觉得对于一个二次元，EVA的影响应该不用多说，加上我中二病还没毕业，所以就加上了。&lt;/p&gt;
+&lt;p&gt;Rei? 也很简单，Ayanami Rei(DDDD)。&lt;/p&gt;
+&lt;p&gt;现实总是很骨感的，想过上二次元里面的生活把不太现实，只能幻想一下其他宇宙的生活了。&lt;/p&gt;
+&lt;h2 id=&#34;建站的初衷&#34;&gt;建站的初衷
+&lt;/h2&gt;&lt;p&gt;虽然不是专职的程序员，但拥有一个自己的个人博客，&lt;del&gt;太酷了，完全符合我对&amp;hellip;..&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;言归正传，主要是想要一块独属于自己的平台，尽管“在互联网拥有一块个人的秘密花园”这句话听上去就不切实际，但至少现在我有能够匿名表达日常、分享捣鼓的一些东西等等的出口，这对我来说就足够了。&lt;/p&gt;
+&lt;p&gt;很长的一段时间里，我都选择用纸笔记录我的生活，Bullet Journal这种，我很享受记录想法的瞬间，但是丢过一次野账本之后整段的经历似乎只能在时间长河里慢慢被磨损掉了。&lt;/p&gt;
+&lt;p&gt;一天的大部分时间我都是一个人跟自己对话，I have a team, consisting solely of myself!。长时间不写东西，往日的表达欲就一点一点消失殆尽，直到有一天，再也没有想法去写文章了，偶然有点灵感，也因为没有地方去表达就只停留了一瞬间。&lt;/p&gt;
+&lt;p&gt;∴ 这个Blog或者CyberHouse为起点吧，找回我自己的表达与分享欲。&lt;/p&gt;
 &lt;h2 id=&#34;关于我&#34;&gt;关于我
-&lt;/h2&gt;&lt;p&gt;你好，在这里你可以叫我&lt;strong&gt;Rei&lt;/strong&gt;。&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;在这里你可以叫我&lt;strong&gt;Rei&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;一个 在读博士 / 初级程序员 / 喜欢PC DIY / 管人痴 / ACGN爱好者。&lt;/p&gt;
 &lt;p&gt;想养猫、喜欢拍照、INFJ、会写点代码&lt;/p&gt;
 &lt;p&gt;这个博客是想分享一些我自认为值得或可以分享以及可以留下待日后回看的东西(&lt;strong&gt;还在装修当中&lt;/strong&gt;)，欢迎你来到我的博客。&lt;/p&gt;
@@ -520,7 +545,7 @@ $$</description>
 &lt;li&gt;也喜欢听术曲！也很想学习调教！&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;关于这篇博客&#34;&gt;关于这篇博客
-&lt;/h2&gt;&lt;p&gt;这个小博客最初建于 2025 年 1 月 19 日，使用 Hugo + StackMod 搭建。&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;这个小博客最初建于 2025 年 1 月 19 日，使用 Hugo + Stack主题搭建。&lt;/p&gt;
 &lt;p&gt;从原先的hexo转移到hugo，算是很新的博客。&lt;/p&gt;
 &lt;p&gt;目前内容并不算多，未来也可能时隔很长一段时间未更新，但我会将这个博客坚持下去。&lt;/p&gt;
 &lt;h3 id=&#34;博客の事记&#34;&gt;博客の事记
