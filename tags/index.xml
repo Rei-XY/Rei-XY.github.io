@@ -8,11 +8,11 @@
         <language>zh-cn</language>
         <copyright>Rei</copyright>
         <lastBuildDate>Tue, 25 Feb 2025 22:28:15 +0800</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>标签</title>
-        <link>https://example.com/tags/%E6%A0%87%E7%AD%BE/</link>
+        <title>博客建站</title>
+        <link>https://example.com/tags/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E7%AB%99/</link>
         <pubDate>Tue, 25 Feb 2025 22:28:15 +0800</pubDate>
         
-        <guid>https://example.com/tags/%E6%A0%87%E7%AD%BE/</guid>
+        <guid>https://example.com/tags/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E7%AB%99/</guid>
         <description></description>
         </item>
         <item>
@@ -29,6 +29,14 @@
         <pubDate>Mon, 24 Feb 2025 10:00:00 +0800</pubDate>
         
         <guid>https://example.com/tags/frp/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>标签</title>
+        <link>https://example.com/tags/%E6%A0%87%E7%AD%BE/</link>
+        <pubDate>Wed, 19 Feb 2025 19:26:46 +0800</pubDate>
+        
+        <guid>https://example.com/tags/%E6%A0%87%E7%AD%BE/</guid>
         <description></description>
         </item>
         <item>

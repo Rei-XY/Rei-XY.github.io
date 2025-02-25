@@ -9,16 +9,11 @@
         <copyright>Rei</copyright>
         <lastBuildDate>Tue, 25 Feb 2025 22:28:15 +0800</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>赛博小屋装修记</title>
-        <link>https://example.com/post/blog-post-slughugo-new-posts/my-first-post.md/</link>
+        <link>https://example.com/post/hugo-stack-mod/</link>
         <pubDate>Tue, 25 Feb 2025 22:28:15 +0800</pubDate>
         
-        <guid>https://example.com/post/blog-post-slughugo-new-posts/my-first-post.md/</guid>
-        <description>&lt;p&gt;从这里开始撰写正文……&lt;/p&gt;
-&lt;h2 id=&#34;参考文献&#34;&gt;参考文献
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;参考文献 1&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+        <guid>https://example.com/post/hugo-stack-mod/</guid>
+        <description></description>
         </item>
         <item>
         <title>你的颜色|山田尚子</title>

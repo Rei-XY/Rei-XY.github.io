@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>博客建站 on NERV Christina</title>
+        <link>https://example.com/tags/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E7%AB%99/</link>
+        <description>Recent content in 博客建站 on NERV Christina</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Rei</copyright>
+        <lastBuildDate>Tue, 25 Feb 2025 22:28:15 +0800</lastBuildDate><atom:link href="https://example.com/tags/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E7%AB%99/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>赛博小屋装修记</title>
+        <link>https://example.com/post/hugo-stack-mod/</link>
+        <pubDate>Tue, 25 Feb 2025 22:28:15 +0800</pubDate>
+        
+        <guid>https://example.com/post/hugo-stack-mod/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>
