@@ -7,7 +7,15 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Rei</copyright>
-        <lastBuildDate>Tue, 25 Feb 2025 22:28:15 +0800</lastBuildDate><atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 27 Feb 2025 16:38:38 +0800</lastBuildDate><atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>WebService</title>
+        <link>https://example.com/categories/webservice/</link>
+        <pubDate>Thu, 27 Feb 2025 16:38:38 +0800</pubDate>
+        
+        <guid>https://example.com/categories/webservice/</guid>
+        <description>&lt;img src="https://example.com/categories/webservice/cover.png" alt="Featured image of post WebService" /&gt;</description>
+        </item>
+        <item>
         <title>博客建站</title>
         <link>https://example.com/categories/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E7%AB%99/</link>
         <pubDate>Tue, 25 Feb 2025 22:28:15 +0800</pubDate>
@@ -22,14 +30,6 @@
         
         <guid>https://example.com/categories/movie/</guid>
         <description></description>
-        </item>
-        <item>
-        <title>WebService</title>
-        <link>https://example.com/categories/webservice/</link>
-        <pubDate>Mon, 24 Feb 2025 10:00:00 +0800</pubDate>
-        
-        <guid>https://example.com/categories/webservice/</guid>
-        <description>&lt;img src="https://example.com/categories/webservice/cover.png" alt="Featured image of post WebService" /&gt;</description>
         </item>
         <item>
         <title>分类</title>
