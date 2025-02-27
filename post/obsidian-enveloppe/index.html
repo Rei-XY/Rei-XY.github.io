@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://example.com/post/obsidian-enveloppe/'>
 
-<link rel="stylesheet" href="/scss/style.min.24cd09fd6ce2835f0105c4f23e177700f443b8328a214d6d2caca3c924fa675a.css"><meta property='og:title' content="Obsidian+Enveloppe">
+<link rel="stylesheet" href="/scss/style.min.8c8f56a61158a257592564b87f2c45d8ec25ebb7abc27bd09979eafa4029c33e.css"><meta property='og:title' content="Obsidian+Enveloppe">
 <meta property='og:description' content="这是一个副标题">
 <meta property='og:url' content='https://example.com/post/obsidian-enveloppe/'>
 <meta property='og:site_name' content='NERV Christina'>
@@ -19,7 +19,7 @@
     :root {
       --sys-font-family: "YaHei Consolas Hybrid";
       --zh-font-family: "YaHei Consolas Hybrid";
-      --base-font-family: "YaHei Consolas Hybrid";
+      --base-font-family: "YaHei Consolas Hybrid","Dancing Script";
       --code-font-family: "JetBrainsMonoNL-Bold";
       --article-font-family: "YaHei Consolas Hybrid";
     }
@@ -37,6 +37,8 @@
       document.head.appendChild(customFont);
     })();
   </script>
+
+
   
     </head>
     <body class="
@@ -376,6 +378,17 @@
 </details>
 <p>引用博客的另外几篇文章：
 <a class="link" href="/post/2025movie-%E4%BD%A0%E7%9A%84%E9%A2%9C%E8%89%B2/" >Blog内引用文章的测试</a></p>
+<p>图床测试
+<img src="https://raw.githubusercontent.com/Rei-XY/Rei_img/master/Ayanami%20Rei%20_4k.png?token=BFFXXIXGG2YXXRHMWQP2T5LHYAENC"
+	
+	
+	
+	loading="lazy"
+	
+		alt="插入图床链接测试"
+	
+	
+></p>
 <h2 id="参考文献">参考文献
 </h2><ul>
 <li>参考文献 1</li>
@@ -531,6 +544,11 @@
     <section class="powerby">
         使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
         主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+            
+            <section class="running-time">
+                本博客已稳定运行
+                <span id="runningdays" class="running-days"></span>
+            </section>
     </section>
 </footer>
 
@@ -631,6 +649,76 @@
         document.head.appendChild(customFont);
     }());
 </script>
+<style>
+    #TableOfContents > ul, ol {
+        ul, ol {
+            display: none;
+        }
+        .open {
+            display: block;
+        }
+    }
+</style>
+
+<script>
+    function initTocHide() {
+        
+        let toc = document.querySelector(".widget--toc");
+        if (!toc) {
+            return;
+        }
+        
+        window.addEventListener('scroll', function() {
+            
+            let openUl = document.querySelectorAll(".open");
+            if (openUl.length > 0) {
+              openUl.forEach((ul) => {
+                ul.classList.remove("open")
+              })
+            }
+            
+            let currentLi = document.querySelector(".active-class");
+            if (!currentLi) {
+                return
+            }
+            
+            if (currentLi.children.length > 1) {
+                currentLi.children[1].classList.add("open")
+            }
+            
+            let ul = currentLi.parentElement;
+            do {
+                ul.classList.add("open");
+                ul = ul.parentElement.parentElement
+            } while (ul !== undefined && (ul.localName === 'ul' || ul.localName === 'ol'))
+        });
+    }
+    initTocHide()
+</script>
+
+
+<script>
+  let s1 = '2025-1-19'; 
+  s1 = new Date(s1.replace(/-/g, "/"));
+  let s2 = new Date();
+  let timeDifference = s2.getTime() - s1.getTime();
+
+  let days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+  let hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  let minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+
+  let result = days + " 天 " + hours + " 小时 " + minutes + " 分钟";
+  document.getElementById('runningdays').innerHTML = result;
+</script>
+
+
+
+ 
+
+
+
+
+
 
     </body>
 </html>

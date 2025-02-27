@@ -19,6 +19,17 @@
 &lt;/details&gt;
 &lt;p&gt;引用博客的另外几篇文章：
 &lt;a class=&#34;link&#34; href=&#34;https://example.com/post/2025movie-%E4%BD%A0%E7%9A%84%E9%A2%9C%E8%89%B2/&#34; &gt;Blog内引用文章的测试&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;图床测试
+&lt;img src=&#34;https://raw.githubusercontent.com/Rei-XY/Rei_img/master/Ayanami%20Rei%20_4k.png?token=BFFXXIXGG2YXXRHMWQP2T5LHYAENC&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;插入图床链接测试&#34;
+	
+	
+&gt;&lt;/p&gt;
 &lt;h2 id=&#34;参考文献&#34;&gt;参考文献
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;参考文献 1&lt;/li&gt;
