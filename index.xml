@@ -16,9 +16,9 @@
         <description>&lt;img src="https://raw.githubusercontent.com/Rei-XY/Rei_PicGo/master/Blog_post/Blog-zerotiermoon-cover.png" alt="Featured image of post Zerotier_Moon" /&gt;&lt;h2 id=&#34;序&#34;&gt;序
 &lt;/h2&gt;&lt;p&gt;  最初打算用公网服务器+Frp来实现内网穿透，这是稳定的方案，但使用下来会有几个问题。&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;mstsc走公网ip+端口号的方式，在我理解里是三根水管相连，数据要通过云服务器上传，不只是端口映射，木桶效应在于云服务器的带宽限制(2~3M过于卡顿)&lt;/li&gt;
-&lt;li&gt;Frp会一直扫公网ip的端口号，尽管可以添加SSL，但是远程桌面走的是tcp服务，stcp不能成功打开udp的远程桌面，也可能是我没配置正确，暂时还在寻找原因。&lt;/li&gt;
-&lt;li&gt;宿舍用moonlight串流工位电脑，用zerotier会比较方便和管理。&lt;/li&gt;
+&lt;li&gt;mstsc走公网ip+端口号的方式，在我理解里是三根水管相连，数据要通过云服务器上传，不只是端口映射，木桶效应在于云服务器的带宽限制(2~3M过于卡顿).&lt;/li&gt;
+&lt;li&gt;Frp会一直扫公网ip的端口号，尽管可以添加SSL，但是远程桌面走的是tcp服务，stcp不能成功打开udp的远程桌面，也可能是我没配置正确，暂时还在寻找原因.&lt;/li&gt;
+&lt;li&gt;宿舍用moonlight串流工位电脑，用zerotier会比较方便和管理.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;  之前不喜欢zerotier的原因是因为planet的服务器在国外，用户多的时候会打洞失败，而且延迟巨高！遇到过好几次了，但是现在我有了国内的云服务器，那就可以类似frp的方式做个端口映射，就变成&amp;quot;两根水管相连&amp;quot;，这样的话就是木桶效应是工位网络的上行带宽。&lt;/p&gt;
 &lt;h2 id=&#34;服务器配置zerotiermoon&#34;&gt;服务器配置Zerotier+Moon
