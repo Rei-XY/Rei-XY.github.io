@@ -13,7 +13,8 @@
         <pubDate>Thu, 27 Feb 2025 16:38:38 +0800</pubDate>
         
         <guid>https://example.com/post/zerotier-moon/</guid>
-        <description>&lt;img src="https://raw.githubusercontent.com/Rei-XY/Rei_PicGo/master/Blog_post/Blog-zerotiermoon-cover.png" alt="Featured image of post Zerotier&#43;Moon" /&gt;&lt;h2 id=&#34;序&#34;&gt;序
+        <description>&lt;img src="https://example.com/post/zerotier-moon/%E5%8D%9A%E5%AE%A2%E5%B0%81%E9%9D%A2Cover.png" alt="Featured image of post Zerotier&#43;Moon" /&gt;&lt;!--  &#34;https://raw.githubusercontent.com/Rei-XY/Rei_PicGo/master/Blog_post/Blog-zerotiermoon-cover.png&#34;--&gt;
+&lt;h2 id=&#34;序&#34;&gt;序
 &lt;/h2&gt;&lt;p&gt;  最初打算用公网服务器+Frp来实现内网穿透，这是稳定的方案，但使用下来会有几个问题。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;mstsc走公网ip+端口号的方式，在我理解里是三根水管相连，数据要通过云服务器上传，不只是端口映射，木桶效应在于云服务器的带宽限制(2~3M过于卡顿).&lt;/li&gt;

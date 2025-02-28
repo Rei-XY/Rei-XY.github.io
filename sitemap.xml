@@ -17,10 +17,16 @@
     <loc>https://example.com/categories/webservice/</loc>
     <lastmod>2025-02-27T16:38:38+08:00</lastmod>
   </url><url>
+    <loc>https://example.com/tags/webservice/</loc>
+    <lastmod>2025-02-27T16:38:38+08:00</lastmod>
+  </url><url>
     <loc>https://example.com/tags/zerotier/</loc>
     <lastmod>2025-02-27T16:38:38+08:00</lastmod>
   </url><url>
     <loc>https://example.com/post/zerotier-moon/</loc>
+    <lastmod>2025-02-27T16:38:38+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/</loc>
     <lastmod>2025-02-27T16:38:38+08:00</lastmod>
   </url><url>
     <loc>https://example.com/categories/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E7%AB%99/</loc>
