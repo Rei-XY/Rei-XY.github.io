@@ -2,146 +2,146 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/</loc>
+    <loc>blog.christinaxy.fun/</loc>
     <lastmod>2025-03-03T16:00:16+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/</loc>
+    <loc>blog.christinaxy.fun/categories/</loc>
     <lastmod>2025-03-03T16:00:16+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/blog-post-slughugo-new-posts/my-first-post.md/</loc>
+    <loc>blog.christinaxy.fun/post/blog-post-slughugo-new-posts/my-first-post.md/</loc>
     <lastmod>2025-03-03T16:00:16+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/</loc>
+    <loc>blog.christinaxy.fun/post/</loc>
     <lastmod>2025-03-03T16:00:16+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/</loc>
+    <loc>blog.christinaxy.fun/tags/</loc>
     <lastmod>2025-03-03T16:00:16+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/test/</loc>
+    <loc>blog.christinaxy.fun/categories/test/</loc>
     <lastmod>2025-03-03T16:00:16+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/test/</loc>
+    <loc>blog.christinaxy.fun/tags/test/</loc>
     <lastmod>2025-03-03T16:00:16+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/webservice/</loc>
+    <loc>blog.christinaxy.fun/categories/webservice/</loc>
     <lastmod>2025-02-27T16:38:38+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/webservice/</loc>
+    <loc>blog.christinaxy.fun/tags/webservice/</loc>
     <lastmod>2025-02-27T16:38:38+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/zerotier/</loc>
+    <loc>blog.christinaxy.fun/tags/zerotier/</loc>
     <lastmod>2025-02-27T16:38:38+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/zerotier-moon/</loc>
+    <loc>blog.christinaxy.fun/post/zerotier-moon/</loc>
     <lastmod>2025-02-27T16:38:38+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/</loc>
+    <loc>blog.christinaxy.fun/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/</loc>
     <lastmod>2025-02-27T16:38:38+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E7%AB%99/</loc>
+    <loc>blog.christinaxy.fun/categories/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E7%AB%99/</loc>
     <lastmod>2025-02-25T22:28:15+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E7%AB%99/</loc>
+    <loc>blog.christinaxy.fun/tags/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E7%AB%99/</loc>
     <lastmod>2025-02-25T22:28:15+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/hugo-stack-mod/</loc>
+    <loc>blog.christinaxy.fun/post/hugo-stack-mod/</loc>
     <lastmod>2025-02-25T22:28:15+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/2025-movie/</loc>
+    <loc>blog.christinaxy.fun/tags/2025-movie/</loc>
     <lastmod>2025-02-24T21:06:57+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/movie/</loc>
+    <loc>blog.christinaxy.fun/categories/movie/</loc>
     <lastmod>2025-02-24T21:06:57+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/2025movie-%E4%BD%A0%E7%9A%84%E9%A2%9C%E8%89%B2/</loc>
+    <loc>blog.christinaxy.fun/post/2025movie-%E4%BD%A0%E7%9A%84%E9%A2%9C%E8%89%B2/</loc>
     <lastmod>2025-02-24T21:06:57+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/frp/</loc>
+    <loc>blog.christinaxy.fun/tags/frp/</loc>
     <lastmod>2025-02-24T10:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/webservice-frp/</loc>
+    <loc>blog.christinaxy.fun/post/webservice-frp/</loc>
     <lastmod>2025-02-24T10:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/blog-post-slughugo-new-posts/my-first-post.md/</loc>
+    <loc>blog.christinaxy.fun/post/blog-post-slughugo-new-posts/my-first-post.md/</loc>
     <lastmod>2025-02-19T19:26:46+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/%E6%A0%87%E7%AD%BE/</loc>
+    <loc>blog.christinaxy.fun/tags/%E6%A0%87%E7%AD%BE/</loc>
     <lastmod>2025-02-19T19:26:46+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/%E5%88%86%E7%B1%BB/</loc>
+    <loc>blog.christinaxy.fun/categories/%E5%88%86%E7%B1%BB/</loc>
     <lastmod>2025-02-19T19:26:46+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/obsidian-enveloppe/</loc>
+    <loc>blog.christinaxy.fun/post/obsidian-enveloppe/</loc>
     <lastmod>2025-02-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/%E6%B5%8B%E8%AF%95/</loc>
+    <loc>blog.christinaxy.fun/categories/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2025-02-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/test/</loc>
+    <loc>blog.christinaxy.fun/post/test/</loc>
     <lastmod>2025-02-18T21:54:53+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/about/</loc>
+    <loc>blog.christinaxy.fun/about/</loc>
     <lastmod>2025-01-19T19:26:46+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/page/</loc>
+    <loc>blog.christinaxy.fun/page/</loc>
     <lastmod>2025-01-19T19:26:46+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/archives/</loc>
+    <loc>blog.christinaxy.fun/archives/</loc>
     <lastmod>2025-01-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/test-chinese/</loc>
+    <loc>blog.christinaxy.fun/post/test-chinese/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/css/</loc>
+    <loc>blog.christinaxy.fun/tags/css/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/html/</loc>
+    <loc>blog.christinaxy.fun/tags/html/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/markdown/</loc>
+    <loc>blog.christinaxy.fun/tags/markdown/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/markdown-syntax-guide/</loc>
+    <loc>blog.christinaxy.fun/post/markdown-syntax-guide/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/syntax/</loc>
+    <loc>blog.christinaxy.fun/categories/syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/themes/</loc>
+    <loc>blog.christinaxy.fun/categories/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/themes/</loc>
+    <loc>blog.christinaxy.fun/tags/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/placeholder-text/</loc>
+    <loc>blog.christinaxy.fun/post/placeholder-text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/tag-with-whitespaces/</loc>
+    <loc>blog.christinaxy.fun/tags/tag-with-whitespaces/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/test-with-whitespaces/</loc>
+    <loc>blog.christinaxy.fun/categories/test-with-whitespaces/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/text/</loc>
+    <loc>blog.christinaxy.fun/tags/text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/math-typesetting/</loc>
+    <loc>blog.christinaxy.fun/post/math-typesetting/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/emoji/</loc>
+    <loc>blog.christinaxy.fun/tags/emoji/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/emoji-support/</loc>
+    <loc>blog.christinaxy.fun/post/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/anime/</loc>
+    <loc>blog.christinaxy.fun/categories/anime/</loc>
   </url><url>
-    <loc>https://example.com/categories/life/</loc>
+    <loc>blog.christinaxy.fun/categories/life/</loc>
   </url><url>
-    <loc>https://example.com/links/</loc>
+    <loc>blog.christinaxy.fun/links/</loc>
   </url><url>
-    <loc>https://example.com/search/</loc>
+    <loc>blog.christinaxy.fun/search/</loc>
   </url><url>
-    <loc>https://example.com/categories/blog/</loc>
+    <loc>blog.christinaxy.fun/categories/blog/</loc>
   </url>
 </urlset>
