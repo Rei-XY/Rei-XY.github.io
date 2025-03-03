@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Frp on NERV Christina</title>
-        <link>blog.christinaxy.fun/tags/frp/</link>
+        <link>https://example.com/tags/frp/</link>
         <description>Recent content in Frp on NERV Christina</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Rei</copyright>
-        <lastBuildDate>Mon, 24 Feb 2025 10:00:00 +0800</lastBuildDate><atom:link href="blog.christinaxy.fun/tags/frp/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 24 Feb 2025 10:00:00 +0800</lastBuildDate><atom:link href="https://example.com/tags/frp/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>关于内网穿透服务</title>
-        <link>blog.christinaxy.fun/post/webservice-frp/</link>
+        <link>https://example.com/post/webservice-frp/</link>
         <pubDate>Mon, 24 Feb 2025 10:00:00 +0800</pubDate>
         
-        <guid>blog.christinaxy.fun/post/webservice-frp/</guid>
-        <description>&lt;img src="blog.christinaxy.fun/blog.christinaxy.fun/post/webservice-frp/cover.png" alt="Featured image of post 关于内网穿透服务" /&gt;&lt;p&gt;因为自个的台式机（Christina）和服务器（Maffia）都放在实验室工位，有的时候人不在工位需要远程控制，之前一直用的是向日葵，但是向日葵免费版本的带宽实在是太小了，免费用户的体验实在是不太好，常常断流，而且会有弹窗广告，还是当备案，首选搭建别的穿透服务来远程控制。&lt;/p&gt;
+        <guid>https://example.com/post/webservice-frp/</guid>
+        <description>&lt;img src="https://example.com/post/webservice-frp/cover.png" alt="Featured image of post 关于内网穿透服务" /&gt;&lt;p&gt;因为自个的台式机（Christina）和服务器（Maffia）都放在实验室工位，有的时候人不在工位需要远程控制，之前一直用的是向日葵，但是向日葵免费版本的带宽实在是太小了，免费用户的体验实在是不太好，常常断流，而且会有弹窗广告，还是当备案，首选搭建别的穿透服务来远程控制。&lt;/p&gt;
 &lt;h2 id=&#34;zerotier&#34;&gt;Zerotier
 &lt;/h2&gt;&lt;p&gt;Zerotier是用来搭建虚拟局域网的工具，在没有公网Ipv4的情况下，还是挺好用的，但是它的服务器毕竟是国外的，有的时候常常打洞失败，并且有的时候会出BUG，还没细究是Win版远程桌面的锅还是是什么别的原因（つづく）&lt;/p&gt;
 &lt;h3 id=&#34;准备工作&#34;&gt;准备工作
@@ -22,10 +22,10 @@
     &gt;Download - ZeroTier&lt;/a&gt;，Christina是Windows系统，正常安装就好，一般这种服务本身不太占内存，就直接装在C盘了，免去一些配置路径和依赖。&lt;/p&gt;
 &lt;h4 id=&#34;zerotier注册&#34;&gt;Zerotier注册
 &lt;/h4&gt;&lt;p&gt;注册一个自己的虚拟局域网，由zerotier服务器来配置ip和路由管理，免费版本一个Network下能提供至多25个设备支持（一般是足够了），权限设置成私人，对设备进行授权管理。
-&lt;img src=&#34;blog.christinaxy.fun/post/webservice-frp/Zerotier_Network_settings.jpg&#34;
+&lt;img src=&#34;https://example.com/post/webservice-frp/Zerotier_Network_settings.jpg&#34;
 	width=&#34;960&#34;
 	height=&#34;890&#34;
-	srcset=&#34;blog.christinaxy.fun/post/webservice-frp/Zerotier_Network_settings_hu_4068a0e8f9d53a05.jpg 480w, blog.christinaxy.fun/post/webservice-frp/Zerotier_Network_settings_hu_704daf0bd8741106.jpg 1024w&#34;
+	srcset=&#34;https://example.com/post/webservice-frp/Zerotier_Network_settings_hu_4068a0e8f9d53a05.jpg 480w, https://example.com/post/webservice-frp/Zerotier_Network_settings_hu_704daf0bd8741106.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Rename Zerotier Network&#34;
@@ -37,10 +37,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;注册完毕并创建一个网络服务后，会获得该网络下的网络ID(Networkd ID)，再选择性得配置好该网络的名称和相关说明就好。
-&lt;img src=&#34;blog.christinaxy.fun/post/webservice-frp/Zerotier_Network_configuration.jpg&#34;
+&lt;img src=&#34;https://example.com/post/webservice-frp/Zerotier_Network_configuration.jpg&#34;
 	width=&#34;1850&#34;
 	height=&#34;992&#34;
-	srcset=&#34;blog.christinaxy.fun/post/webservice-frp/Zerotier_Network_configuration_hu_96dc9c219c0b64ce.jpg 480w, blog.christinaxy.fun/post/webservice-frp/Zerotier_Network_configuration_hu_5b30bbd8a36cd16c.jpg 1024w&#34;
+	srcset=&#34;https://example.com/post/webservice-frp/Zerotier_Network_configuration_hu_96dc9c219c0b64ce.jpg 480w, https://example.com/post/webservice-frp/Zerotier_Network_configuration_hu_5b30bbd8a36cd16c.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Add&amp;Authorize services&#34;
@@ -52,10 +52,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;将设备加入到虚拟局域网当中&#34;&gt;将设备加入到虚拟局域网当中
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;blog.christinaxy.fun/post/webservice-frp/Zeotier_program_settings.jpg&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/post/webservice-frp/Zeotier_program_settings.jpg&#34;
 	width=&#34;323&#34;
 	height=&#34;177&#34;
-	srcset=&#34;blog.christinaxy.fun/post/webservice-frp/Zeotier_program_settings_hu_f46df0e884c3df1d.jpg 480w, blog.christinaxy.fun/post/webservice-frp/Zeotier_program_settings_hu_a3b3a5ddcc018ac6.jpg 1024w&#34;
+	srcset=&#34;https://example.com/post/webservice-frp/Zeotier_program_settings_hu_f46df0e884c3df1d.jpg 480w, https://example.com/post/webservice-frp/Zeotier_program_settings_hu_a3b3a5ddcc018ac6.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;join the network&#34;
@@ -68,10 +68,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;打开下载好的zerotier程序，右键进行配置，能看到当前主机的ID，选择「Join New Network」,填入Step2创建好的网络ID，再回到网页配置中（一般会有一点延迟），能看到Members选项下会出现未授权的设备，Address对应到当前主机的ID，进行对应的授权后就能看到Zerotier配置的ip(Managed IPs)，这样就将当前主机加入到创建好的虚拟局域网当中了。
 我这边加入了4台自己的设备，可以尝试ping一下各台主机来进行测试。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;blog.christinaxy.fun/post/webservice-frp/Zeotier_pingtest.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://example.com/post/webservice-frp/Zeotier_pingtest.jpg&#34;
 	width=&#34;1233&#34;
 	height=&#34;686&#34;
-	srcset=&#34;blog.christinaxy.fun/post/webservice-frp/Zeotier_pingtest_hu_4107932415ea91d6.jpg 480w, blog.christinaxy.fun/post/webservice-frp/Zeotier_pingtest_hu_5752a5bd89ed6a26.jpg 1024w&#34;
+	srcset=&#34;https://example.com/post/webservice-frp/Zeotier_pingtest_hu_4107932415ea91d6.jpg 480w, https://example.com/post/webservice-frp/Zeotier_pingtest_hu_5752a5bd89ed6a26.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Ping Test&#34;
