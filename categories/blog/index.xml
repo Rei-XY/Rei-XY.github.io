@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>博客建站 on NERV Christina</title>
-        <link>blog.christinaxy.fun/categories/blog/</link>
+        <link>https://blog.christinaxy.fun/categories/blog/</link>
         <description>Recent content in 博客建站 on NERV Christina</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>Rei</copyright><atom:link href="blog.christinaxy.fun/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+        <copyright>Rei</copyright><atom:link href="https://blog.christinaxy.fun/categories/blog/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>

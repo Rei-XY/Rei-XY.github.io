@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Test on NERV Christina</title>
-        <link>blog.christinaxy.fun/tags/test/</link>
+        <link>https://blog.christinaxy.fun/tags/test/</link>
         <description>Recent content in Test on NERV Christina</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Rei</copyright>
-        <lastBuildDate>Mon, 03 Mar 2025 16:00:16 +0800</lastBuildDate><atom:link href="blog.christinaxy.fun/tags/test/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 03 Mar 2025 16:00:16 +0800</lastBuildDate><atom:link href="https://blog.christinaxy.fun/tags/test/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Domians</title>
-        <link>blog.christinaxy.fun/post/blog-post-slughugo-new-posts/my-first-post.md/</link>
+        <link>https://blog.christinaxy.fun/post/blog-post-slughugo-new-posts/my-first-post.md/</link>
         <pubDate>Mon, 03 Mar 2025 16:00:16 +0800</pubDate>
         
-        <guid>blog.christinaxy.fun/post/blog-post-slughugo-new-posts/my-first-post.md/</guid>
+        <guid>https://blog.christinaxy.fun/post/blog-post-slughugo-new-posts/my-first-post.md/</guid>
         <description>&lt;p&gt;blog.christinaxy.fun&lt;/p&gt;
 </description>
         </item>
