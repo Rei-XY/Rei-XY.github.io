@@ -29,11 +29,24 @@
         <description>&lt;p&gt;  陪我了4年，走过本科和硕士的笔电摔了，没什么大事，还能用，但是B、C壳变形了，屏幕也漏光了，虽然能正常使用但是我好担心出差的时候突然一个不吱声坏了，所以还是淘一个备用机试试。&lt;/p&gt;
 &lt;p&gt;  本着已经有了两台win PC了，出差也用不到多少性能，所以想试试macOS系统，正好学校里一个学弟想出一个M1的Macbook Air，于是谈了一下2700大米拿下了，不得不说乔布斯的设计是真好看，最后一代楔形设计的MacBook Air了，没有风扇，超安静而且续航妥妥够了，本身也没有什么磕碰，除了键盘有点打油，打算买张键盘膜贴一下。
 以此贴记录一下折腾macOS的过程，瑞思拜。&lt;/p&gt;
-&lt;h2 id=&#34;插曲&#34;&gt;插曲
-&lt;/h2&gt;&lt;p&gt;重新配置vscode和对应的MacBook上的git，遇到了一些坑，在这边暂时记录一下
-不知出什么毛病了，莫名奇妙除了一个渲染的bug。。。&lt;/p&gt;
 &lt;h2 id=&#34;homebrew&#34;&gt;Homebrew
-&lt;/h2&gt;</description>
+&lt;/h2&gt;&lt;p&gt;取消自动更新
+export HOMEBREW_NO_AUTO_UPDATE=true&lt;/p&gt;
+&lt;h2 id=&#34;picgo-install&#34;&gt;PicGo Install
+&lt;/h2&gt;&lt;p&gt;从官网上下的包总是显示损坏，无语。。。。。&lt;/p&gt;
+&lt;p&gt;该用homebrew(这玩意挺好使hh)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;brew install picgo --cask
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;不好使，下的不是最新版本的，有的功能无法使用&lt;/p&gt;
+&lt;p&gt;dmg的包管理真的一坨，需要更改属性才能正常安装&lt;/p&gt;
+&lt;p&gt;wtf，为什么我的代码块的格式出现了问题。。。。。。&lt;/p&gt;
+</description>
         </item>
         <item>
         <title>Domians</title>
