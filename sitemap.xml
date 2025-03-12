@@ -3,18 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.christinaxy.fun/</loc>
-    <lastmod>2025-03-03T16:00:16+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.christinaxy.fun/categories/</loc>
-    <lastmod>2025-03-03T16:00:16+08:00</lastmod>
+    <lastmod>2025-03-12T20:49:09+08:00</lastmod>
   </url><url>
     <loc>https://blog.christinaxy.fun/post/blog-post-slughugo-new-posts/my-first-post.md/</loc>
-    <lastmod>2025-03-03T16:00:16+08:00</lastmod>
+    <lastmod>2025-03-12T20:49:09+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.christinaxy.fun/categories/</loc>
+    <lastmod>2025-03-12T20:49:09+08:00</lastmod>
   </url><url>
     <loc>https://blog.christinaxy.fun/post/</loc>
-    <lastmod>2025-03-03T16:00:16+08:00</lastmod>
+    <lastmod>2025-03-12T20:49:09+08:00</lastmod>
   </url><url>
     <loc>https://blog.christinaxy.fun/tags/</loc>
+    <lastmod>2025-03-12T20:49:09+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.christinaxy.fun/tags/%E6%A0%87%E7%AD%BE/</loc>
+    <lastmod>2025-03-12T20:49:09+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.christinaxy.fun/categories/%E5%88%86%E7%B1%BB/</loc>
+    <lastmod>2025-03-12T20:49:09+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.christinaxy.fun/categories/macos/</loc>
+    <lastmod>2025-03-10T20:11:14+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.christinaxy.fun/post/macset/</loc>
+    <lastmod>2025-03-10T20:11:14+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.christinaxy.fun/tags/pc/</loc>
+    <lastmod>2025-03-10T20:11:14+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.christinaxy.fun/post/blog-post-slughugo-new-posts/my-first-post.md/</loc>
     <lastmod>2025-03-03T16:00:16+08:00</lastmod>
   </url><url>
     <loc>https://blog.christinaxy.fun/categories/test/</loc>
@@ -56,19 +74,7 @@
     <loc>https://blog.christinaxy.fun/post/2025movie-%E4%BD%A0%E7%9A%84%E9%A2%9C%E8%89%B2/</loc>
     <lastmod>2025-02-24T21:06:57+08:00</lastmod>
   </url><url>
-    <loc>https://blog.christinaxy.fun/tags/frp/</loc>
-    <lastmod>2025-02-24T10:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.christinaxy.fun/post/webservice-frp/</loc>
-    <lastmod>2025-02-24T10:00:00+08:00</lastmod>
-  </url><url>
     <loc>https://blog.christinaxy.fun/post/blog-post-slughugo-new-posts/my-first-post.md/</loc>
-    <lastmod>2025-02-19T19:26:46+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.christinaxy.fun/tags/%E6%A0%87%E7%AD%BE/</loc>
-    <lastmod>2025-02-19T19:26:46+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.christinaxy.fun/categories/%E5%88%86%E7%B1%BB/</loc>
     <lastmod>2025-02-19T19:26:46+08:00</lastmod>
   </url><url>
     <loc>https://blog.christinaxy.fun/post/obsidian-enveloppe/</loc>
@@ -133,6 +139,8 @@
   </url><url>
     <loc>https://blog.christinaxy.fun/post/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.christinaxy.fun/post/</loc>
   </url><url>
     <loc>https://blog.christinaxy.fun/categories/anime/</loc>
   </url><url>

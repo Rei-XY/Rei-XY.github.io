@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://blog.christinaxy.fun/post/test/'>
 
-<link rel="stylesheet" href="/scss/style.min.02a1f25e36a39eba5fceab0b564355ee597f60d956d2e77bae2c06937ebb9d79.css"><meta property='og:title' content="Test">
+<link rel="stylesheet" href="/scss/style.min.7a07423a79f68f626b745f81c00454984708cb9138dddaca13e4ee6b1453c080.css"><meta property='og:title' content="Test">
 <meta property='og:description' content="blog配置使用的测试文档\n添加一个代码块：\n1 2 #!/usr/bin/env python3 print(&#34;Hello, World!&#34;); Hugo是否支持latex公示的输入，测试000\n$$a+b=c$$$$ \\begin{aligned} KL(\\hat{y} || y) &= \\sum_{c=1}^{M}\\hat{y}_c \\log{\\frac{\\hat{y}_c}{y_c}} \\\\ JS(\\hat{y} || y) &= \\frac{1}{2}(KL(y||\\frac{y+\\hat{y}}{2}) + KL(\\hat{y}||\\frac{y+\\hat{y}}{2})) \\end{aligned} $$">
 <meta property='og:url' content='https://blog.christinaxy.fun/post/test/'>
 <meta property='og:site_name' content='NERV Christina'>
@@ -14,6 +14,7 @@
 <meta name="twitter:title" content="Test">
 <meta name="twitter:description" content="blog配置使用的测试文档\n添加一个代码块：\n1 2 #!/usr/bin/env python3 print(&#34;Hello, World!&#34;); Hugo是否支持latex公示的输入，测试000\n$$a+b=c$$$$ \\begin{aligned} KL(\\hat{y} || y) &= \\sum_{c=1}^{M}\\hat{y}_c \\log{\\frac{\\hat{y}_c}{y_c}} \\\\ JS(\\hat{y} || y) &= \\frac{1}{2}(KL(y||\\frac{y+\\hat{y}}{2}) + KL(\\hat{y}||\\frac{y+\\hat{y}}{2})) \\end{aligned} $$">
     <link rel="shortcut icon" href="/favicon.ico" />
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 <style>
     :root {
       --sys-font-family: "YaHei Consolas Hybrid";
@@ -38,6 +39,32 @@
   </script>
 
 
+=======
+<style>
+    :root {
+      --sys-font-family: "YaHei Consolas Hybrid";
+      --zh-font-family: "YaHei Consolas Hybrid";
+      --base-font-family: "YaHei Consolas Hybrid","Dancing Script";
+      --code-font-family: "JetBrainsMonoNL-Bold";
+      --article-font-family: "YaHei Consolas Hybrid";
+    }
+  </style>
+  
+  <script>
+    (function () {
+      const customFont = document.createElement("link");
+      customFont.href =
+        "https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap";
+  
+      customFont.type = "text/css";
+      customFont.rel = "stylesheet";
+  
+      document.head.appendChild(customFont);
+    })();
+  </script>
+
+
+>>>>>>> 5c90f80ae303f25480fac33fefacd516c9ecd83a
   
     </head>
     <body class="
@@ -505,6 +532,7 @@ $$
         document.head.appendChild(customFont);
     }());
 </script>
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 
 <script>
   let s1 = '2025-1-19'; 
@@ -534,6 +562,37 @@ $$
 
 
 
+=======
+
+<script>
+  let s1 = '2025-1-19'; 
+  s1 = new Date(s1.replace(/-/g, "/"));
+  let s2 = new Date();
+  let timeDifference = s2.getTime() - s1.getTime();
+
+  let days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+  let hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  let minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+
+  let result = days + " 天 " + hours + " 小时 " + minutes + " 分钟";
+  document.getElementById('runningdays').innerHTML = result;
+</script>
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+>>>>>>> 5c90f80ae303f25480fac33fefacd516c9ecd83a
 
     </body>
 </html>

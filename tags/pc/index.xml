@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>PC on NERV Christina</title>
+        <link>https://blog.christinaxy.fun/tags/pc/</link>
+        <description>Recent content in PC on NERV Christina</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Rei</copyright>
+        <lastBuildDate>Mon, 10 Mar 2025 20:11:14 +0800</lastBuildDate><atom:link href="https://blog.christinaxy.fun/tags/pc/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>NewMac</title>
+        <link>https://blog.christinaxy.fun/post/macset/</link>
+        <pubDate>Mon, 10 Mar 2025 20:11:14 +0800</pubDate>
+        
+        <guid>https://blog.christinaxy.fun/post/macset/</guid>
+        <description>&lt;p&gt;  陪我了4年，走过本科和硕士的笔电摔了，没什么大事，还能用，但是B、C壳变形了，屏幕也漏光了，虽然能正常使用但是我好担心出差的时候突然一个不吱声坏了，所以还是淘一个备用机试试。&lt;/p&gt;
+&lt;p&gt;  本着已经有了两台win PC了，出差也用不到多少性能，所以想试试macOS系统，正好学校里一个学弟想出一个M1的Macbook Air，于是谈了一下2700大米拿下了，不得不说乔布斯的设计是真好看，最后一代楔形设计的MacBook Air了，没有风扇，超安静而且续航妥妥够了，本身也没有什么磕碰，除了键盘有点打油，打算买张键盘膜贴一下。
+以此贴记录一下折腾macOS的过程，瑞思拜。&lt;/p&gt;
+&lt;h2 id=&#34;插曲&#34;&gt;插曲
+&lt;/h2&gt;&lt;p&gt;重新配置vscode和对应的MacBook上的git，遇到了一些坑，在这边暂时记录一下&lt;/p&gt;
+&lt;h2 id=&#34;homebrew&#34;&gt;Homebrew
+&lt;/h2&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

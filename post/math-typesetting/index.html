@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://blog.christinaxy.fun/post/math-typesetting/'>
 
-<link rel="stylesheet" href="/scss/style.min.02a1f25e36a39eba5fceab0b564355ee597f60d956d2e77bae2c06937ebb9d79.css"><meta property='og:title' content="Math Typesetting">
+<link rel="stylesheet" href="/scss/style.min.7a07423a79f68f626b745f81c00454984708cb9138dddaca13e4ee6b1453c080.css"><meta property='og:title' content="Math Typesetting">
 <meta property='og:description' content="A brief guide to setup KaTeX">
 <meta property='og:url' content='https://blog.christinaxy.fun/post/math-typesetting/'>
 <meta property='og:site_name' content='NERV Christina'>
@@ -14,6 +14,7 @@
 <meta name="twitter:title" content="Math Typesetting">
 <meta name="twitter:description" content="A brief guide to setup KaTeX">
     <link rel="shortcut icon" href="/favicon.ico" />
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 <style>
     :root {
       --sys-font-family: "YaHei Consolas Hybrid";
@@ -38,6 +39,32 @@
   </script>
 
 
+=======
+<style>
+    :root {
+      --sys-font-family: "YaHei Consolas Hybrid";
+      --zh-font-family: "YaHei Consolas Hybrid";
+      --base-font-family: "YaHei Consolas Hybrid","Dancing Script";
+      --code-font-family: "JetBrainsMonoNL-Bold";
+      --article-font-family: "YaHei Consolas Hybrid";
+    }
+  </style>
+  
+  <script>
+    (function () {
+      const customFont = document.createElement("link");
+      customFont.href =
+        "https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap";
+  
+      customFont.type = "text/css";
+      customFont.rel = "stylesheet";
+  
+      document.head.appendChild(customFont);
+    })();
+  </script>
+
+
+>>>>>>> 5c90f80ae303f25480fac33fefacd516c9ecd83a
   
     </head>
     <body class="
@@ -558,6 +585,7 @@ $$
         document.head.appendChild(customFont);
     }());
 </script>
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 
 <script>
   let s1 = '2025-1-19'; 
@@ -587,6 +615,37 @@ $$
 
 
 
+=======
+
+<script>
+  let s1 = '2025-1-19'; 
+  s1 = new Date(s1.replace(/-/g, "/"));
+  let s2 = new Date();
+  let timeDifference = s2.getTime() - s1.getTime();
+
+  let days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+  let hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  let minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+
+  let result = days + " 天 " + hours + " 小时 " + minutes + " 分钟";
+  document.getElementById('runningdays').innerHTML = result;
+</script>
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+>>>>>>> 5c90f80ae303f25480fac33fefacd516c9ecd83a
 
     </body>
 </html>
