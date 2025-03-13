@@ -8,13 +8,16 @@
     <loc>https://blog.christinaxy.fun/categories/</loc>
     <lastmod>2025-03-10T20:11:14+08:00</lastmod>
   </url><url>
-    <loc>https://blog.christinaxy.fun/categories/macos/</loc>
+    <loc>https://blog.christinaxy.fun/tags/macos/</loc>
     <lastmod>2025-03-10T20:11:14+08:00</lastmod>
   </url><url>
-    <loc>https://blog.christinaxy.fun/post/macset/</loc>
+    <loc>https://blog.christinaxy.fun/post/macos/</loc>
     <lastmod>2025-03-10T20:11:14+08:00</lastmod>
   </url><url>
     <loc>https://blog.christinaxy.fun/tags/pc/</loc>
+    <lastmod>2025-03-10T20:11:14+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.christinaxy.fun/categories/pc-diy/</loc>
     <lastmod>2025-03-10T20:11:14+08:00</lastmod>
   </url><url>
     <loc>https://blog.christinaxy.fun/post/</loc>
@@ -22,15 +25,6 @@
   </url><url>
     <loc>https://blog.christinaxy.fun/tags/</loc>
     <lastmod>2025-03-10T20:11:14+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.christinaxy.fun/post/blog-post-slughugo-new-posts/my-first-post.md/</loc>
-    <lastmod>2025-03-03T16:00:16+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.christinaxy.fun/categories/test/</loc>
-    <lastmod>2025-03-03T16:00:16+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.christinaxy.fun/tags/test/</loc>
-    <lastmod>2025-03-03T16:00:16+08:00</lastmod>
   </url><url>
     <loc>https://blog.christinaxy.fun/categories/webservice/</loc>
     <lastmod>2025-02-27T16:38:38+08:00</lastmod>
@@ -71,16 +65,10 @@
     <loc>https://blog.christinaxy.fun/post/webservice-frp/</loc>
     <lastmod>2025-02-24T10:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://blog.christinaxy.fun/post/blog-post-slughugo-new-posts/my-first-post.md/</loc>
-    <lastmod>2025-02-19T19:26:46+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.christinaxy.fun/tags/%E6%A0%87%E7%AD%BE/</loc>
-    <lastmod>2025-02-19T19:26:46+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.christinaxy.fun/categories/%E5%88%86%E7%B1%BB/</loc>
-    <lastmod>2025-02-19T19:26:46+08:00</lastmod>
-  </url><url>
     <loc>https://blog.christinaxy.fun/post/obsidian-enveloppe/</loc>
+    <lastmod>2025-02-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.christinaxy.fun/categories/test/</loc>
     <lastmod>2025-02-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.christinaxy.fun/categories/%E6%B5%8B%E8%AF%95/</loc>

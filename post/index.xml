@@ -9,20 +9,40 @@
         <copyright>Rei</copyright>
         <lastBuildDate>Mon, 10 Mar 2025 20:11:14 +0800</lastBuildDate><atom:link href="https://blog.christinaxy.fun/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>NewMac</title>
-        <link>https://blog.christinaxy.fun/post/macset/</link>
+        <link>https://blog.christinaxy.fun/post/macos/</link>
         <pubDate>Mon, 10 Mar 2025 20:11:14 +0800</pubDate>
         
-        <guid>https://blog.christinaxy.fun/post/macset/</guid>
-        <description>&lt;p&gt;  陪我了4年，走过本科和硕士的笔电摔了，没什么大事，还能用，但是B、C壳变形了，屏幕也漏光了，虽然能正常使用但是我好担心出差的时候突然一个不吱声坏了，所以还是淘一个备用机试试。&lt;/p&gt;
+        <guid>https://blog.christinaxy.fun/post/macos/</guid>
+        <description>&lt;img src="https://raw.githubusercontent.com/Rei-XY/Rei_PicGo/master/Blog_post/MacOS.png" alt="Featured image of post NewMac" /&gt;&lt;p&gt;  陪我了4年，走过本科和硕士的笔电摔了，没什么大事，还能用，但是B、C壳变形了，屏幕也漏光了，虽然能正常使用但是我好担心出差的时候突然一个不吱声坏了，所以还是淘一个备用机试试。&lt;/p&gt;
 &lt;p&gt;  本着已经有了两台win PC了，出差也用不到多少性能，所以想试试macOS系统，正好学校里一个学弟想出一个M1的Macbook Air，于是谈了一下2700大米拿下了，不得不说乔布斯的设计是真好看，最后一代楔形设计的MacBook Air了，没有风扇，超安静而且续航妥妥够了，本身也没有什么磕碰，除了键盘有点打油，打算买张键盘膜贴一下。
 以此贴记录一下折腾macOS的过程，瑞思拜。&lt;/p&gt;
 &lt;h2 id=&#34;上的第一个当&#34;&gt;上的第一个当
 &lt;/h2&gt;&lt;p&gt;键盘打油挺严重的，买了个膜，好G2贵，但是质量一般，第一个当&lt;/p&gt;
 &lt;p&gt;第二个当，键盘膜是不透光的，那岂不是晚上用不了，直接pass了，贴到一半才发现，而且很难揭下来，最后只贴了空格键&lt;/p&gt;
 &lt;h2 id=&#34;homebrew&#34;&gt;Homebrew
-&lt;/h2&gt;&lt;p&gt;取消自动更新
-export HOMEBREW_NO_AUTO_UPDATE=true&lt;/p&gt;
-&lt;h2 id=&#34;picgo-install&#34;&gt;PicGo Install
+&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# install homebrew&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;/bin/bash -c &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# open zsh config&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;vim  ~/.zshrc
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# disable autoupdate&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;HOMEBREW_NO_AUTO_UPDATE&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;picgo-install&#34;&gt;PicGo Install
 &lt;/h2&gt;&lt;p&gt;从官网上下的包总是显示损坏，无语。。。。。&lt;/p&gt;
 &lt;p&gt;该用homebrew(这玩意挺好使hh)&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -34,17 +54,16 @@ export HOMEBREW_NO_AUTO_UPDATE=true&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;不好使，下的不是最新版本的，有的功能无法使用&lt;/p&gt;
-&lt;p&gt;dmg的包管理真的一坨，需要更改属性才能正常安装&lt;/p&gt;
-&lt;p&gt;wtf，为什么我的代码块的格式出现了问题。。。。。。&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Domians</title>
-        <link>https://blog.christinaxy.fun/post/blog-post-slughugo-new-posts/my-first-post.md/</link>
-        <pubDate>Mon, 03 Mar 2025 16:00:16 +0800</pubDate>
-        
-        <guid>https://blog.christinaxy.fun/post/blog-post-slughugo-new-posts/my-first-post.md/</guid>
-        <description>&lt;p&gt;blog.christinaxy.fun&lt;/p&gt;
+&lt;p&gt;macOS疑似有点太封闭了，需要重置文件属性才能正常安装第三方软件😅:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;xattr -cr &amp;lt; path to xxx.dmg &amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;重置完基本就能正常安装了。&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -637,19 +656,6 @@ win11的启动路径是这个 &lt;code&gt;C:\ProgramData\Microsoft\Windows\Start
 &lt;li&gt;Windows的远程桌面rdp服务走的是tcp&amp;amp;udp吧，但是frpc&amp;amp;frps配置都写tcp协议&lt;/li&gt;
 &lt;li&gt;虽然官方文档写的是默认开启tls加密，我尝试加了证书（这个会后续更新），但是要开启stcp服务后，rdp就无法使用了，猜测是stcp和tcp不一样ㄟ( ▔, ▔ )ㄏ&lt;/li&gt;
 &lt;/ol&gt;
-</description>
-        </item>
-        <item>
-        <title>TestForDraft</title>
-        <link>https://blog.christinaxy.fun/post/blog-post-slughugo-new-posts/my-first-post.md/</link>
-        <pubDate>Wed, 19 Feb 2025 19:26:46 +0800</pubDate>
-        
-        <guid>https://blog.christinaxy.fun/post/blog-post-slughugo-new-posts/my-first-post.md/</guid>
-        <description>&lt;p&gt;从这里开始撰写正文……&lt;/p&gt;
-&lt;h2 id=&#34;参考文献&#34;&gt;参考文献
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;参考文献 1&lt;/li&gt;
-&lt;/ul&gt;
 </description>
         </item>
         <item>
