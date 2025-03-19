@@ -268,14 +268,6 @@
 &lt;p align=&#34;right&#34;&gt;Done&lt;br&gt;2025.02.27 17:39&lt;/p&gt;</description>
         </item>
         <item>
-        <title>赛博小屋装修记</title>
-        <link>https://blog.christinaxy.fun/post/hugo-stack-mod/</link>
-        <pubDate>Tue, 25 Feb 2025 22:28:15 +0800</pubDate>
-        
-        <guid>https://blog.christinaxy.fun/post/hugo-stack-mod/</guid>
-        <description></description>
-        </item>
-        <item>
         <title>你的颜色|山田尚子</title>
         <link>https://blog.christinaxy.fun/post/2025movie-%E4%BD%A0%E7%9A%84%E9%A2%9C%E8%89%B2/</link>
         <pubDate>Mon, 24 Feb 2025 21:06:57 +0800</pubDate>
@@ -297,14 +289,10 @@
 &lt;p align=&#34;right&#34;&gt;2025.02.24 23:41&lt;/p&gt;
 &lt;h2 id=&#34;some-videos&#34;&gt;Some videos
 &lt;/h2&gt;
-
-
-
-
-&lt;div style=&#34;position:relative; padding-bottom:75%; width:100%; height:0&#34;&gt;
+&lt;div style=&#34;position:relative; padding-bottom:56.25%; width:100%; height:0&#34;&gt;
   
     &lt;iframe
-        src=&#34;//player.bilibili.com/player.html?bvid=BV112PueTEQV&amp;page=11&amp;as_wide=1&amp;high_quality=1&amp;autoplay=0&#34;
+        src=&#34;//player.bilibili.com/player.html?bvid=BV112PueTEQV&amp;amp;page=11&amp;amp;as_wide=1&amp;high_quality=1&amp;amp;autoplay=0&#34;
         scrolling=&#34;no&#34;
         border=&#34;0&#34;
         frameborder=&#34;no&#34;
