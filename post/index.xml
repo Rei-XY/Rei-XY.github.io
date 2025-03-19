@@ -7,7 +7,49 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Rei</copyright>
-        <lastBuildDate>Mon, 10 Mar 2025 20:11:14 +0800</lastBuildDate><atom:link href="https://blog.christinaxy.fun/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 19 Mar 2025 20:16:40 +0800</lastBuildDate><atom:link href="https://blog.christinaxy.fun/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>2025Rewind</title>
+        <link>https://blog.christinaxy.fun/post/2025/</link>
+        <pubDate>Wed, 19 Mar 2025 20:16:40 +0800</pubDate>
+        
+        <guid>https://blog.christinaxy.fun/post/2025/</guid>
+        <description>&lt;p&gt;此处应该会写一个时间线&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ACGN，02.22 山田尚子 《你的颜色》&lt;/li&gt;
+&lt;li&gt;足球，02.23皇马Vs赫罗纳，莫德里奇中场世界波。&lt;/li&gt;
+&lt;li&gt;ACGN，03.07 《双影奇境》上线，03.09通关！&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;要放一点我觉得ok的视频链接&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;贝拉点评Mujica的几个视频&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;39岁莫德里奇世界波
+
+
+
+
+
+&lt;div style=&#34;position:relative; padding-bottom:75%; width:100%; height:0&#34;&gt;
+  
+    &lt;iframe
+        src=&#34;//player.bilibili.com/player.html?bvid=BV1rwPWeeENX&amp;page=11&amp;as_wide=1&amp;high_quality=1&amp;autoplay=0&#34;
+        scrolling=&#34;no&#34;
+        border=&#34;0&#34;
+        frameborder=&#34;no&#34;
+        framespacing=&#34;0&#34;
+        allowfullscreen=&#34;true&#34;
+        style=&#34;position:absolute; height: 100%; width: 100%;&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;h2 id=&#34;参考文献&#34;&gt;参考文献
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;参考文献 1&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
         <title>NewMac</title>
         <link>https://blog.christinaxy.fun/post/macos/</link>
         <pubDate>Mon, 10 Mar 2025 20:11:14 +0800</pubDate>
@@ -18,7 +60,7 @@
 以此贴记录一下折腾macOS的过程，瑞思拜。&lt;/p&gt;
 &lt;h2 id=&#34;上的第一个当&#34;&gt;上的第一个当
 &lt;/h2&gt;&lt;p&gt;键盘打油挺严重的，买了个膜，好G2贵，但是质量一般，第一个当&lt;/p&gt;
-&lt;p&gt;第二个当，键盘膜是不透光的，那岂不是晚上用不了，直接pass了，贴到一半才发现，而且很难揭下来，最后只贴了空格键&lt;/p&gt;
+&lt;p&gt;第二个当，键盘膜是不透光的，那岂不是晚上用不了，直接pass了，贴到一半才发现，而且很难揭下来，最后只贴了空格键，还好我的nuphy还没有二手出掉，直接拿来用！🤣&lt;/p&gt;
 &lt;h2 id=&#34;homebrew&#34;&gt;Homebrew
 &lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -64,6 +106,9 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;重置完基本就能正常安装了。&lt;/p&gt;
+&lt;h2 id=&#34;moonlight串流丢包&#34;&gt;moonlight串流丢包
+&lt;/h2&gt;&lt;p&gt;  最近在用Moonlight串流的时候总是卡顿丢帧，显示串流质量差，但是ping主机的时候延迟是正常的，7～10ms样子，打开监控的才发现是丢包率过高，最高的时候甚至到了50%多，直接掉线了，寻思不正常，我以为是宿舍网络的问题，重启宿主机后恢复正常，但是再次串流的时候还是一样的老毛病，但是在同一局域网的windows主机上完全没问题，甚至码率可以设的更高，怀疑是不是MacBook网卡的问题，但是Mac的网卡更换以及驱动更新都太过麻烦，查了github上的issue，发现有人也有同样的问题，不只是M1的，M系列的Mac都有问题，最直接的解决方式是，把路由器的5G Wi-Fi信道调整到149。。。。。。&lt;/p&gt;
+&lt;p&gt;  调整完Wi-Fi信号后暂时正常，还有待观察。&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -278,15 +323,9 @@
         <pubDate>Mon, 24 Feb 2025 21:06:57 +0800</pubDate>
         
         <guid>https://blog.christinaxy.fun/post/2025movie-%E4%BD%A0%E7%9A%84%E9%A2%9C%E8%89%B2/</guid>
-        <description>&lt;img src="https://blog.christinaxy.fun/post/2025movie-%E4%BD%A0%E7%9A%84%E9%A2%9C%E8%89%B2/%E4%BD%A0%E7%9A%84%E9%A2%9C%E8%89%B2%E6%B5%B7%E6%8A%A5.jpg" alt="Featured image of post 你的颜色|山田尚子" /&gt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; HEAD
-&lt;details&gt;
+        <description>&lt;img src="https://blog.christinaxy.fun/post/2025movie-%E4%BD%A0%E7%9A%84%E9%A2%9C%E8%89%B2/%E4%BD%A0%E7%9A%84%E9%A2%9C%E8%89%B2%E6%B5%B7%E6%8A%A5.jpg" alt="Featured image of post 你的颜色|山田尚子" /&gt;&lt;details&gt;
     &lt;summary&gt;观影插曲&lt;/summary&gt;
     &lt;div&gt;看这部电影的时候发生了一个插曲，影片放映到1/3的时候，影厅的放映机坏了，被迫中止然后换到下一个片场继续看，挺神奇的，这是我长这么大头一次碰到这样的事。&lt;/div&gt;
-=======
-&lt;details&gt;
-    &lt;summary&gt;观影插曲&lt;/summary&gt;
-    &lt;div&gt;看这部电影的时候发生了一个插曲，影片放映到1/3的时候，影厅的放映机坏了，被迫中止然后换到下一个片场继续看，挺神奇的，这是我长这么大头一次碰到这样的事。&lt;/div&gt;
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; 5c90f80ae303f25480fac33fefacd516c9ecd83a
 &lt;/details&gt;
 &lt;h2 id=&#34;观影后的碎碎念&#34;&gt;观影后的碎碎念
 &lt;/h2&gt;&lt;p&gt;  画面的色彩我很喜欢，高明度，低饱和，亮色调，色彩观感上很舒服。&lt;/p&gt;
@@ -299,26 +338,7 @@
 &lt;p&gt;  想来结尾有这样一句台词『接受无法改变的事情，尽力改变还能改变的事情』，应该是这么说的吧，这种类鸡汤的定型文居然能给我一定的触动还是让我觉得这场电影没白来，2月的自己相当的颓废，我不知道该干些什么，可能也是时候去迈出第一步了，NF型的人是不是都这么踌躇呢？就像绿皮书的&amp;quot;很多人都害怕迈出第一步&amp;quot;，我不知道我在害怕什么，我在担心什么，我在忧郁什么，我不知道我为什么心情不好，是太多东西想得到没得到，还是很多东西想实现却没能力实现呢？应该是都有吧，也许要收下心?当自己的能力托不起自己的欲望的时候，是要沉下心来好好学习，专心看书了。&lt;/p&gt;
 &lt;p align=&#34;right&#34;&gt;2025.02.24 23:41&lt;/p&gt;
 &lt;h2 id=&#34;some-videos&#34;&gt;Some videos
-&lt;/h2&gt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; HEAD
-
-
-
-
-
-&lt;div style=&#34;position:relative; padding-bottom:75%; width:100%; height:0&#34;&gt;
-  
-    &lt;iframe
-        src=&#34;//player.bilibili.com/player.html?bvid=BV112PueTEQV&amp;page=11&amp;as_wide=1&amp;high_quality=1&amp;autoplay=0&#34;
-        scrolling=&#34;no&#34;
-        border=&#34;0&#34;
-        frameborder=&#34;no&#34;
-        framespacing=&#34;0&#34;
-        allowfullscreen=&#34;true&#34;
-        style=&#34;position:absolute; height: 100%; width: 100%;&#34;
-    &gt;
-    &lt;/iframe&gt;
-=======
-
+&lt;/h2&gt;
 
 
 
@@ -335,7 +355,6 @@
         style=&#34;position:absolute; height: 100%; width: 100%;&#34;
     &gt;
     &lt;/iframe&gt;
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; 5c90f80ae303f25480fac33fefacd516c9ecd83a
 &lt;/div&gt;
 &lt;p&gt;  看完后刷到了赫萝老师的投稿，从赫萝老师的角度也能看到许多当时观看时没有在意的点:&lt;/p&gt;
 &lt;ul&gt;
@@ -664,15 +683,9 @@ win11的启动路径是这个 &lt;code&gt;C:\ProgramData\Microsoft\Windows\Start
         <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
         
         <guid>https://blog.christinaxy.fun/post/obsidian-enveloppe/</guid>
-        <description>&lt;img src="https://raw.githubusercontent.com/Rei-XY/Rei_PicGo/master/BlogStatic/蛙吹Keroro.png" alt="Featured image of post Obsidian&#43;Enveloppe" /&gt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; HEAD
-&lt;details&gt;
+        <description>&lt;img src="https://raw.githubusercontent.com/Rei-XY/Rei_PicGo/master/BlogStatic/蛙吹Keroro.png" alt="Featured image of post Obsidian&#43;Enveloppe" /&gt;&lt;details&gt;
     &lt;summary&gt;hello?!&lt;/summary&gt;
     &lt;div&gt;折叠功能测试&lt;/div&gt;
-=======
-&lt;details&gt;
-    &lt;summary&gt;hello?!&lt;/summary&gt;
-    &lt;div&gt;折叠功能测试&lt;/div&gt;
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; 5c90f80ae303f25480fac33fefacd516c9ecd83a
 &lt;/details&gt;
 &lt;p&gt;引用博客的另外几篇文章：
 &lt;a class=&#34;link&#34; href=&#34;https://blog.christinaxy.fun/post/2025movie-%E4%BD%A0%E7%9A%84%E9%A2%9C%E8%89%B2/&#34; &gt;Blog内引用文章的测试&lt;/a&gt;&lt;/p&gt;
