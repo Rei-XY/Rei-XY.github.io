@@ -7,49 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Rei</copyright>
-        <lastBuildDate>Wed, 19 Mar 2025 20:16:40 +0800</lastBuildDate><atom:link href="https://blog.christinaxy.fun/post/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>2025Rewind</title>
-        <link>https://blog.christinaxy.fun/post/2025/</link>
-        <pubDate>Wed, 19 Mar 2025 20:16:40 +0800</pubDate>
-        
-        <guid>https://blog.christinaxy.fun/post/2025/</guid>
-        <description>&lt;p&gt;此处应该会写一个时间线&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;ACGN，02.22 山田尚子 《你的颜色》&lt;/li&gt;
-&lt;li&gt;足球，02.23皇马Vs赫罗纳，莫德里奇中场世界波。&lt;/li&gt;
-&lt;li&gt;ACGN，03.07 《双影奇境》上线，03.09通关！&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;要放一点我觉得ok的视频链接&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;贝拉点评Mujica的几个视频&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;39岁莫德里奇世界波
-
-
-
-
-
-&lt;div style=&#34;position:relative; padding-bottom:75%; width:100%; height:0&#34;&gt;
-  
-    &lt;iframe
-        src=&#34;//player.bilibili.com/player.html?bvid=BV1rwPWeeENX&amp;page=11&amp;as_wide=1&amp;high_quality=1&amp;autoplay=0&#34;
-        scrolling=&#34;no&#34;
-        border=&#34;0&#34;
-        frameborder=&#34;no&#34;
-        framespacing=&#34;0&#34;
-        allowfullscreen=&#34;true&#34;
-        style=&#34;position:absolute; height: 100%; width: 100%;&#34;
-    &gt;
-    &lt;/iframe&gt;
-&lt;/div&gt;&lt;/p&gt;
-&lt;h2 id=&#34;参考文献&#34;&gt;参考文献
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;参考文献 1&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        </item>
-        <item>
+        <lastBuildDate>Mon, 10 Mar 2025 20:11:14 +0800</lastBuildDate><atom:link href="https://blog.christinaxy.fun/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>NewMac</title>
         <link>https://blog.christinaxy.fun/post/macos/</link>
         <pubDate>Mon, 10 Mar 2025 20:11:14 +0800</pubDate>
@@ -706,32 +664,6 @@ win11的启动路径是这个 &lt;code&gt;C:\ProgramData\Microsoft\Windows\Start
 &lt;li&gt;参考文献 1&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        </item>
-        <item>
-        <title>Test</title>
-        <link>https://blog.christinaxy.fun/post/test/</link>
-        <pubDate>Tue, 18 Feb 2025 21:54:53 +0800</pubDate>
-        
-        <guid>https://blog.christinaxy.fun/post/test/</guid>
-        <description>&lt;p&gt;blog配置使用的测试文档&lt;/p&gt;
-&lt;p&gt;添加一个代码块：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;ch&#34;&gt;#!/usr/bin/env python3&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;Hugo是否支持latex公示的输入，测试000&lt;/p&gt;
-$$a+b=c$$$$    
-\begin{aligned}
-KL(\hat{y} || y) &amp;= \sum_{c=1}^{M}\hat{y}_c \log{\frac{\hat{y}_c}{y_c}} \\
-JS(\hat{y} || y) &amp;= \frac{1}{2}(KL(y||\frac{y+\hat{y}}{2}) + KL(\hat{y}||\frac{y+\hat{y}}{2}))
-\end{aligned}
-$$</description>
         </item>
         <item>
         <title>Chinese Test</title>
