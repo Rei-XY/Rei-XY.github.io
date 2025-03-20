@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://blog.christinaxy.fun/tags/pc/'>
 
-<link rel="stylesheet" href="/scss/style.min.0c457a02d64e189586a0c9019619a8c69adeb2b74e9cde50efbccc5562287f41.css"><meta property='og:title' content="Tag: PC - NERV Christina">
+<link rel="stylesheet" href="/scss/style.min.12e7b0821bff68977f461a28b8a5e170864a527b4aabf591ac4fd163a49af398.css"><meta property='og:title' content="Tag: PC - NERV Christina">
 <meta property='og:description' content="Rei's CyberHouse">
 <meta property='og:url' content='https://blog.christinaxy.fun/tags/pc/'>
 <meta property='og:site_name' content='NERV Christina'>
@@ -282,7 +282,7 @@
                     <a href="/archives/#2025">
                         
                             <span class="year">2025</span>
-                            <span class="count">4</span>
+                            <span class="count">5</span>
                         
                     </a> 
                 </div>
@@ -323,6 +323,11 @@
         <a href="/categories/pc-diy/" class="font_size_1"
             style="border-left-color: #ff4d00; filter:saturate(1.7);">
             PC DIY<span class="category-count">1</span>
+        </a>
+        
+        <a href="/categories/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E7%AB%99/" class="font_size_1"
+            style="border-left-color: ; filter:saturate(1.7);">
+            博客建站<span class="category-count">1</span>
         </a>
         
     </div>
@@ -372,6 +377,10 @@
         
             <a href="/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/" class="font_size_1">
                 内网穿透<span class="tagCloud-count-main">1</span>
+            </a>
+        
+            <a href="/tags/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E7%AB%99/" class="font_size_1">
+                博客建站<span class="tagCloud-count-main">1</span>
             </a>
         
     </div>
@@ -473,13 +482,91 @@
 
 
 
+<style>
+  .highlight {
+       
+      max-height: 300px;
+      overflow: hidden;
+  }
+
+  .code-show {
+      max-height: none !important;
+  }
+
+  .code-more-box {
+      width: 100%;
+      padding-top: 78px;
+      background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(#fff));
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 1;
+  }
+
+  .code-more-btn {
+      display: block;
+      margin: auto;
+      width: 44px;
+      height: 22px;
+      background: #f0f0f5;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      padding-top: 6px;
+      cursor: pointer;
+  }
+
+  .code-more-img {
+      cursor: pointer !important;
+      display: block;
+      margin: auto;
+      width: 22px;
+      height: 16px;
+  }
+</style>
+
+<script>
+function initCodeMoreBox() {
+  let codeBlocks = document.querySelectorAll(".highlight");
+  if (!codeBlocks) {
+    return;
+  }
+  codeBlocks.forEach(codeBlock => {
+    
+    if (codeBlock.scrollHeight <= codeBlock.clientHeight) {
+      return;
+    }
+    
+    
+    let codeMoreBox = document.createElement('div');
+    codeMoreBox.classList.add('code-more-box');
+    
+    let codeMoreBtn = document.createElement('span');
+    codeMoreBtn.classList.add('code-more-btn');
+    codeMoreBtn.addEventListener('click', () => {
+      codeBlock.classList.add('code-show');
+      codeMoreBox.style.display = 'none';
+      
+      window.dispatchEvent(new Event('resize'))
+    })
+    
+    let img = document.createElement('img');
+    img.classList.add('code-more-img');
+    img.src = "/icons/arrow.png";
+    
+    codeMoreBtn.appendChild(img);
+    codeMoreBox.appendChild(codeMoreBtn);
+    codeBlock.appendChild(codeMoreBox)
+  })
+}
+
+initCodeMoreBox();
+</script> 
 
 
 
 
 
-
- 
 
 
 
