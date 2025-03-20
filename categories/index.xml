@@ -32,11 +32,11 @@
         <description></description>
         </item>
         <item>
-        <title>博客建站</title>
-        <link>https://blog.christinaxy.fun/categories/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E7%AB%99/</link>
+        <title>Blog</title>
+        <link>https://blog.christinaxy.fun/categories/blog/</link>
         <pubDate>Fri, 14 Feb 2025 22:28:15 +0800</pubDate>
         
-        <guid>https://blog.christinaxy.fun/categories/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E7%AB%99/</guid>
+        <guid>https://blog.christinaxy.fun/categories/blog/</guid>
         <description></description>
         </item>
         <item>
@@ -62,14 +62,6 @@
         
         <guid>https://blog.christinaxy.fun/categories/test/</guid>
         <description>&lt;img src="https://blog.christinaxy.fun/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Test" /&gt;</description>
-        </item>
-        <item>
-        <title>博客建站</title>
-        <link>https://blog.christinaxy.fun/categories/blog/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://blog.christinaxy.fun/categories/blog/</guid>
-        <description></description>
         </item>
         
     </channel>
