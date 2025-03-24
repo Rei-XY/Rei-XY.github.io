@@ -13,7 +13,7 @@
         <pubDate>Mon, 24 Feb 2025 10:00:00 +0800</pubDate>
         
         <guid>https://blog.christinaxy.fun/post/webservice-frp/</guid>
-        <description>&lt;img src="https://blog.christinaxy.fun/post/webservice-frp/cover.png" alt="Featured image of post 内网穿透-Frp" /&gt;&lt;p&gt;因为自个的台式机（Christina）和服务器（Maffia）都放在实验室工位，有的时候人不在工位需要远程控制，之前一直用的是向日葵，但是向日葵免费版本的带宽实在是太小了，免费用户的体验实在是不太好，常常断流，而且会有弹窗广告，还是当备案，首选搭建别的穿透服务来远程控制。&lt;/p&gt;
+        <description>&lt;img src="https://raw.githubusercontent.com/Rei-XY/Rei_PicGo/master/Blog_post/Frp封面.png" alt="Featured image of post 内网穿透-Frp" /&gt;&lt;p&gt;因为自个的台式机（Christina）和服务器（Maffia）都放在实验室工位，有的时候人不在工位需要远程控制，之前一直用的是向日葵，但是向日葵免费版本的带宽实在是太小了，免费用户的体验实在是不太好，常常断流，而且会有弹窗广告，还是当备案，首选搭建别的穿透服务来远程控制。&lt;/p&gt;
 &lt;h2 id=&#34;zerotier&#34;&gt;Zerotier
 &lt;/h2&gt;&lt;p&gt;Zerotier是用来搭建虚拟局域网的工具，在没有公网Ipv4的情况下，还是挺好用的，但是它的服务器毕竟是国外的，有的时候常常打洞失败，并且有的时候会出BUG，还没细究是Win版远程桌面的锅还是是什么别的原因（つづく）&lt;/p&gt;
 &lt;h3 id=&#34;准备工作&#34;&gt;准备工作
