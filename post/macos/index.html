@@ -268,6 +268,7 @@
     <li><a href="#moonlight串流丢包">moonlight串流丢包</a></li>
     <li><a href="#添加快捷键">添加快捷键</a></li>
     <li><a href="#影音播放软件缩略图生成">影音播放软件+缩略图生成</a></li>
+    <li><a href="#鼠标的适配">鼠标的适配</a></li>
   </ol>
 </nav>
         </div>
@@ -399,9 +400,23 @@
 <h2 id="moonlight串流丢包">moonlight串流丢包
 </h2><p>  最近在用Moonlight串流的时候总是卡顿丢帧，显示串流质量差，但是ping主机的时候延迟是正常的，7～10ms样子，打开监控的才发现是丢包率过高，最高的时候甚至到了50%多，直接掉线了，寻思不正常，我以为是宿舍网络的问题，重启宿主机后恢复正常，但是再次串流的时候还是一样的老毛病，但是在同一局域网的windows主机上完全没问题，甚至码率可以设的更高，怀疑是不是MacBook网卡的问题，但是Mac的网卡更换以及驱动更新都太过麻烦，查了github上的issue，发现有人也有同样的问题，不只是M1的，M系列的Mac都有问题，最直接的解决方式是，把路由器的5G Wi-Fi信道调整到149。。。。。。</p>
 <p>  调整完Wi-Fi信号后暂时正常，还有待观察。</p>
+<p>  哈哈，又卡顿掉帧了，不知道什么情况，麻了。</p>
 <h2 id="添加快捷键">添加快捷键
 </h2><h2 id="影音播放软件缩略图生成">影音播放软件+缩略图生成
-</h2><p>IINA+QuickLook Video</p>
+</h2><p>  IINA+QuickLook Video</p>
+<p>  macOS自带的播放器不好用，而且Windows阵营的Potplayer并没有对macOS环境进行开发，App Store上Omini player添加字幕什么的功能居然还要收费，实在是受不了了，转过头投靠IINA，IINA基础功能还能接受，外挂字幕、倍速播放、小窗播放等等都有，基本满足需要，只可惜没有像Potplayer那样的截图和录制的快捷键，等等配合Snipaste看看行不行。</p>
+<p>  macOS为啥视频缩略图支持的编码有点少啊，mkv的都不支持的嘛😤，还得靠开源</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">brew install --cask qlvideo
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="鼠标的适配">鼠标的适配
+</h2><p>macOS鼠标滚轮和Windows是反过来的，但是触控板的逻辑我是习惯的&hellip;</p>
+<p>开源插件+1:Mos</p>
 
 </section>
 

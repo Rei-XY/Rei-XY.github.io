@@ -8,12 +8,12 @@
         <language>zh-cn</language>
         <copyright>Rei</copyright>
         <lastBuildDate>Thu, 27 Feb 2025 16:38:38 +0800</lastBuildDate><atom:link href="https://blog.christinaxy.fun/tags/zerotier/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Zerotier&#43;Moon</title>
+        <title>内网穿透-异地组网</title>
         <link>https://blog.christinaxy.fun/post/zerotier-moon/</link>
         <pubDate>Thu, 27 Feb 2025 16:38:38 +0800</pubDate>
         
         <guid>https://blog.christinaxy.fun/post/zerotier-moon/</guid>
-        <description>&lt;img src="https://blog.christinaxy.fun/post/zerotier-moon/%E5%8D%9A%E5%AE%A2%E5%B0%81%E9%9D%A2Cover.png" alt="Featured image of post Zerotier&#43;Moon" /&gt;&lt;!--  &#34;https://raw.githubusercontent.com/Rei-XY/Rei_PicGo/master/Blog_post/Blog-zerotiermoon-cover.png&#34;--&gt;
+        <description>&lt;img src="https://blog.christinaxy.fun/post/zerotier-moon/%E5%8D%9A%E5%AE%A2%E5%B0%81%E9%9D%A2Cover.png" alt="Featured image of post 内网穿透-异地组网" /&gt;&lt;!--  &#34;https://raw.githubusercontent.com/Rei-XY/Rei_PicGo/master/Blog_post/Blog-zerotiermoon-cover.png&#34;--&gt;
 &lt;h2 id=&#34;序&#34;&gt;序
 &lt;/h2&gt;&lt;p&gt;  最初打算用公网服务器+Frp来实现内网穿透，这是稳定的方案，但使用下来会有几个问题。&lt;/p&gt;
 &lt;ol&gt;
@@ -206,12 +206,12 @@
 &lt;p align=&#34;right&#34;&gt;Done&lt;br&gt;2025.02.27 17:39&lt;/p&gt;</description>
         </item>
         <item>
-        <title>关于内网穿透服务</title>
+        <title>内网穿透-Frp</title>
         <link>https://blog.christinaxy.fun/post/webservice-frp/</link>
         <pubDate>Mon, 24 Feb 2025 10:00:00 +0800</pubDate>
         
         <guid>https://blog.christinaxy.fun/post/webservice-frp/</guid>
-        <description>&lt;img src="https://blog.christinaxy.fun/post/webservice-frp/cover.png" alt="Featured image of post 关于内网穿透服务" /&gt;&lt;p&gt;因为自个的台式机（Christina）和服务器（Maffia）都放在实验室工位，有的时候人不在工位需要远程控制，之前一直用的是向日葵，但是向日葵免费版本的带宽实在是太小了，免费用户的体验实在是不太好，常常断流，而且会有弹窗广告，还是当备案，首选搭建别的穿透服务来远程控制。&lt;/p&gt;
+        <description>&lt;img src="https://blog.christinaxy.fun/post/webservice-frp/cover.png" alt="Featured image of post 内网穿透-Frp" /&gt;&lt;p&gt;因为自个的台式机（Christina）和服务器（Maffia）都放在实验室工位，有的时候人不在工位需要远程控制，之前一直用的是向日葵，但是向日葵免费版本的带宽实在是太小了，免费用户的体验实在是不太好，常常断流，而且会有弹窗广告，还是当备案，首选搭建别的穿透服务来远程控制。&lt;/p&gt;
 &lt;h2 id=&#34;zerotier&#34;&gt;Zerotier
 &lt;/h2&gt;&lt;p&gt;Zerotier是用来搭建虚拟局域网的工具，在没有公网Ipv4的情况下，还是挺好用的，但是它的服务器毕竟是国外的，有的时候常常打洞失败，并且有的时候会出BUG，还没细究是Win版远程桌面的锅还是是什么别的原因（つづく）&lt;/p&gt;
 &lt;h3 id=&#34;准备工作&#34;&gt;准备工作

@@ -67,18 +67,32 @@
 &lt;h2 id=&#34;moonlight串流丢包&#34;&gt;moonlight串流丢包
 &lt;/h2&gt;&lt;p&gt;  最近在用Moonlight串流的时候总是卡顿丢帧，显示串流质量差，但是ping主机的时候延迟是正常的，7～10ms样子，打开监控的才发现是丢包率过高，最高的时候甚至到了50%多，直接掉线了，寻思不正常，我以为是宿舍网络的问题，重启宿主机后恢复正常，但是再次串流的时候还是一样的老毛病，但是在同一局域网的windows主机上完全没问题，甚至码率可以设的更高，怀疑是不是MacBook网卡的问题，但是Mac的网卡更换以及驱动更新都太过麻烦，查了github上的issue，发现有人也有同样的问题，不只是M1的，M系列的Mac都有问题，最直接的解决方式是，把路由器的5G Wi-Fi信道调整到149。。。。。。&lt;/p&gt;
 &lt;p&gt;  调整完Wi-Fi信号后暂时正常，还有待观察。&lt;/p&gt;
+&lt;p&gt;  哈哈，又卡顿掉帧了，不知道什么情况，麻了。&lt;/p&gt;
 &lt;h2 id=&#34;添加快捷键&#34;&gt;添加快捷键
 &lt;/h2&gt;&lt;h2 id=&#34;影音播放软件缩略图生成&#34;&gt;影音播放软件+缩略图生成
-&lt;/h2&gt;&lt;p&gt;IINA+QuickLook Video&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;  IINA+QuickLook Video&lt;/p&gt;
+&lt;p&gt;  macOS自带的播放器不好用，而且Windows阵营的Potplayer并没有对macOS环境进行开发，App Store上Omini player添加字幕什么的功能居然还要收费，实在是受不了了，转过头投靠IINA，IINA基础功能还能接受，外挂字幕、倍速播放、小窗播放等等都有，基本满足需要，只可惜没有像Potplayer那样的截图和录制的快捷键，等等配合Snipaste看看行不行。&lt;/p&gt;
+&lt;p&gt;  macOS为啥视频缩略图支持的编码有点少啊，mkv的都不支持的嘛😤，还得靠开源&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;brew install --cask qlvideo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;鼠标的适配&#34;&gt;鼠标的适配
+&lt;/h2&gt;&lt;p&gt;macOS鼠标滚轮和Windows是反过来的，但是触控板的逻辑我是习惯的&amp;hellip;&lt;/p&gt;
+&lt;p&gt;开源插件+1:Mos&lt;/p&gt;
 </description>
         </item>
         <item>
-        <title>Zerotier&#43;Moon</title>
+        <title>内网穿透-异地组网</title>
         <link>https://blog.christinaxy.fun/post/zerotier-moon/</link>
         <pubDate>Thu, 27 Feb 2025 16:38:38 +0800</pubDate>
         
         <guid>https://blog.christinaxy.fun/post/zerotier-moon/</guid>
-        <description>&lt;img src="https://blog.christinaxy.fun/post/zerotier-moon/%E5%8D%9A%E5%AE%A2%E5%B0%81%E9%9D%A2Cover.png" alt="Featured image of post Zerotier&#43;Moon" /&gt;&lt;!--  &#34;https://raw.githubusercontent.com/Rei-XY/Rei_PicGo/master/Blog_post/Blog-zerotiermoon-cover.png&#34;--&gt;
+        <description>&lt;img src="https://blog.christinaxy.fun/post/zerotier-moon/%E5%8D%9A%E5%AE%A2%E5%B0%81%E9%9D%A2Cover.png" alt="Featured image of post 内网穿透-异地组网" /&gt;&lt;!--  &#34;https://raw.githubusercontent.com/Rei-XY/Rei_PicGo/master/Blog_post/Blog-zerotiermoon-cover.png&#34;--&gt;
 &lt;h2 id=&#34;序&#34;&gt;序
 &lt;/h2&gt;&lt;p&gt;  最初打算用公网服务器+Frp来实现内网穿透，这是稳定的方案，但使用下来会有几个问题。&lt;/p&gt;
 &lt;ol&gt;
@@ -321,12 +335,12 @@
 </description>
         </item>
         <item>
-        <title>关于内网穿透服务</title>
+        <title>内网穿透-Frp</title>
         <link>https://blog.christinaxy.fun/post/webservice-frp/</link>
         <pubDate>Mon, 24 Feb 2025 10:00:00 +0800</pubDate>
         
         <guid>https://blog.christinaxy.fun/post/webservice-frp/</guid>
-        <description>&lt;img src="https://blog.christinaxy.fun/post/webservice-frp/cover.png" alt="Featured image of post 关于内网穿透服务" /&gt;&lt;p&gt;因为自个的台式机（Christina）和服务器（Maffia）都放在实验室工位，有的时候人不在工位需要远程控制，之前一直用的是向日葵，但是向日葵免费版本的带宽实在是太小了，免费用户的体验实在是不太好，常常断流，而且会有弹窗广告，还是当备案，首选搭建别的穿透服务来远程控制。&lt;/p&gt;
+        <description>&lt;img src="https://blog.christinaxy.fun/post/webservice-frp/cover.png" alt="Featured image of post 内网穿透-Frp" /&gt;&lt;p&gt;因为自个的台式机（Christina）和服务器（Maffia）都放在实验室工位，有的时候人不在工位需要远程控制，之前一直用的是向日葵，但是向日葵免费版本的带宽实在是太小了，免费用户的体验实在是不太好，常常断流，而且会有弹窗广告，还是当备案，首选搭建别的穿透服务来远程控制。&lt;/p&gt;
 &lt;h2 id=&#34;zerotier&#34;&gt;Zerotier
 &lt;/h2&gt;&lt;p&gt;Zerotier是用来搭建虚拟局域网的工具，在没有公网Ipv4的情况下，还是挺好用的，但是它的服务器毕竟是国外的，有的时候常常打洞失败，并且有的时候会出BUG，还没细究是Win版远程桌面的锅还是是什么别的原因（つづく）&lt;/p&gt;
 &lt;h3 id=&#34;准备工作&#34;&gt;准备工作
