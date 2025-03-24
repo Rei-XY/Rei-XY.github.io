@@ -401,6 +401,25 @@
 </h2><p>  最近在用Moonlight串流的时候总是卡顿丢帧，显示串流质量差，但是ping主机的时候延迟是正常的，7～10ms样子，打开监控的才发现是丢包率过高，最高的时候甚至到了50%多，直接掉线了，寻思不正常，我以为是宿舍网络的问题，重启宿主机后恢复正常，但是再次串流的时候还是一样的老毛病，但是在同一局域网的windows主机上完全没问题，甚至码率可以设的更高，怀疑是不是MacBook网卡的问题，但是Mac的网卡更换以及驱动更新都太过麻烦，查了github上的issue，发现有人也有同样的问题，不只是M1的，M系列的Mac都有问题，最直接的解决方式是，把路由器的5G Wi-Fi信道调整到149。。。。。。</p>
 <p>  调整完Wi-Fi信号后暂时正常，还有待观察。</p>
 <p>  哈哈，又卡顿掉帧了，不知道什么情况，麻了。</p>
+<p>  说是隔空投送的网络端口awdl0导致的网络波动，当无线AP多的时候会造成网络的卡顿和波动，参考的文章在这:<a class="link" href="https://jiapan.me/2023/AWDL-Mac-disconnected/"  target="_blank" rel="noopener"
+    >解决由于 AWDL 导致 Mac 的断网问题</a>，『只要 AWDL 处于活动状态，它就会持续在后台探测附近的其他设备，在使用时会短暂干扰 WiFi 运作，在目前无线网络连接和 AWDL 频道直接来回切换。』实在是离谱，特别是M系列的芯片的MacBook情况更甚。</p>
+<p>  WifriedX这个需要重新编译，才能使用，我这边暂时手动关闭awdl0的网口并关闭Airdrop，软件的编译后续再说。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl"><span class="c1"># shut down AWDL</span>
+</span></span><span class="line"><span class="cl">sudo ifconfig awdl0 down
+</span></span><span class="line"><span class="cl"><span class="c1"># turn on AWDL</span>
+</span></span><span class="line"><span class="cl">sudo ifconfig awdl0 up
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>  布豪!隔一段时间它就自己开了，shit，但是这个功能会影响AirDrop实在是难顶，平时拿来串流清手游体力，时间倒不是特别长，先凑活一下试试。</p>
+<p>  很奇怪的一点是，AWDL0只影响moonlight串流，但是Windows的远程桌面并不影响，很奇怪。</p>
 <h2 id="添加快捷键">添加快捷键
 </h2><h2 id="影音播放软件缩略图生成">影音播放软件+缩略图生成
 </h2><p>  IINA+QuickLook Video</p>
