@@ -154,25 +154,20 @@
 &lt;/div&gt;
 &lt;/details&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;font color=&#34;3388BB&#34;&gt;来点MyGO!!!!!应援色吧&lt;/font&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;font color=&#34;77BBDD&#34;&gt;Tomorin&lt;/font&gt;&lt;/li&gt;
-&lt;li&gt;&lt;font color=&#34;FF8899&#34;&gt;Anno&lt;/font&gt;&lt;/li&gt;
-&lt;li&gt;&lt;font color=&#34;77DD77&#34;&gt;Rana&lt;/font&gt;&lt;/li&gt;
-&lt;li&gt;&lt;font color=&#34;FFDD88&#34;&gt;Soyo&lt;/font&gt;&lt;/li&gt;
-&lt;li&gt;&lt;font color=&#34;7777AA&#34;&gt;Taki&lt;/font&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;font color=&#34;881144&#34;&gt;来点Ave Mujica应援色吧&lt;/font&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;font color=&#34;BB9955&#34;&gt;三角初华&lt;/font&gt;&lt;/li&gt;
-&lt;li&gt;&lt;font color=&#34;779977&#34;&gt;若叶睦&lt;/font&gt;&lt;/li&gt;
-&lt;li&gt;&lt;font color=&#34;335566&#34;&gt;八幡海铃&lt;/font&gt;&lt;/li&gt;
-&lt;li&gt;&lt;font color=&#34;AA4477&#34;&gt;祐天寺若麦&lt;/font&gt;&lt;/li&gt;
-&lt;li&gt;&lt;font color=&#34;7799CC&#34;&gt;丰川祥子&lt;/font&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;div&gt;
+  &lt;table class=&#34;my-table&#34;&gt;
+    &lt;tr&gt;&lt;td&gt;&lt;font color=&#34;3388BB&#34;&gt;来点MyGO!!!!!应援色吧 #3388BB&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font color=&#34;881144&#34;&gt;来点Ave Mujica应援色吧 #881144&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;&lt;font color=&#34;77BBDD&#34;&gt;Tomorin #77BBDD&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font color=&#34;BB9955&#34;&gt;三角初华 #BB9955&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;&lt;font color=&#34;FF8899&#34;&gt;Anno #FF8899&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font color=&#34;779977&#34;&gt;若叶睦 #779977&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;&lt;font color=&#34;77DD77&#34;&gt;Rana #77DD77&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font color=&#34;335566&#34;&gt;八幡海铃 #335566&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;&lt;font color=&#34;FFDD88&#34;&gt;Soyo #FFDD88&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font color=&#34;AA4477&#34;&gt;祐天寺若麦 #AA4477&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;&lt;font color=&#34;7777AA&#34;&gt;Taki #7777AA&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font color=&#34;7799CC&#34;&gt;丰川祥子 #7799CC&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;/table&gt;
+&lt;/div&gt;
 &lt;!-- ## 参考文献
-
-- 参考文献 1 --&gt;
+&lt;ul&gt;
+&lt;li&gt;参考文献 1 &amp;ndash;&amp;gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         </item>
         <item>
