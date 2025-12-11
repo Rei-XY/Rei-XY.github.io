@@ -92,7 +92,8 @@ Frp可以自定义TLS加密，支持frpc和frps之间的流量通过TLS协议加
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;从 v0.50.0 开始，&lt;code&gt;transport.tls.enable&lt;/code&gt; 的默认值将会为 true，默认开启 TLS 协议加密。&lt;/strong&gt;
 如果 frps 端没有配置证书，则会使用随机生成的证书来加密流量。
-&lt;strong&gt;默认情况下，frpc 开启 TLS 加密功能，但是不校验 frps 的证书。&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;strong&gt;默认情况下，frpc 开启 TLS 加密功能，但是不校验 frps 的证书。&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h3 id=&#34;服务端-配置&#34;&gt;服务端-配置
 &lt;/h3&gt;&lt;h4 id=&#34;下载服务端软件&#34;&gt;下载服务端软件
 &lt;/h4&gt;&lt;p&gt;下载地址: &lt;a class=&#34;link&#34; href=&#34;https://github.com/fatedier/frp/releases&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
