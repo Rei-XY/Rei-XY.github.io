@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="记录折腾的第一台MacBook Air">
-<title>NewMac</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="序 之前的一个Nas用之前实验室的一台老机子改装的，硬盘位有限而且用的也是老硬盘，加上散热奇差，夏天一到，风扇的声音简直闹心，而且最重要的一点是，这个机子的所有权不是我自己hhh，所以年中的时候搭建了自己的一个DIY Nas，配置单如下：\n">
+<title>折腾折腾Nas</title>
 
-<link rel='canonical' href='https://blog.christinaxy.fun/post/macos/'>
+<link rel='canonical' href='https://blog.christinaxy.fun/post/nas/'>
 
-<link rel="stylesheet" href="/scss/style.min.0162184af94e56fe5c2bbe5f9d0a64816d279b370acfe9a87ed6262e1ef70ad2.css"><meta property='og:title' content="NewMac">
-<meta property='og:description' content="记录折腾的第一台MacBook Air">
-<meta property='og:url' content='https://blog.christinaxy.fun/post/macos/'>
+<link rel="stylesheet" href="/scss/style.min.0162184af94e56fe5c2bbe5f9d0a64816d279b370acfe9a87ed6262e1ef70ad2.css"><meta property='og:title' content="折腾折腾Nas">
+<meta property='og:description' content="序 之前的一个Nas用之前实验室的一台老机子改装的，硬盘位有限而且用的也是老硬盘，加上散热奇差，夏天一到，风扇的声音简直闹心，而且最重要的一点是，这个机子的所有权不是我自己hhh，所以年中的时候搭建了自己的一个DIY Nas，配置单如下：\n">
+<meta property='og:url' content='https://blog.christinaxy.fun/post/nas/'>
 <meta property='og:site_name' content='NERV Christina'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='PC' /><meta property='article:tag' content='macOS' /><meta property='article:published_time' content='2025-03-10T20:11:14&#43;08:00'/><meta property='article:modified_time' content='2025-03-10T20:11:14&#43;08:00'/><meta property='og:image' content='https://raw.githubusercontent.com/Rei-XY/Rei_PicGo/master/Blog_post/MacOS.png' />
-<meta name="twitter:title" content="NewMac">
-<meta name="twitter:description" content="记录折腾的第一台MacBook Air"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://raw.githubusercontent.com/Rei-XY/Rei_PicGo/master/Blog_post/MacOS.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Nas' /><meta property='article:published_time' content='2025-12-11T16:26:38&#43;08:00'/><meta property='article:modified_time' content='2025-12-11T16:26:38&#43;08:00'/><meta property='og:image' content='https://blog.christinaxy.fun/img/defaultimage.png' />
+<meta name="twitter:title" content="折腾折腾Nas">
+<meta name="twitter:description" content="序 之前的一个Nas用之前实验室的一台老机子改装的，硬盘位有限而且用的也是老硬盘，加上散热奇差，夏天一到，风扇的声音简直闹心，而且最重要的一点是，这个机子的所有权不是我自己hhh，所以年中的时候搭建了自己的一个DIY Nas，配置单如下：\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://blog.christinaxy.fun/img/defaultimage.png' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
 
@@ -270,13 +270,13 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#上的第一个当">上的第一个当</a></li>
-    <li><a href="#homebrew">Homebrew</a></li>
-    <li><a href="#picgo-install">PicGo Install</a></li>
-    <li><a href="#moonlight串流丢包">moonlight串流丢包</a></li>
-    <li><a href="#添加快捷键">添加快捷键</a></li>
-    <li><a href="#影音播放软件缩略图生成">影音播放软件+缩略图生成</a></li>
-    <li><a href="#鼠标的适配">鼠标的适配</a></li>
+    <li><a href="#序">序</a></li>
+    <li><a href="#内网穿透">内网穿透</a></li>
+    <li><a href="#docker服务">Docker服务</a>
+      <ol>
+        <li><a href="#ezbookkeeping">ezbookkeeping</a></li>
+      </ol>
+    </li>
   </ol>
 </nav>
         </div>
@@ -291,9 +291,9 @@
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/post/macos/">
+            <a href="/post/nas/">
                 
-                    <img src="https://raw.githubusercontent.com/Rei-XY/Rei_PicGo/master/Blog_post/MacOS.png" loading="lazy" alt="Featured image of post NewMac" />
+                    <img src="/img/defaultimage.png" loading="lazy" alt="Featured image of post 折腾折腾Nas" />
                 
             </a>
         </div>
@@ -312,13 +312,9 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/post/macos/">NewMac</a>
+            <a href="/post/nas/">折腾折腾Nas</a>
         </h2>
     
-        
-        <h3 class="article-subtitle">
-            记录折腾的第一台MacBook Air
-        </h3>
         
     </div>
 
@@ -338,7 +334,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">2025-03-10</time>
+                <time class="article-time--published">2025-12-11</time>
             </div>
         
 
@@ -354,99 +350,97 @@
     <section class="article-content">
     
     
-    <p>  陪我了4年，走过本科和硕士的笔电摔了，没什么大事，还能用，但是B、C壳变形了，屏幕也漏光了，虽然能正常使用但是我好担心出差的时候突然一个不吱声坏了，所以还是淘一个备用机试试。</p>
-<p>  本着已经有了两台win PC了，出差也用不到多少性能，所以想试试macOS系统，正好学校里一个学弟想出一个M1的Macbook Air，于是谈了一下2700大米拿下了，不得不说乔布斯的设计是真好看，最后一代楔形设计的MacBook Air了，没有风扇，超安静而且续航妥妥够了，本身也没有什么磕碰，除了键盘有点打油，打算买张键盘膜贴一下。
-以此贴记录一下折腾macOS的过程，瑞思拜。</p>
-<h2 id="上的第一个当">上的第一个当
-</h2><p>键盘打油挺严重的，买了个膜，好G2贵，但是质量一般，第一个当</p>
-<p>第二个当，键盘膜是不透光的，那岂不是晚上用不了，直接pass了，贴到一半才发现，而且很难揭下来，最后只贴了空格键，还好我的nuphy还没有二手出掉，直接拿来用！🤣</p>
-<h2 id="homebrew">Homebrew
-</h2><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span><span class="lnt">8
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl"><span class="c1"># install homebrew</span>
-</span></span><span class="line"><span class="cl">/bin/bash -c <span class="s2">&#34;</span><span class="k">$(</span>curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh<span class="k">)</span><span class="s2">&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># open zsh config</span>
-</span></span><span class="line"><span class="cl">vim  ~/.zshrc
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># disable autoupdate</span>
-</span></span><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">HOMEBREW_NO_AUTO_UPDATE</span><span class="o">=</span><span class="nb">true</span>
-</span></span></code></pre></td></tr></table>
+    <h2 id="序">序
+</h2><p>  之前的一个Nas用之前实验室的一台老机子改装的，硬盘位有限而且用的也是老硬盘，加上散热奇差，夏天一到，风扇的声音简直闹心，而且最重要的一点是，这个机子的所有权不是我自己hhh，所以年中的时候搭建了自己的一个DIY Nas，配置单如下：</p>
+<div style="max-width: 60%; margin: 0 auto;">
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th style="text-align: center">硬件</th>
+          <th style="text-align: center">型号/参数</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">主板</td>
+          <td style="text-align: center">云星B365 ITX</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">CPU</td>
+          <td style="text-align: center">8100T</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">内存</td>
+          <td style="text-align: center">DDR4 16G</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">散热</td>
+          <td style="text-align: center">AN400</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">电源</td>
+          <td style="text-align: center">康舒250W</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">机箱</td>
+          <td style="text-align: center">优易UE-S6六盘位</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">硬盘</td>
+          <td style="text-align: center">希捷酷鹰ST4000VX015 4Tx2</td>
+      </tr>
+  </tbody>
+</table></div>
 </div>
-</div><h2 id="picgo-install">PicGo Install
-</h2><p>从官网上下的包总是显示损坏，无语。。。。。</p>
-<p>改用homebrew(这玩意挺好使hh)</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl">brew install picgo --cask
-</span></span></code></pre></td></tr></table>
+<p>  内存和散热用的都是之前剩下的，硬盘害，现在涨的这么厉害，早知道多买几块了，不过也是存点电影什么的，8T组Raid0毕业前肯定够用了，系统自然是飞牛Os。</p>
+<h2 id="内网穿透">内网穿透
+</h2><p>  飞牛自带的内网穿透2M不太够用，也不是很想花钱，加上学校的小水管网络，买了100M的套餐，下行大约80M，上行30M，有的时候还不太稳定，就拿自己的Vps做了zerotier的内网穿透。详情见<a class="link" href="/post/zerotier-moon/" >Zerotier内网穿透</a></p>
+<h2 id="docker服务">Docker服务
+</h2><h3 id="ezbookkeeping">ezbookkeeping
+</h3><p>  之前记账用了好多软件，但是都感觉不太好用，多设备也不好同步，还要钱，之后换了notion用了个大半年，但是notion有个问题，服务器响应有点慢，这些数据都不在本地，还是有点担心，最近看到了这个开源的docker服务，就想着个部署一下在nas上，自己也能随时随地访问，正好也拿来联系一下docker。</p>
+<!-- <details>
+    <summary>details</summary>
+    <div>正文</div>
+</details>
+
+从这里开始撰写正文……
+
+
+
+<div style="position:relative; padding-bottom:56.25%; width:100%; height:0">
+  
+    <iframe
+        src="//player.bilibili.com/player.html?bvid=BV112PueTEQV&amp;page=11&amp;as_wide=1&high_quality=1&amp;autoplay=0"
+        scrolling="no"
+        border="0"
+        frameborder="no"
+        framespacing="0"
+        allowfullscreen="true"
+        style="position:absolute; height: 100%; width: 100%;"
+    >
+    </iframe>
 </div>
-</div><p>不好使，下的不是最新版本的，有的功能无法使用</p>
-<p>macOS疑似有点太封闭了，需要重置文件属性才能正常安装第三方软件😅:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl">xattr -cr &lt; path to xxx.dmg &gt;
-</span></span></code></pre></td></tr></table>
+
+<div class="music-container">
+    
+        <div style="display: flex; justify-content: center;">  
+            <iframe
+                frameborder="no"
+                border="0"
+                marginwidth="0"
+                marginheight="0"
+                style="width: 60%; height: 86px;"
+                src="//music.163.com/outchain/player?type=2&id=%e7%bd%91%e6%98%93%e4%ba%91%e9%9f%b3%e4%b9%90id&auto=1&height=66">
+            </iframe>
+        </div>
+
+    <p class="music-note" style="color:#BB9955">PS:注意音量，建议最小一格</p>
 </div>
-</div><p>重置完基本就能正常安装了。</p>
-<h2 id="moonlight串流丢包">moonlight串流丢包
-</h2><p>  最近在用Moonlight串流的时候总是卡顿丢帧，显示串流质量差，但是ping主机的时候延迟是正常的，7～10ms样子，打开监控的才发现是丢包率过高，最高的时候甚至到了50%多，直接掉线了，寻思不正常，我以为是宿舍网络的问题，重启宿主机后恢复正常，但是再次串流的时候还是一样的老毛病，但是在同一局域网的windows主机上完全没问题，甚至码率可以设的更高，怀疑是不是MacBook网卡的问题，但是Mac的网卡更换以及驱动更新都太过麻烦，查了github上的issue，发现有人也有同样的问题，不只是M1的，M系列的Mac都有问题，最直接的解决方式是，把路由器的5G Wi-Fi信道调整到149。。。。。。</p>
-<p>  调整完Wi-Fi信号后暂时正常，还有待观察。</p>
-<p>  哈哈，又卡顿掉帧了，不知道什么情况，麻了。</p>
-<p>  说是隔空投送的网络端口awdl0导致的网络波动，当无线AP多的时候会造成网络的卡顿和波动，参考的文章在这:<a class="link" href="https://jiapan.me/2023/AWDL-Mac-disconnected/"  target="_blank" rel="noopener"
-    >解决由于 AWDL 导致 Mac 的断网问题</a>，『只要 AWDL 处于活动状态，它就会持续在后台探测附近的其他设备，在使用时会短暂干扰 WiFi 运作，在目前无线网络连接和 AWDL 频道直接来回切换。』实在是离谱，特别是M系列的芯片的MacBook情况更甚。</p>
-<p>  WifriedX这个需要重新编译，才能使用，我这边暂时手动关闭awdl0的网口并关闭Airdrop，软件的编译后续再说。</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl"><span class="c1"># shut down AWDL</span>
-</span></span><span class="line"><span class="cl">sudo ifconfig awdl0 down
-</span></span><span class="line"><span class="cl"><span class="c1"># turn on AWDL</span>
-</span></span><span class="line"><span class="cl">sudo ifconfig awdl0 up
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>  布豪!隔一段时间它就自己开了，shit，但是这个功能会影响AirDrop实在是难顶，平时拿来串流清手游体力，时间倒不是特别长，先凑活一下试试。</p>
-<p>  很奇怪的一点是，AWDL0只影响moonlight串流，但是Windows的远程桌面并不影响，很奇怪。</p>
-<h2 id="添加快捷键">添加快捷键
-</h2><p>  <a class="link" href="https://blog.csdn.net/Archiena/article/details/130336634"  target="_blank" rel="noopener"
-    >Mac如何实现用快捷键输入当前时间</a></p>
-<h2 id="影音播放软件缩略图生成">影音播放软件+缩略图生成
-</h2><p>  IINA+QuickLook Video</p>
-<p>  macOS自带的播放器不好用，而且Windows阵营的Potplayer并没有对macOS环境进行开发，App Store上Omini player添加字幕什么的功能居然还要收费，实在是受不了了，转过头投靠IINA，IINA基础功能还能接受，外挂字幕、倍速播放、小窗播放等等都有，基本满足需要，只可惜没有像Potplayer那样的截图和录制的快捷键，等等配合Snipaste看看行不行。</p>
-<p>  macOS为啥视频缩略图支持的编码有点少啊，mkv的都不支持的嘛😤，还得靠开源</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">brew install --cask qlvideo
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h2 id="鼠标的适配">鼠标的适配
-</h2><p>macOS鼠标滚轮和Windows是反过来的，但是触控板的逻辑我是习惯的&hellip;</p>
-<p>开源插件+1:Mos</p>
-<p>  乐，还是太高看Air了，虽然真的很轻便，续航真的好，但是Macos真的一言难尽啊，给项目写了几个页面，要读串口，macos的串口管理就很麻烦，串流也有很大问题，也不能让甲方自适应一下软件的适配，只能说Mac还是不适合我这种牛马（＞﹏＜），还是折价出了，悲。</p>
+
+## 参考文献
+
+- 参考文献 1
+
 
 </section>
 
@@ -455,9 +449,7 @@
     
     <section class="article-tags">
         
-            <a href="/tags/pc/">PC</a>
-        
-            <a href="/tags/macos/">MacOS</a>
+            <a href="/tags/nas/">Nas</a>
         
     </section>
 
@@ -517,18 +509,18 @@
             
                 
 <article class="has-image">
-    <a href="/post/nas/">
+    <a href="/post/macos/">
         
         
             <div class="article-image">
                 
-                    <img src="/img/defaultimage.png" loading="lazy" data-key="Nas" data-hash="/img/defaultimage.png"/>
+                    <img src="https://raw.githubusercontent.com/Rei-XY/Rei_PicGo/master/Blog_post/MacOS.png" loading="lazy" data-key="MacOS" data-hash="https://raw.githubusercontent.com/Rei-XY/Rei_PicGo/master/Blog_post/MacOS.png"/>
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">折腾折腾Nas</h2>
+            <h2 class="article-title">NewMac</h2>
         </div>
     </a>
 </article>
