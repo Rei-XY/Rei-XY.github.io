@@ -270,7 +270,13 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#ezbookkeeping">ezbookkeeping</a></li>
+    <li><a href="#序">序</a></li>
+    <li><a href="#内网穿透">内网穿透</a></li>
+    <li><a href="#docker服务">Docker服务</a>
+      <ol>
+        <li><a href="#ezbookkeeping">ezbookkeeping</a></li>
+      </ol>
+    </li>
   </ol>
 </nav>
         </div>
@@ -340,8 +346,8 @@
     <section class="article-content">
     
     
-    <h1 id="序">序
-</h1><p>  之前的一个Nas用之前实验室的一台老机子改装的，硬盘位有限而且用的也是老硬盘，加上散热奇差，夏天一到，风扇的声音简直闹心，而且最重要的一点是，这个机子的所有权不是我自己hhh，所以年中的时候搭建了自己的一个DIY Nas，配置单如下：</p>
+    <h2 id="序">序
+</h2><p>  之前的一个Nas用之前实验室的一台老机子改装的，硬盘位有限而且用的也是老硬盘，加上散热奇差，夏天一到，风扇的声音简直闹心，而且最重要的一点是，这个机子的所有权不是我自己hhh，所以年中的时候搭建了自己的一个DIY Nas，配置单如下：</p>
 <div style="max-width: 60%; margin: 0 auto;">
 <div class="table-wrapper"><table>
   <thead>
@@ -383,11 +389,11 @@
 </table></div>
 </div>
 <p>  内存和散热用的都是之前剩下的，硬盘害，现在涨的这么厉害，早知道多买几块了，不过也是存点电影什么的，8T组Raid0毕业前肯定够用了，系统自然是飞牛Os。</p>
-<h1 id="内网穿透">内网穿透
-</h1><p>  飞牛自带的内网穿透2M不太够用，也不是很想花钱，加上学校的小水管网络，买了100M的套餐，下行大约80M，上行30M，有的时候还不太稳定，就拿自己的Vps做了zerotier的内网穿透。详情见<a class="link" href="/post/zerotier-moon/" >Zerotier内网穿透</a></p>
-<h1 id="docker服务">Docker服务
-</h1><h2 id="ezbookkeeping">ezbookkeeping
-</h2><p>  之前记账用了好多软件，但是都感觉不太好用，多设备也不好同步，还要钱，之后换了notion用了个大半年，但是notion有个问题，服务器响应有点慢，这些数据都不在本地，还是有点担心，最近看到了这个开源的docker服务，就想着个部署一下在nas上，自己也能随时随地访问，正好也拿来联系一下docker。</p>
+<h2 id="内网穿透">内网穿透
+</h2><p>  飞牛自带的内网穿透2M不太够用，也不是很想花钱，加上学校的小水管网络，买了100M的套餐，下行大约80M，上行30M，有的时候还不太稳定，就拿自己的Vps做了zerotier的内网穿透。详情见<a class="link" href="/post/zerotier-moon/" >Zerotier内网穿透</a></p>
+<h2 id="docker服务">Docker服务
+</h2><h3 id="ezbookkeeping">ezbookkeeping
+</h3><p>  之前记账用了好多软件，但是都感觉不太好用，多设备也不好同步，还要钱，之后换了notion用了个大半年，但是notion有个问题，服务器响应有点慢，这些数据都不在本地，还是有点担心，最近看到了这个开源的docker服务，就想着个部署一下在nas上，自己也能随时随地访问，正好也拿来联系一下docker。</p>
 <!-- <details>
     <summary>details</summary>
     <div>正文</div>
@@ -641,6 +647,9 @@
   :root {
     --base-font-family: 'ComicShannsMonoNerdFontMono-Bold', serif;
     --code-font-family: 'ComicShannsMonoNerdFontMono-Bold', monospace;
+    --sys-font-family: "ComicShannsMonoNerdFontMono-Bold", serif;
+    --zh-font-family: "ComicShannsMonoNerdFontMono-Bold", serif;
+    --article-font-family: "ComicShannsMonoNerdFontMono-Bold", serif;
   }
 </style>
 
