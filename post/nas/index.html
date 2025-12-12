@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://blog.christinaxy.fun/post/nas/'>
 
-<link rel="stylesheet" href="/scss/style.min.0162184af94e56fe5c2bbe5f9d0a64816d279b370acfe9a87ed6262e1ef70ad2.css"><meta property='og:title' content="折腾折腾Nas">
+<link rel="stylesheet" href="/scss/style.min.8cc774621b1ed1f51f8436e79bf237fae39eda5b4e66d8b899db147f057b51fa.css"><meta property='og:title' content="折腾折腾Nas">
 <meta property='og:description' content="序 之前的一个Nas用之前实验室的一台老机子改装的，硬盘位有限而且用的也是老硬盘，加上散热奇差，夏天一到，风扇的声音简直闹心，而且最重要的一点是，这个机子的所有权不是我自己hhh，所以年中的时候搭建了自己的一个DIY Nas，配置单如下：\n">
 <meta property='og:url' content='https://blog.christinaxy.fun/post/nas/'>
 <meta property='og:site_name' content='NERV Christina'>
@@ -392,12 +392,100 @@
   </tbody>
 </table></div>
 </div>
-<p>  内存和散热用的都是之前剩下的，硬盘害，现在涨的这么厉害，早知道多买几块了，不过也是存点电影什么的，8T组Raid0毕业前肯定够用了，系统自然是飞牛Os。</p>
+<p>  内存和散热用的都是之前剩下的，硬盘害，现在涨的这么厉害，早知道多买几块了，不过也是存点电影什么的，8T组Raid0毕业前肯定够用了，系统是飞牛Os，整套下来算上硬盘大约2200块，个人感觉还行，主流的编解码都支持，目前几个月用下来，非常安静。</p>
 <h2 id="内网穿透">内网穿透
 </h2><p>  飞牛自带的内网穿透2M不太够用，也不是很想花钱，加上学校的小水管网络，买了100M的套餐，下行大约80M，上行30M，有的时候还不太稳定，就拿自己的Vps做了zerotier的内网穿透。详情见<a class="link" href="/post/zerotier-moon/" >Zerotier内网穿透</a></p>
 <h2 id="docker服务">Docker服务
 </h2><h3 id="ezbookkeeping">ezbookkeeping
-</h3><p>  之前记账用了好多软件，但是都感觉不太好用，多设备也不好同步，还要钱，之后换了notion用了个大半年，但是notion有个问题，服务器响应有点慢，这些数据都不在本地，还是有点担心，最近看到了这个开源的docker服务，就想着个部署一下在nas上，自己也能随时随地访问，正好也拿来联系一下docker。</p>
+</h3><p>  之前记账用了好多软件，但是都感觉不太好用，多设备也不好同步，还要钱，之后换了notion用了个大半年，但是notion有个问题，服务器响应有点慢，这些数据都不在本地，还是有点担心，最近看到了这个开源的docker服务，就想着个部署一下在nas上，自己也能随时随地访问，正好也拿来练习一下docker。</p>
+<p>  先在飞牛的Docker的存储池中新建一个文件夹ezbookkepping，在此目录下创建三个文件夹：data、log和storage，并创建docker-compose文件，docker-compose里内容如下：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="n">services</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">  <span class="n">ezbookkeeping</span><span class="p">:</span>    <span class="c1"># EzBookkeeping 服务，用于记账应用</span>
+</span></span><span class="line"><span class="cl">    <span class="n">image</span><span class="p">:</span> <span class="n">mayswind</span><span class="o">/</span><span class="n">ezbookkeeping</span>  <span class="c1"># 使用 mayswind/ezbookkeeping 镜像</span>
+</span></span><span class="line"><span class="cl">    <span class="n">container_name</span><span class="p">:</span> <span class="n">ezbookkeeping</span>  <span class="c1"># 容器名称为 ezbookkeeping</span>
+</span></span><span class="line"><span class="cl">    <span class="n">restart</span><span class="p">:</span> <span class="n">always</span>  <span class="c1"># 容器总是重启</span>
+</span></span><span class="line"><span class="cl">    <span class="n">ports</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">      <span class="o">-</span> <span class="mi">3080</span><span class="p">:</span><span class="mi">8080</span>  <span class="c1"># 将容器的 8080 端口映射到主机的 3080 端口</span>
+</span></span><span class="line"><span class="cl">    <span class="n">volumes</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">      <span class="o">-</span> <span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">localtime</span><span class="p">:</span><span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">localtime</span><span class="p">:</span><span class="n">ro</span>  <span class="c1"># 将主机的本地时间同步到容器</span>
+</span></span><span class="line"><span class="cl">      <span class="o">-</span> <span class="o">./</span><span class="n">storage</span><span class="p">:</span><span class="o">/</span><span class="n">ezbookkeeping</span><span class="o">/</span><span class="n">storage</span>  <span class="c1"># 持久化存储到主机的 ./storage 文件夹</span>
+</span></span><span class="line"><span class="cl">      <span class="o">-</span> <span class="o">./</span><span class="nb">log</span><span class="p">:</span><span class="o">/</span><span class="n">ezbookkeeping</span><span class="o">/</span><span class="nb">log</span>  <span class="c1"># 持久化日志到主机的 ./log 文件夹</span>
+</span></span><span class="line"><span class="cl">    <span class="n">environment</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">      <span class="o">-</span> <span class="n">EBK_DATABASE_TYPE</span><span class="o">=</span><span class="n">mysql</span>  <span class="c1"># 数据库类型为 MySQL</span>
+</span></span><span class="line"><span class="cl">      <span class="o">-</span> <span class="n">EBK_DATABASE_HOST</span><span class="o">=</span><span class="n">mysql</span><span class="p">:</span><span class="mi">3306</span>  <span class="c1"># 数据库主机为 mysql 服务，端口为 3306</span>
+</span></span><span class="line"><span class="cl">      <span class="o">-</span> <span class="n">EBK_DATABASE_NAME</span><span class="o">=</span><span class="n">ezbookkeeping</span>  <span class="c1"># 数据库名称为 ezbookkeeping</span>
+</span></span><span class="line"><span class="cl">      <span class="o">-</span> <span class="n">EBK_DATABASE_USER</span><span class="o">=</span><span class="n">ezbookkeeping</span>  <span class="c1"># 数据库用户名为 ezbookkeeping</span>
+</span></span><span class="line"><span class="cl">      <span class="o">-</span> <span class="n">EBK_DATABASE_PASSWD</span><span class="o">=</span><span class="n">ezbookkeeping</span>  <span class="c1"># 数据库密码为 ezbookkeeping</span>
+</span></span><span class="line"><span class="cl">      <span class="o">-</span> <span class="n">EBK_LOG_MODE</span><span class="o">=</span><span class="n">file</span>  <span class="c1"># 日志模式为文件</span>
+</span></span><span class="line"><span class="cl">      <span class="o">-</span> <span class="n">EBK_SECURITY_SECRET_KEY</span><span class="o">=</span><span class="n">O0rxWj8gH8z2T9O79l8ndUczIHtUgV6bRY3CZfF0beE</span><span class="o">=</span>   <span class="c1">#设置随机的安全密钥</span>
+</span></span><span class="line"><span class="cl">      <span class="o">-</span> <span class="n">EBK_MCP_ENABLE_MCP</span><span class="o">=</span><span class="bp">true</span>  <span class="c1"># 启用 MCP 功能</span>
+</span></span><span class="line"><span class="cl">    <span class="n">depends_on</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">      <span class="o">-</span> <span class="n">mysql</span>  <span class="c1"># 在 mysql 服务启动后再启动 ezbookkeeping 服务</span>
+</span></span><span class="line"><span class="cl">  <span class="n">mysql</span><span class="p">:</span>           <span class="c1"># MySQL 服务，用于存储 EzBookkeeping 数据</span>
+</span></span><span class="line"><span class="cl">    <span class="n">image</span><span class="p">:</span> <span class="n">mysql</span><span class="p">:</span><span class="mf">8.0</span>  <span class="c1"># 使用官方的 MySQL 8.0 镜像</span>
+</span></span><span class="line"><span class="cl">    <span class="n">container_name</span><span class="p">:</span> <span class="n">ezbookkeeping</span><span class="o">-</span><span class="n">mysql</span>  <span class="c1"># 容器名称为 ezbookkeeping-mysql</span>
+</span></span><span class="line"><span class="cl">    <span class="n">restart</span><span class="p">:</span> <span class="n">always</span>  <span class="c1"># 容器总是重启</span>
+</span></span><span class="line"><span class="cl">    <span class="n">volumes</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">      <span class="o">-</span> <span class="o">./</span><span class="n">data</span><span class="p">:</span><span class="o">/</span><span class="k">var</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">mysql</span>  <span class="c1"># 将主机的 ./data 文件夹映射到容器的 /var/lib/mysql 目录，用于持久化数据库数据</span>
+</span></span><span class="line"><span class="cl">    <span class="n">environment</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">      <span class="o">-</span> <span class="n">MYSQL_DATABASE</span><span class="o">=</span><span class="n">ezbookkeeping</span>  <span class="c1"># 默认数据库为 ezbookkeeping</span>
+</span></span><span class="line"><span class="cl">      <span class="o">-</span> <span class="n">MYSQL_USER</span><span class="o">=</span><span class="n">ezbookkeeping</span>  <span class="c1"># 数据库用户名为 ezbookkeeping</span>
+</span></span><span class="line"><span class="cl">      <span class="o">-</span> <span class="n">MYSQL_PASSWORD</span><span class="o">=</span><span class="n">ezbookkeeping</span>  <span class="c1"># 数据库密码为 ezbookkeeping</span>
+</span></span><span class="line"><span class="cl">      <span class="o">-</span> <span class="n">MYSQL_ROOT_PASSWORD</span><span class="o">=</span><span class="n">ezbookkeeping</span>  <span class="c1"># MySQL 根密码为 ezbookkeeping</span>
+</span></span><span class="line"><span class="cl">    <span class="n">healthcheck</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">      <span class="n">test</span><span class="p">:</span> <span class="p">[</span><span class="s2">&#34;CMD&#34;</span><span class="p">,</span> <span class="s2">&#34;mysqladmin&#34;</span><span class="p">,</span> <span class="s2">&#34;ping&#34;</span><span class="p">,</span> <span class="s2">&#34;-p ezbookkeeping&#34;</span><span class="p">]</span>  <span class="c1"># 检查 MySQL 是否正常运行</span>
+</span></span><span class="line"><span class="cl">      <span class="n">retries</span><span class="p">:</span> <span class="mi">3</span>  <span class="c1"># 如果健康检查失败，最多重试 3 次</span>
+</span></span><span class="line"><span class="cl">      <span class="n">timeout</span><span class="p">:</span> <span class="mi">5</span><span class="n">s</span>  <span class="c1"># 每次健康检查的超时时间为 5 秒</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>  飞牛系统里文件夹的权限已经放开，可以直接运行，待构建完成后，启动容器即可，简单配置以后基本页面如下所示：</p>
+<div class="photo-container">
+    <img src="./pics/ezbookkeeping_demo.png" alt="图片说明" class="photo">
+    <span class="photo-caption" style="color:#BB9955">ezbookkeeping展示界面</span>
+</div>
+<p>  目前使用下来，ezbookkeeping的使用体验还行，亟待后续反馈更新。</p>
+<p align="right">2025.12.12 15:57 Update</p>
 <!-- <details>
     <summary>details</summary>
     <div>正文</div>
@@ -672,17 +760,17 @@
 
 <style>
   @font-face {
-    font-family: 'ComicShannsMonoNerdFontMono-Bold';
-    src: url('/fonts/ComicShannsMonoNerdFontMono-Bold.otf') format('truetype');
+    font-family: 'LXGWWenKaiMono-Medium';
+    src: url('/fonts/LXGWWenKaiMono-Medium.ttf') format('truetype');
     font-display: swap;
   }
 
   :root {
-    --base-font-family: 'ComicShannsMonoNerdFontMono-Bold', serif;
-    --code-font-family: 'ComicShannsMonoNerdFontMono-Bold', monospace;
-    --sys-font-family: "ComicShannsMonoNerdFontMono-Bold", serif;
-    --zh-font-family: "ComicShannsMonoNerdFontMono-Bold", serif;
-    --article-font-family: "ComicShannsMonoNerdFontMono-Bold", serif;
+    --base-font-family: 'LXGWWenKaiMono-Medium', serif;
+    --code-font-family: 'LXGWWenKaiMono-Medium', monospace;
+    --sys-font-family: "LXGWWenKaiMono-Medium", serif;
+    --zh-font-family: "LXGWWenKaiMono-Medium", serif;
+    --article-font-family: "LXGWWenKaiMono-Medium", serif;
   }
 </style>
 
