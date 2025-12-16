@@ -7,7 +7,200 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Rei</copyright>
-        <lastBuildDate>Thu, 11 Dec 2025 17:15:56 +0800</lastBuildDate><atom:link href="https://blog.christinaxy.fun/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 15 Dec 2025 16:18:45 +0800</lastBuildDate><atom:link href="https://blog.christinaxy.fun/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>新机初始化配置</title>
+        <link>https://blog.christinaxy.fun/post/initializepc/</link>
+        <pubDate>Mon, 15 Dec 2025 16:18:45 +0800</pubDate>
+        
+        <guid>https://blog.christinaxy.fun/post/initializepc/</guid>
+        <description>&lt;img src="https://blog.christinaxy.fun/post/initializepc/Cover.png" alt="Featured image of post 新机初始化配置" /&gt;&lt;h2 id=&#34;序&#34;&gt;序
+&lt;/h2&gt;&lt;p&gt;  最近几天因为导师给的ThinkPad X1 Carbon实在是一言难尽（但是不得不说X1 Carbon是真的精致，碳纤维总成，合格的接口，4K的屏幕，长键程，但是里子真的用的难受，16G的内存配合win11实在是不够用，稍微跑点程序，风扇就呼呼起飞，边缘烫的一，真的难为它这个单风扇单热管了。）还是忍不住换了个新机子，之前用的YOGA玻璃覆盖的A面真的很喜欢，于是在小黄鱼上3900同城买了个YOGA Air 14s 2023，也算是新老交替了，开一篇文记录一下新机子到手的一系列配置，maybe若干年后换新笔电也能做个参考。&lt;/p&gt;
+&lt;h2 id=&#34;基本配置&#34;&gt;基本配置
+&lt;/h2&gt;&lt;p&gt;  系统目前来说win11 24H2专业版已经使用习惯了，已经回不去win10咧，到手激活后把能更新的驱动都更新完毕，然后直接关闭更新：&lt;/p&gt;
+&lt;p&gt;  进入系统注册表，找到以下路径：&lt;code&gt;HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings&lt;/code&gt;，新建&lt;code&gt;DWORDFlightSettingsMaxPauseDays = 10000&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;软件配置&#34;&gt;软件配置
+&lt;/h2&gt;&lt;!-- 软件安装清单 --&gt;
+&lt;p&gt;  具体清单如下：&lt;/p&gt;
+&lt;style&gt;
+    .custom-table-container table {
+        background-color: white !important;
+        border-radius: 15px !important;
+        border-collapse: separate !important;
+        border-spacing: 0;
+        overflow: hidden !important;
+        width: 100%;
+        color: black;
+        border: 1px solid #e0e0e0; /* 边框颜色变淡，视觉上更细 */
+    }
+    .custom-table-container table tbody tr {
+        background-color: white !important;
+    }
+    .custom-table-container table th, .custom-table-container table td {
+        background-color: white !important;
+        color: black;
+    }
+&lt;/style&gt;
+&lt;div class=&#34;custom-table-container&#34; style=&#34;max-width: 80%; margin: 0 auto; font-size: 0.8em;&#34;&gt;
+&lt;div style=&#34;text-align: center; font-weight: bold; margin-bottom: 10px;&#34;&gt;软件安装清单&lt;/div&gt;
+&lt;table&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th style=&#34;text-align: center; vertical-align: middle;&#34;&gt;类别&lt;/th&gt;
+            &lt;th style=&#34;text-align: center; vertical-align: middle;&#34;&gt;软件名称&lt;/th&gt;
+            &lt;th style=&#34;text-align: center; vertical-align: middle;&#34;&gt;备注&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td rowspan=&#34;2&#34; style=&#34;text-align: center; vertical-align: middle;&#34;&gt;办公&lt;/td&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;office&lt;/td&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;Visio&lt;/td&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td rowspan=&#34;5&#34; style=&#34;text-align: center; vertical-align: middle;&#34;&gt;软件环境&lt;/td&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;Anaconda&lt;/td&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;Git&lt;/td&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;NodeJs&lt;/td&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;PowerShell7&lt;/td&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;oh-my-posh配置&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;Zerotier&lt;/td&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;添加moon节点&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td rowspan=&#34;12&#34; style=&#34;text-align: center; vertical-align: middle;&#34;&gt;日常生活&lt;/td&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;微信&lt;/td&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;百度网盘&lt;/td&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;腾讯会议&lt;/td&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;Claunch&lt;/td&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;Everything&lt;/td&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;Mihomo Party&lt;/td&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;Moonlight&lt;/td&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;OBS&lt;/td&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;OneCommander&lt;/td&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;Potpalyer&lt;/td&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;Snipaste&lt;/td&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;TranslucentTB&lt;/td&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td rowspan=&#34;2&#34; style=&#34;text-align: center; vertical-align: middle;&#34;&gt;笔记学习&lt;/td&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;Obsidian&lt;/td&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;Notion&lt;/td&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td rowspan=&#34;3&#34; style=&#34;text-align: center; vertical-align: middle;&#34;&gt;IDE&lt;/td&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;Vs Code&lt;/td&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;Matlab&lt;/td&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;XShell&lt;/td&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;&#34;&gt;
+&lt;/h3&gt;&lt;!-- &lt;details&gt;
+    &lt;summary&gt;details&lt;/summary&gt;
+    &lt;div&gt;正文&lt;/div&gt;
+&lt;/details&gt;
+
+从这里开始撰写正文……
+
+
+
+&lt;div style=&#34;position:relative; padding-bottom:56.25%; width:100%; height:0&#34;&gt;
+  
+    &lt;iframe
+        src=&#34;//player.bilibili.com/player.html?bvid=BV112PueTEQV&amp;amp;page=11&amp;amp;as_wide=1&amp;high_quality=1&amp;amp;autoplay=0&#34;
+        scrolling=&#34;no&#34;
+        border=&#34;0&#34;
+        frameborder=&#34;no&#34;
+        framespacing=&#34;0&#34;
+        allowfullscreen=&#34;true&#34;
+        style=&#34;position:absolute; height: 100%; width: 100%;&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;music-container&#34;&gt;
+    
+        &lt;div style=&#34;display: flex; justify-content: center;&#34;&gt;  
+            &lt;iframe
+                frameborder=&#34;no&#34;
+                border=&#34;0&#34;
+                marginwidth=&#34;0&#34;
+                marginheight=&#34;0&#34;
+                style=&#34;width: 60%; height: 86px;&#34;
+                src=&#34;//music.163.com/outchain/player?type=2&amp;id=%e7%bd%91%e6%98%93%e4%ba%91%e9%9f%b3%e4%b9%90id&amp;auto=1&amp;height=66&#34;&gt;
+            &lt;/iframe&gt;
+        &lt;/div&gt;
+
+    &lt;p class=&#34;music-note&#34; style=&#34;color:#BB9955&#34;&gt;PS:注意音量，建议最小一格&lt;/p&gt;
+&lt;/div&gt;
+
+## 参考文献
+
+- 参考文献 1 --&gt;
+</description>
+        </item>
+        <item>
         <title>折腾折腾Nas</title>
         <link>https://blog.christinaxy.fun/post/nas/</link>
         <pubDate>Thu, 11 Dec 2025 17:15:56 +0800</pubDate>
