@@ -719,6 +719,7 @@
 </span><span class="lnt">69
 </span><span class="lnt">70
 </span><span class="lnt">71
+</span><span class="lnt">72
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-xy.omp.json" data-lang="xy.omp.json"><span class="line"><span class="cl"><span class="p">{</span>
@@ -747,10 +748,11 @@
 </span></span><span class="line"><span class="cl">          <span class="nt">&#34;foreground&#34;</span><span class="p">:</span> <span class="s2">&#34;#14A5AE&#34;</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">          <span class="nt">&#34;powerline_symbol&#34;</span><span class="p">:</span> <span class="s2">&#34;\ue0b0&#34;</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">          <span class="nt">&#34;properties&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nt">&#34;fetch_status&#34;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">            <span class="nt">&#34;fetch_upstream_icon&#34;</span><span class="p">:</span> <span class="kc">true</span>
 </span></span><span class="line"><span class="cl">          <span class="p">},</span>
 </span></span><span class="line"><span class="cl">          <span class="nt">&#34;style&#34;</span><span class="p">:</span> <span class="s2">&#34;plain&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">          <span class="nt">&#34;template&#34;</span><span class="p">:</span> <span class="s2">&#34;{{ .UpstreamIcon }}{{ .HEAD }}{{ if gt .StashCount 0 }} \ueb4b {{ .StashCount }}{{ end }} &#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">          <span class="nt">&#34;template&#34;</span><span class="p">:</span> <span class="s2">&#34;{{ .UpstreamIcon }}{{ .HEAD }}{{ if .Staging.Changed }}&lt;green&gt; ヾ(•ω•`)o&lt;/&gt;{{ end }}{{ if .Working.Changed }}&lt;red&gt; ＞﹏＜&lt;/&gt;{{ end }}{{ if and (not .Staging.Changed) (not .Working.Changed) }}&lt;green&gt; (●&#39;◡&#39;●)&lt;/&gt;{{ end }} &#34;</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">          <span class="nt">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;git&#34;</span>
 </span></span><span class="line"><span class="cl">        <span class="p">},</span>
 </span></span><span class="line"><span class="cl">        <span class="p">{</span>
