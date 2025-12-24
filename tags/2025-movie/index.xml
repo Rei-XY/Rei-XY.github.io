@@ -29,8 +29,7 @@
 &lt;p align=&#34;right&#34;&gt;2025.02.24 23:41&lt;/p&gt;
 &lt;h2 id=&#34;some-videos&#34;&gt;Some videos
 &lt;/h2&gt;
-&lt;div style=&#34;position:relative; padding-bottom:56.25%; width:100%; height:0&#34;&gt;
-  
+&lt;div class=&#34;bilibili-wrapper&#34;&gt;
     &lt;iframe
         src=&#34;//player.bilibili.com/player.html?bvid=BV112PueTEQV&amp;amp;page=11&amp;amp;as_wide=1&amp;high_quality=1&amp;amp;autoplay=0&#34;
         scrolling=&#34;no&#34;
@@ -38,7 +37,6 @@
         frameborder=&#34;no&#34;
         framespacing=&#34;0&#34;
         allowfullscreen=&#34;true&#34;
-        style=&#34;position:absolute; height: 100%; width: 100%;&#34;
     &gt;
     &lt;/iframe&gt;
 &lt;/div&gt;
