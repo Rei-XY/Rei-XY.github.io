@@ -11,13 +11,13 @@
     <loc>https://blog.christinaxy.fun/tags/pc/</loc>
     <lastmod>2025-12-15T16:18:45+08:00</lastmod>
   </url><url>
-    <loc>https://blog.christinaxy.fun/categories/pc-diy/</loc>
-    <lastmod>2025-12-15T16:18:45+08:00</lastmod>
-  </url><url>
     <loc>https://blog.christinaxy.fun/post/</loc>
     <lastmod>2025-12-15T16:18:45+08:00</lastmod>
   </url><url>
     <loc>https://blog.christinaxy.fun/tags/</loc>
+    <lastmod>2025-12-15T16:18:45+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.christinaxy.fun/categories/tinker/</loc>
     <lastmod>2025-12-15T16:18:45+08:00</lastmod>
   </url><url>
     <loc>https://blog.christinaxy.fun/post/initializepc/</loc>
@@ -29,13 +29,13 @@
     <loc>https://blog.christinaxy.fun/post/nas/</loc>
     <lastmod>2025-12-11T17:15:56+08:00</lastmod>
   </url><url>
-    <loc>https://blog.christinaxy.fun/categories/2025-anime/</loc>
-    <lastmod>2025-03-31T11:19:29+08:00</lastmod>
-  </url><url>
     <loc>https://blog.christinaxy.fun/tags/anime/</loc>
     <lastmod>2025-03-31T11:19:29+08:00</lastmod>
   </url><url>
     <loc>https://blog.christinaxy.fun/post/anime-mujica/</loc>
+    <lastmod>2025-03-31T11:19:29+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.christinaxy.fun/categories/journal/</loc>
     <lastmod>2025-03-31T11:19:29+08:00</lastmod>
   </url><url>
     <loc>https://blog.christinaxy.fun/tags/mujica/</loc>
@@ -46,9 +46,6 @@
   </url><url>
     <loc>https://blog.christinaxy.fun/post/macos/</loc>
     <lastmod>2025-03-10T20:11:14+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.christinaxy.fun/categories/webservice/</loc>
-    <lastmod>2025-02-27T16:38:38+08:00</lastmod>
   </url><url>
     <loc>https://blog.christinaxy.fun/tags/webservice/</loc>
     <lastmod>2025-02-27T16:38:38+08:00</lastmod>
@@ -65,14 +62,8 @@
     <loc>https://blog.christinaxy.fun/tags/2025-movie/</loc>
     <lastmod>2025-02-24T21:06:57+08:00</lastmod>
   </url><url>
-    <loc>https://blog.christinaxy.fun/categories/movie/</loc>
-    <lastmod>2025-02-24T21:06:57+08:00</lastmod>
-  </url><url>
     <loc>https://blog.christinaxy.fun/post/2025movie-%E4%BD%A0%E7%9A%84%E9%A2%9C%E8%89%B2/</loc>
     <lastmod>2025-02-24T21:06:57+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.christinaxy.fun/categories/blog/</loc>
-    <lastmod>2025-02-10T22:28:15+08:00</lastmod>
   </url><url>
     <loc>https://blog.christinaxy.fun/tags/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E7%AB%99/</loc>
     <lastmod>2025-02-10T22:28:15+08:00</lastmod>
@@ -89,14 +80,12 @@
     <loc>https://blog.christinaxy.fun/archives/</loc>
     <lastmod>2025-01-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.christinaxy.fun/categories/anime/</loc>
-  </url><url>
-    <loc>https://blog.christinaxy.fun/categories/life/</loc>
-  </url><url>
     <loc>https://blog.christinaxy.fun/links/</loc>
   </url><url>
     <loc>https://blog.christinaxy.fun/search/</loc>
   </url><url>
-    <loc>https://blog.christinaxy.fun/categories/test/</loc>
+    <loc>https://blog.christinaxy.fun/categories/%E7%94%9F%E6%B4%BB%E5%B0%8F%E8%AE%B0_journal/</loc>
+  </url><url>
+    <loc>https://blog.christinaxy.fun/categories/%E6%8A%98%E8%85%BE%E6%8A%98%E8%85%BE_tinker/</loc>
   </url>
 </urlset>

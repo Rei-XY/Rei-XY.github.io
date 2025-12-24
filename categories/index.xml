@@ -5,71 +5,39 @@
         <link>https://blog.christinaxy.fun/categories/</link>
         <description>Recent content in Categories on NERV Christina</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
+        <language>en-us</language>
         <copyright>Rei</copyright>
         <lastBuildDate>Mon, 15 Dec 2025 16:18:45 +0800</lastBuildDate><atom:link href="https://blog.christinaxy.fun/categories/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>PC DIY</title>
-        <link>https://blog.christinaxy.fun/categories/pc-diy/</link>
+        <title>Tinker</title>
+        <link>https://blog.christinaxy.fun/categories/tinker/</link>
         <pubDate>Mon, 15 Dec 2025 16:18:45 +0800</pubDate>
         
-        <guid>https://blog.christinaxy.fun/categories/pc-diy/</guid>
-        <description>&lt;img src="https://raw.githubusercontent.com/Rei-XY/Rei_PicGo/master/Blog_post/CPU.jpg" alt="Featured image of post PC DIY" /&gt;</description>
+        <guid>https://blog.christinaxy.fun/categories/tinker/</guid>
+        <description></description>
         </item>
         <item>
-        <title>2025-Anime</title>
-        <link>https://blog.christinaxy.fun/categories/2025-anime/</link>
+        <title>Journal</title>
+        <link>https://blog.christinaxy.fun/categories/journal/</link>
         <pubDate>Mon, 31 Mar 2025 11:19:29 +0800</pubDate>
         
-        <guid>https://blog.christinaxy.fun/categories/2025-anime/</guid>
+        <guid>https://blog.christinaxy.fun/categories/journal/</guid>
         <description></description>
         </item>
         <item>
-        <title>WebService</title>
-        <link>https://blog.christinaxy.fun/categories/webservice/</link>
-        <pubDate>Thu, 27 Feb 2025 16:38:38 +0800</pubDate>
-        
-        <guid>https://blog.christinaxy.fun/categories/webservice/</guid>
-        <description>&lt;img src="https://raw.githubusercontent.com/Rei-XY/Rei_PicGo/master/BlogStatic/WebService_Cover.png" alt="Featured image of post WebService" /&gt;</description>
-        </item>
-        <item>
-        <title>Movie</title>
-        <link>https://blog.christinaxy.fun/categories/movie/</link>
-        <pubDate>Mon, 24 Feb 2025 21:06:57 +0800</pubDate>
-        
-        <guid>https://blog.christinaxy.fun/categories/movie/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Blog</title>
-        <link>https://blog.christinaxy.fun/categories/blog/</link>
-        <pubDate>Mon, 10 Feb 2025 22:28:15 +0800</pubDate>
-        
-        <guid>https://blog.christinaxy.fun/categories/blog/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Anime</title>
-        <link>https://blog.christinaxy.fun/categories/anime/</link>
+        <title>生活小记</title>
+        <link>https://blog.christinaxy.fun/categories/%E7%94%9F%E6%B4%BB%E5%B0%8F%E8%AE%B0_journal/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.christinaxy.fun/categories/anime/</guid>
-        <description></description>
+        <guid>https://blog.christinaxy.fun/categories/%E7%94%9F%E6%B4%BB%E5%B0%8F%E8%AE%B0_journal/</guid>
+        <description>&lt;img src="https://blog.christinaxy.fun/Journal_cover.jpg" alt="Featured image of post 生活小记" /&gt;</description>
         </item>
         <item>
-        <title>Life</title>
-        <link>https://blog.christinaxy.fun/categories/life/</link>
+        <title>折腾折腾</title>
+        <link>https://blog.christinaxy.fun/categories/%E6%8A%98%E8%85%BE%E6%8A%98%E8%85%BE_tinker/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.christinaxy.fun/categories/life/</guid>
+        <guid>https://blog.christinaxy.fun/categories/%E6%8A%98%E8%85%BE%E6%8A%98%E8%85%BE_tinker/</guid>
         <description></description>
-        </item>
-        <item>
-        <title>Test</title>
-        <link>https://blog.christinaxy.fun/categories/test/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://blog.christinaxy.fun/categories/test/</guid>
-        <description>&lt;img src="https://blog.christinaxy.fun/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Test" /&gt;</description>
         </item>
         
     </channel>

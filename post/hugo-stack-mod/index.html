@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-cn" dir="ltr">
+<html lang="en-us" dir="ltr">
     <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="装修Blog的工程记录">
 <title>赛博小屋装修记</title>
@@ -66,7 +66,7 @@
                     
                     
                         
-                        <img src="/img/avatar_hu_b3b52411cdb0c115.png" width="300"
+                        <img src="/img/avatar_hu_8d6c8a2c5c9c17b3.png" width="300"
                             height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
@@ -294,8 +294,8 @@
     
     <header class="article-category">
         
-            <a href="/categories/blog/" style="background-color: #f7d287; color: #fff;">
-                Blog
+            <a href="/categories/tinker/" >
+                Tinker
             </a>
         
     </header>
@@ -1035,28 +1035,28 @@
 </span></span><span class="line"><span class="cl">  <span class="p">}</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">codeBlocks</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="nx">codeBlock</span> <span class="p">=&gt;</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="c1">// 校验是否overflow
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="k">if</span> <span class="p">(</span><span class="nx">codeBlock</span><span class="p">.</span><span class="nx">scrollHeight</span> <span class="o">&lt;=</span> <span class="nx">codeBlock</span><span class="p">.</span><span class="nx">clientHeight</span><span class="p">)</span> <span class="p">{</span>
+</span></span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nx">codeBlock</span><span class="p">.</span><span class="nx">scrollHeight</span> <span class="o">&lt;=</span> <span class="nx">codeBlock</span><span class="p">.</span><span class="nx">clientHeight</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">      <span class="k">return</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl">    <span class="c1">// 元素初始化
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="c1">// codeMoreBox
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="kd">let</span> <span class="nx">codeMoreBox</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s1">&#39;div&#39;</span><span class="p">);</span>
+</span></span></span><span class="line"><span class="cl">    <span class="c1">// codeMoreBox
+</span></span></span><span class="line"><span class="cl">    <span class="kd">let</span> <span class="nx">codeMoreBox</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s1">&#39;div&#39;</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">    <span class="nx">codeMoreBox</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="s1">&#39;code-more-box&#39;</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">    <span class="c1">// codeMoreBtn
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="kd">let</span> <span class="nx">codeMoreBtn</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s1">&#39;span&#39;</span><span class="p">);</span>
+</span></span></span><span class="line"><span class="cl">    <span class="kd">let</span> <span class="nx">codeMoreBtn</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s1">&#39;span&#39;</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">    <span class="nx">codeMoreBtn</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="s1">&#39;code-more-btn&#39;</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">    <span class="nx">codeMoreBtn</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s1">&#39;click&#39;</span><span class="p">,</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">      <span class="nx">codeBlock</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="s1">&#39;code-show&#39;</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">      <span class="nx">codeMoreBox</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">display</span> <span class="o">=</span> <span class="s1">&#39;none&#39;</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">      <span class="c1">// 触发resize事件，重新计算目录位置
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>      <span class="nb">window</span><span class="p">.</span><span class="nx">dispatchEvent</span><span class="p">(</span><span class="k">new</span> <span class="nx">Event</span><span class="p">(</span><span class="s1">&#39;resize&#39;</span><span class="p">))</span>
+</span></span></span><span class="line"><span class="cl">      <span class="nb">window</span><span class="p">.</span><span class="nx">dispatchEvent</span><span class="p">(</span><span class="k">new</span> <span class="nx">Event</span><span class="p">(</span><span class="s1">&#39;resize&#39;</span><span class="p">))</span>
 </span></span><span class="line"><span class="cl">    <span class="p">})</span>
 </span></span><span class="line"><span class="cl">    <span class="c1">// img
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="kd">let</span> <span class="nx">img</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s1">&#39;img&#39;</span><span class="p">);</span>
+</span></span></span><span class="line"><span class="cl">    <span class="kd">let</span> <span class="nx">img</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s1">&#39;img&#39;</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">    <span class="nx">img</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="s1">&#39;code-more-img&#39;</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">    <span class="nx">img</span><span class="p">.</span><span class="nx">src</span> <span class="o">=</span> <span class="s2">&#34;/icons/arrow.png&#34;</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="c1">// 元素添加
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nx">codeMoreBtn</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">img</span><span class="p">);</span>
+</span></span></span><span class="line"><span class="cl">    <span class="nx">codeMoreBtn</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">img</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">    <span class="nx">codeMoreBox</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">codeMoreBtn</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">    <span class="nx">codeBlock</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">codeMoreBox</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">  <span class="p">})</span>
@@ -1212,7 +1212,7 @@
 <pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="c">&lt;!-- layouts/partials/footer/custom.html --&gt;</span>
 </span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span>
 </span></span><span class="line"><span class="cl">  <span class="kd">let</span> <span class="nx">s1</span> <span class="o">=</span> <span class="s1">&#39;2025-1-19&#39;</span><span class="p">;</span> <span class="c1">//website start date
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="nx">s1</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="nx">s1</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="sr">/-/g</span><span class="p">,</span> <span class="s2">&#34;/&#34;</span><span class="p">));</span>
+</span></span></span><span class="line"><span class="cl">  <span class="nx">s1</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="nx">s1</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="sr">/-/g</span><span class="p">,</span> <span class="s2">&#34;/&#34;</span><span class="p">));</span>
 </span></span><span class="line"><span class="cl">  <span class="kd">let</span> <span class="nx">s2</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">();</span>
 </span></span><span class="line"><span class="cl">  <span class="kd">let</span> <span class="nx">timeDifference</span> <span class="o">=</span> <span class="nx">s2</span><span class="p">.</span><span class="nx">getTime</span><span class="p">()</span> <span class="o">-</span> <span class="nx">s1</span><span class="p">.</span><span class="nx">getTime</span><span class="p">();</span>
 </span></span><span class="line"><span class="cl">
@@ -1427,6 +1427,101 @@ test:⬇️
     
 
     
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/post/initializepc/">
+        
+        
+            <div class="article-image">
+                <img src="/post/initializepc/Cover.40abab4d9814428083b5cedf5910ce7f_hu_8a15fd01acb3e395.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 新机初始化配置"
+                        data-key="InitializePC" 
+                        data-hash="md5-QKurTZgUQoCDtc7fWRDOfw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">新机初始化配置</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/post/nas/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/img/defaultimage.png" loading="lazy" data-key="Nas" data-hash="/img/defaultimage.png"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">折腾折腾Nas</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/post/macos/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://raw.githubusercontent.com/Rei-XY/Rei_PicGo/master/Blog_post/MacOS.png" loading="lazy" data-key="MacOS" data-hash="https://raw.githubusercontent.com/Rei-XY/Rei_PicGo/master/Blog_post/MacOS.png"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">NewMac</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/post/zerotier-moon/">
+        
+        
+            <div class="article-image">
+                <img src="/post/zerotier-moon/%E5%8D%9A%E5%AE%A2%E5%B0%81%E9%9D%A2Cover.b4d004eb5bcd042aaadacd13b5966db1_hu_b3bfed889c5ae2b1.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 内网穿透-异地组网"
+                        data-key="zerotier-moon" 
+                        data-hash="md5-tNAE61vNBCqq2s0TtZZtsQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">内网穿透-异地组网</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
 
      
     
