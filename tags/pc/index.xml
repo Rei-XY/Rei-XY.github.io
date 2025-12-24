@@ -515,9 +515,9 @@
 &lt;h2 id=&#34;结&#34;&gt;结
 &lt;/h2&gt;&lt;p&gt;  基本配置结束，好麻烦啊，要是能一键记忆系统配置就好了。&lt;/p&gt;
 &lt;p align=&#34;right&#34;&gt;2025.12.18 22:03 Update.&lt;/p&gt;
-&lt;!-- &lt;details&gt;
+&lt;!-- &lt;details class=&#34;sc-details&#34;&gt;
     &lt;summary&gt;details&lt;/summary&gt;
-    &lt;div&gt;正文&lt;/div&gt;
+    &lt;div class=&#34;sc-details-inner&#34;&gt;正文&lt;/div&gt;
 &lt;/details&gt;
 &lt;!-- 从这里开始撰写正文…… --&gt;
 &lt;!-- 

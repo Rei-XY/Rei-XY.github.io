@@ -151,9 +151,9 @@
 &lt;/div&gt;
 &lt;p&gt;  目前使用下来，ezbookkeeping的使用体验还行，亟待后续反馈更新。&lt;/p&gt;
 &lt;p align=&#34;right&#34;&gt;2025.12.12 15:57 Update&lt;/p&gt;
-&lt;!-- &lt;details&gt;
+&lt;!-- &lt;details class=&#34;sc-details&#34;&gt;
     &lt;summary&gt;details&lt;/summary&gt;
-    &lt;div&gt;正文&lt;/div&gt;
+    &lt;div class=&#34;sc-details-inner&#34;&gt;正文&lt;/div&gt;
 &lt;/details&gt;
 
 从这里开始撰写正文……
