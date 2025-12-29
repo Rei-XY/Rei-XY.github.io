@@ -271,20 +271,16 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;h3 id=&#34;nodejs配置&#34;&gt;Node.js配置
 &lt;/h3&gt;&lt;h3 id=&#34;powershell美化&#34;&gt;PowerShell美化
-&lt;/h3&gt;&lt;p&gt;  有几次安装出现过oh-my-posh源文件不在正常路径，这边保险起见在Microsoft Store中安装PowerShell和oh-my-posh。&lt;img src=&#34;https://blog.christinaxy.fun/post/initializepc/pics/pwsh.jpg&#34;
-	width=&#34;2798&#34;
-	height=&#34;1646&#34;
-	srcset=&#34;https://blog.christinaxy.fun/post/initializepc/pics/pwsh_hu_470b905cba6d33e8.jpg 480w, https://blog.christinaxy.fun/post/initializepc/pics/pwsh_hu_f113b289cfca5f36.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;安装内容&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;169&#34;
-		data-flex-basis=&#34;407px&#34;
-	
-&gt;&lt;br&gt;
+&lt;/h3&gt;&lt;p&gt;  有几次安装出现过oh-my-posh源文件不在正常路径，这边保险起见在Microsoft Store中安装PowerShell和oh-my-posh。
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+    &lt;a data-fancybox=&#34;gallery&#34; href=&#34;pics/pwsh.jpg&#34;&gt;
+        &lt;img src=&#34;pics/pwsh.jpg&#34; alt=&#34;安装内容&#34;  /&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;br&gt;
   安装Nerd Fonts，这里我选的是JetBrainsMono Nerd Font Mono。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -494,22 +490,18 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cls
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;  配置好PowerShell7后再配置系统自带的终端，让其默认以PowerShell打开。
-&lt;img src=&#34;https://blog.christinaxy.fun/post/initializepc/pics/terminal_settings1.jpg&#34;
-	width=&#34;2166&#34;
-	height=&#34;1331&#34;
-	srcset=&#34;https://blog.christinaxy.fun/post/initializepc/pics/terminal_settings1_hu_9065e683f8d003c4.jpg 480w, https://blog.christinaxy.fun/post/initializepc/pics/terminal_settings1_hu_47804c1922f13ce5.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;alt text&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;162&#34;
-		data-flex-basis=&#34;390px&#34;
-	
-&gt;
-终端中的PowerShell外观配置：配色方案Ottosson，字体JetBrainsMono Nerd Font Mono，不透明度70%。&lt;br&gt;
+&lt;/div&gt;&lt;p&gt;  配置好PowerShell7后再配置系统自带的终端，让其默认以PowerShell打开。&lt;/p&gt;
+&lt;p&gt;
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+    &lt;a data-fancybox=&#34;gallery&#34; href=&#34;pics/terminal_settings1.jpg&#34;&gt;
+        &lt;img src=&#34;pics/terminal_settings1.jpg&#34; alt=&#34;alt text&#34;  /&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;p&gt;终端中的PowerShell外观配置：配色方案Ottosson，字体JetBrainsMono Nerd Font Mono，不透明度70%。&lt;br&gt;
   VsCode中同样配置好终端字体：&amp;lsquo;设置&amp;rsquo;—&amp;gt;&amp;lsquo;Terminal Intergarted Font Family&amp;rsquo;—&amp;gt;&amp;lsquo;JetBrainsMono Nerd Font Mono&amp;rsquo;&lt;/p&gt;
 &lt;h2 id=&#34;一些好用的软件&#34;&gt;一些好用的软件
 &lt;/h2&gt;&lt;h3 id=&#34;raycast&#34;&gt;Raycast
