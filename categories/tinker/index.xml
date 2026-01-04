@@ -87,7 +87,7 @@
             &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;VsCode 配置settings.json&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td rowspan=&#34;12&#34; style=&#34;text-align: center; vertical-align: middle;&#34;&gt;日常生活&lt;/td&gt;
+            &lt;td rowspan=&#34;13&#34; style=&#34;text-align: center; vertical-align: middle;&#34;&gt;日常生活&lt;/td&gt;
             &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;微信&lt;/td&gt;
             &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;&lt;/td&gt;
         &lt;/tr&gt;
@@ -106,6 +106,10 @@
         &lt;tr&gt;
             &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;Everything&lt;/td&gt;
             &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;LocalSend&lt;/td&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;更改端口+防火墙设置&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
             &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;Mihomo Party&lt;/td&gt;

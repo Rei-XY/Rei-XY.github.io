@@ -591,7 +591,11 @@ JKW这破项目可算是通过了。
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;结&#34;&gt;结
-&lt;/h2&gt;&lt;p align=&#34;right&#34;&gt;xxxxx&lt;/p&gt;</description>
+&lt;/h2&gt;&lt;p&gt;  没想到2025年的尾声是在飞机上度过的，hhhh，何尝不是年年岁岁花相似呢。&lt;/p&gt;
+&lt;!-- 补两张航旅纵横的截图 --&gt;
+&lt;p align=&#34;right&#34;&gt;Update On MU851 2025.12.31 23:24&lt;/p&gt;
+&lt;p align=&#34;right&#34;&gt;2025 End&lt;/p&gt;
+</description>
         </item>
         <item>
         <title>新机初始化配置</title>
@@ -673,7 +677,7 @@ JKW这破项目可算是通过了。
             &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;VsCode 配置settings.json&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td rowspan=&#34;12&#34; style=&#34;text-align: center; vertical-align: middle;&#34;&gt;日常生活&lt;/td&gt;
+            &lt;td rowspan=&#34;13&#34; style=&#34;text-align: center; vertical-align: middle;&#34;&gt;日常生活&lt;/td&gt;
             &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;微信&lt;/td&gt;
             &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;&lt;/td&gt;
         &lt;/tr&gt;
@@ -692,6 +696,10 @@ JKW这破项目可算是通过了。
         &lt;tr&gt;
             &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;Everything&lt;/td&gt;
             &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;LocalSend&lt;/td&gt;
+            &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;更改端口+防火墙设置&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
             &lt;td style=&#34;text-align: center; vertical-align: middle;&#34;&gt;Mihomo Party&lt;/td&gt;
