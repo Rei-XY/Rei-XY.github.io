@@ -635,7 +635,7 @@
 </div>
 
 <br>
-  安装Nerd Fonts，这里我选的是JetBrainsMono Nerd Font Mono。</p>
+  安装Nerd Fonts，这里我选的是ComicShannsMono Nerd Font和JetBrainsMono Nerd Font Mono。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -711,9 +711,11 @@
 </span><span class="lnt">61
 </span><span class="lnt">62
 </span><span class="lnt">63
+</span><span class="lnt">64
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-xy.omp.json" data-lang="xy.omp.json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="err">{</span>
 </span></span><span class="line"><span class="cl">  <span class="nt">&#34;$schema&#34;</span><span class="p">:</span> <span class="s2">&#34;https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json&#34;</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">  <span class="nt">&#34;blocks&#34;</span><span class="p">:</span> <span class="p">[</span>
 </span></span><span class="line"><span class="cl">    <span class="p">{</span>
@@ -738,7 +740,7 @@
 </span></span><span class="line"><span class="cl">        <span class="p">{</span>
 </span></span><span class="line"><span class="cl">          <span class="nt">&#34;foreground&#34;</span><span class="p">:</span> <span class="s2">&#34;#14A5AE&#34;</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">          <span class="nt">&#34;foreground_templates&#34;</span><span class="p">:</span> <span class="p">[</span>
-</span></span><span class="line"><span class="cl">            <span class="s2">&#34;{{ if or (.Working.Changed) (.Staging.Changed) }}#FF9248{{ end }}&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="s2">&#34;{{ if or (.Working.Changed) (.Staging.Changed) }}#FF8899{{ end }}&#34;</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">            <span class="s2">&#34;{{ if gt .Behind 0 }}#FF4500{{ end }}&#34;</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">            <span class="s2">&#34;{{ if gt .Ahead 0 }}#61C3E6{{ end }}&#34;</span>
 </span></span><span class="line"><span class="cl">          <span class="p">],</span>
@@ -748,7 +750,7 @@
 </span></span><span class="line"><span class="cl">            <span class="nt">&#34;fetch_upstream_icon&#34;</span><span class="p">:</span> <span class="kc">true</span>
 </span></span><span class="line"><span class="cl">          <span class="p">},</span>
 </span></span><span class="line"><span class="cl">          <span class="nt">&#34;style&#34;</span><span class="p">:</span> <span class="s2">&#34;plain&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">          <span class="nt">&#34;template&#34;</span><span class="p">:</span> <span class="s2">&#34;{{ .UpstreamIcon }}{{ .HEAD }}{{ if gt .StashCount 0 }} \ueb4b {{ .StashCount }}{{ end }} &#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">          <span class="nt">&#34;template&#34;</span><span class="p">:</span> <span class="s2">&#34;{{ .UpstreamIcon }}{{ .HEAD }}{{ if .Working.Changed }} o((&gt;w&lt;))o{{ end }}{{ if .Staging.Changed }} (・w・){{ end }}{{ if gt .Ahead 0 }} ヾ(•w•`)o{{ end }}{{ if and (not .Working.Changed) (not .Staging.Changed) (eq .Ahead 0) }} (*^_^*){{ end }}{{ if gt .StashCount 0 }} \ueb4b {{ .StashCount }}{{ end }} &#34;</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">          <span class="nt">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;git&#34;</span>
 </span></span><span class="line"><span class="cl">        <span class="p">}</span>
 </span></span><span class="line"><span class="cl">      <span class="p">],</span>
