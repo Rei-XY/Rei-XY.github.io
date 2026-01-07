@@ -711,34 +711,6 @@
 </span><span class="lnt">61
 </span><span class="lnt">62
 </span><span class="lnt">63
-</span><span class="lnt">64
-</span><span class="lnt">65
-</span><span class="lnt">66
-</span><span class="lnt">67
-</span><span class="lnt">68
-</span><span class="lnt">69
-</span><span class="lnt">70
-</span><span class="lnt">71
-</span><span class="lnt">72
-</span><span class="lnt">73
-</span><span class="lnt">74
-</span><span class="lnt">75
-</span><span class="lnt">76
-</span><span class="lnt">77
-</span><span class="lnt">78
-</span><span class="lnt">79
-</span><span class="lnt">80
-</span><span class="lnt">81
-</span><span class="lnt">82
-</span><span class="lnt">83
-</span><span class="lnt">84
-</span><span class="lnt">85
-</span><span class="lnt">86
-</span><span class="lnt">87
-</span><span class="lnt">88
-</span><span class="lnt">89
-</span><span class="lnt">90
-</span><span class="lnt">91
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-xy.omp.json" data-lang="xy.omp.json"><span class="line"><span class="cl"><span class="p">{</span>
@@ -748,69 +720,36 @@
 </span></span><span class="line"><span class="cl">      <span class="nt">&#34;alignment&#34;</span><span class="p">:</span> <span class="s2">&#34;left&#34;</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">      <span class="nt">&#34;segments&#34;</span><span class="p">:</span> <span class="p">[</span>
 </span></span><span class="line"><span class="cl">        <span class="p">{</span>
-</span></span><span class="line"><span class="cl">          <span class="nt">&#34;foreground&#34;</span><span class="p">:</span> <span class="s2">&#34;white&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">          <span class="nt">&#34;properties&#34;</span><span class="p">:</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="nt">&#34;fetch_version&#34;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">            <span class="nt">&#34;fetch_virtual_env&#34;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">            <span class="nt">&#34;home_enabled&#34;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">            <span class="nt">&#34;display_mode&#34;</span><span class="p">:</span> <span class="s2">&#34;environment&#34;</span>
-</span></span><span class="line"><span class="cl">          <span class="p">},</span>
+</span></span><span class="line"><span class="cl">          <span class="nt">&#34;foreground&#34;</span><span class="p">:</span> <span class="s2">&#34;#45F1C2&#34;</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">          <span class="nt">&#34;style&#34;</span><span class="p">:</span> <span class="s2">&#34;plain&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">          <span class="nt">&#34;template&#34;</span><span class="p">:</span> <span class="s2">&#34;({{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }})&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">          <span class="nt">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;python&#34;</span>
-</span></span><span class="line"><span class="cl">        <span class="p">}</span>
-</span></span><span class="line"><span class="cl">      <span class="p">],</span>
-</span></span><span class="line"><span class="cl">      <span class="nt">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;prompt&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="p">},</span>
-</span></span><span class="line"><span class="cl">    <span class="p">{</span>
-</span></span><span class="line"><span class="cl">      <span class="nt">&#34;alignment&#34;</span><span class="p">:</span> <span class="s2">&#34;left&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">      <span class="nt">&#34;newline&#34;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">      <span class="nt">&#34;segments&#34;</span><span class="p">:</span> <span class="p">[</span>
-</span></span><span class="line"><span class="cl">        <span class="p">{</span>
-</span></span><span class="line"><span class="cl">          <span class="nt">&#34;foreground&#34;</span><span class="p">:</span> <span class="s2">&#34;lightBlue&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">          <span class="nt">&#34;style&#34;</span><span class="p">:</span> <span class="s2">&#34;plain&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">          <span class="nt">&#34;template&#34;</span><span class="p">:</span> <span class="s2">&#34;# &#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">          <span class="nt">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;text&#34;</span>
-</span></span><span class="line"><span class="cl">        <span class="p">},</span>
-</span></span><span class="line"><span class="cl">        <span class="p">{</span>
-</span></span><span class="line"><span class="cl">          <span class="nt">&#34;foreground&#34;</span><span class="p">:</span> <span class="s2">&#34;red&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">          <span class="nt">&#34;style&#34;</span><span class="p">:</span> <span class="s2">&#34;plain&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">          <span class="nt">&#34;template&#34;</span><span class="p">:</span> <span class="s2">&#34; % &#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">          <span class="nt">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;root&#34;</span>
-</span></span><span class="line"><span class="cl">        <span class="p">},</span>
-</span></span><span class="line"><span class="cl">        <span class="p">{</span>
-</span></span><span class="line"><span class="cl">          <span class="nt">&#34;style&#34;</span><span class="p">:</span> <span class="s2">&#34;plain&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">          <span class="nt">&#34;template&#34;</span><span class="p">:</span> <span class="s2">&#34;&lt;cyan&gt;{{ .UserName }}&lt;/&gt; &lt;darkGray&gt;@&lt;/&gt; &lt;green&gt;{{ .HostName }}&lt;/&gt; &#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">          <span class="nt">&#34;template&#34;</span><span class="p">:</span> <span class="s2">&#34;\ueb99 {{ .UserName }} on&#34;</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">          <span class="nt">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;session&#34;</span>
 </span></span><span class="line"><span class="cl">        <span class="p">},</span>
 </span></span><span class="line"><span class="cl">        <span class="p">{</span>
-</span></span><span class="line"><span class="cl">          <span class="nt">&#34;foreground&#34;</span><span class="p">:</span> <span class="s2">&#34;lightYellow&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">          <span class="nt">&#34;foreground&#34;</span><span class="p">:</span> <span class="s2">&#34;#0CA0D8&#34;</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">          <span class="nt">&#34;properties&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nt">&#34;folder_separator_icon&#34;</span><span class="p">:</span> <span class="s2">&#34;/&#34;</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">            <span class="nt">&#34;style&#34;</span><span class="p">:</span> <span class="s2">&#34;full&#34;</span>
 </span></span><span class="line"><span class="cl">          <span class="p">},</span>
 </span></span><span class="line"><span class="cl">          <span class="nt">&#34;style&#34;</span><span class="p">:</span> <span class="s2">&#34;plain&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">          <span class="nt">&#34;template&#34;</span><span class="p">:</span> <span class="s2">&#34;&lt;darkGray&gt;in &lt;/&gt;{{ .Path }} &#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">          <span class="nt">&#34;template&#34;</span><span class="p">:</span> <span class="s2">&#34; \uf07b {{ .Path }} &#34;</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">          <span class="nt">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;path&#34;</span>
 </span></span><span class="line"><span class="cl">        <span class="p">},</span>
 </span></span><span class="line"><span class="cl">        <span class="p">{</span>
-</span></span><span class="line"><span class="cl">          <span class="nt">&#34;style&#34;</span><span class="p">:</span> <span class="s2">&#34;plain&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">          <span class="nt">&#34;template&#34;</span><span class="p">:</span> <span class="s2">&#34;&lt;darkGray&gt;on&lt;/&gt; &lt;white&gt;git:&lt;/&gt;&lt;cyan&gt;{{ .HEAD }}&lt;/&gt;{{ if .Staging.Changed }}&lt;green&gt; +&lt;/&gt;{{ end }}{{ if .Working.Changed }}&lt;red&gt; !&lt;/&gt;{{ end }} &#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">          <span class="nt">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;git&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">          <span class="nt">&#34;foreground&#34;</span><span class="p">:</span> <span class="s2">&#34;#14A5AE&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">          <span class="nt">&#34;foreground_templates&#34;</span><span class="p">:</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">            <span class="s2">&#34;{{ if or (.Working.Changed) (.Staging.Changed) }}#FF9248{{ end }}&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="s2">&#34;{{ if gt .Behind 0 }}#FF4500{{ end }}&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="s2">&#34;{{ if gt .Ahead 0 }}#61C3E6{{ end }}&#34;</span>
+</span></span><span class="line"><span class="cl">          <span class="p">],</span>
+</span></span><span class="line"><span class="cl">          <span class="nt">&#34;powerline_symbol&#34;</span><span class="p">:</span> <span class="s2">&#34;\ue0b0&#34;</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">          <span class="nt">&#34;properties&#34;</span><span class="p">:</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="nt">&#34;fetch_status&#34;</span><span class="p">:</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl">          <span class="p">}</span>
-</span></span><span class="line"><span class="cl">        <span class="p">},</span>
-</span></span><span class="line"><span class="cl">        <span class="p">{</span>
-</span></span><span class="line"><span class="cl">          <span class="nt">&#34;foreground&#34;</span><span class="p">:</span> <span class="s2">&#34;darkGray&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="nt">&#34;fetch_status&#34;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="nt">&#34;fetch_upstream_icon&#34;</span><span class="p">:</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">          <span class="p">},</span>
 </span></span><span class="line"><span class="cl">          <span class="nt">&#34;style&#34;</span><span class="p">:</span> <span class="s2">&#34;plain&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">          <span class="nt">&#34;template&#34;</span><span class="p">:</span> <span class="s2">&#34;[{{ .CurrentDate | date .Format }}]&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">          <span class="nt">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;time&#34;</span>
-</span></span><span class="line"><span class="cl">        <span class="p">},</span>
-</span></span><span class="line"><span class="cl">        <span class="p">{</span>
-</span></span><span class="line"><span class="cl">          <span class="nt">&#34;foreground&#34;</span><span class="p">:</span> <span class="s2">&#34;red&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">          <span class="nt">&#34;style&#34;</span><span class="p">:</span> <span class="s2">&#34;plain&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">          <span class="nt">&#34;template&#34;</span><span class="p">:</span> <span class="s2">&#34; C:{{ if gt .Code 0 }}{{ .Code }}{{ end }} &#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">          <span class="nt">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;status&#34;</span>
+</span></span><span class="line"><span class="cl">          <span class="nt">&#34;template&#34;</span><span class="p">:</span> <span class="s2">&#34;{{ .UpstreamIcon }}{{ .HEAD }}{{ if gt .StashCount 0 }} \ueb4b {{ .StashCount }}{{ end }} &#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">          <span class="nt">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;git&#34;</span>
 </span></span><span class="line"><span class="cl">        <span class="p">}</span>
 </span></span><span class="line"><span class="cl">      <span class="p">],</span>
 </span></span><span class="line"><span class="cl">      <span class="nt">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;prompt&#34;</span>
@@ -820,16 +759,21 @@
 </span></span><span class="line"><span class="cl">      <span class="nt">&#34;newline&#34;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">      <span class="nt">&#34;segments&#34;</span><span class="p">:</span> <span class="p">[</span>
 </span></span><span class="line"><span class="cl">        <span class="p">{</span>
-</span></span><span class="line"><span class="cl">          <span class="nt">&#34;foreground&#34;</span><span class="p">:</span> <span class="s2">&#34;lightRed&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">          <span class="nt">&#34;foreground&#34;</span><span class="p">:</span> <span class="s2">&#34;#cd5e42&#34;</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">          <span class="nt">&#34;style&#34;</span><span class="p">:</span> <span class="s2">&#34;plain&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">          <span class="nt">&#34;template&#34;</span><span class="p">:</span> <span class="s2">&#34;$&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">          <span class="nt">&#34;template&#34;</span><span class="p">:</span> <span class="s2">&#34;\ue3bf &#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">          <span class="nt">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;root&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">          <span class="nt">&#34;foreground&#34;</span><span class="p">:</span> <span class="s2">&#34;#CD4277&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">          <span class="nt">&#34;style&#34;</span><span class="p">:</span> <span class="s2">&#34;plain&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">          <span class="nt">&#34;template&#34;</span><span class="p">:</span> <span class="s2">&#34;# &#34;</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">          <span class="nt">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;text&#34;</span>
 </span></span><span class="line"><span class="cl">        <span class="p">}</span>
 </span></span><span class="line"><span class="cl">      <span class="p">],</span>
 </span></span><span class="line"><span class="cl">      <span class="nt">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;prompt&#34;</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl">  <span class="p">],</span>
-</span></span><span class="line"><span class="cl">  <span class="nt">&#34;final_space&#34;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">  <span class="nt">&#34;version&#34;</span><span class="p">:</span> <span class="mi">3</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></td></tr></table>
