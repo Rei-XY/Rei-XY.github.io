@@ -544,7 +544,7 @@
 
 &lt;/p&gt;
 &lt;p&gt;终端中的PowerShell外观配置：配色方案Ottosson，字体JetBrainsMono Nerd Font Mono，不透明度70%。&lt;br&gt;
-  VsCode中同样配置好终端字体：&amp;lsquo;设置&amp;rsquo;—&amp;gt;&amp;lsquo;Terminal Intergarted Font Family&amp;rsquo;—&amp;gt;&amp;lsquo;JetBrainsMono Nerd Font Mono&amp;rsquo;&lt;/p&gt;
+  VsCode中同样配置好终端字体：&amp;lsquo;设置&amp;rsquo;—&amp;gt;&amp;lsquo;Terminal Intergarted Font Family&amp;rsquo;—&amp;gt;&amp;quot;&amp;lsquo;ComicShannsMono Nerd Font&amp;rsquo;, &amp;lsquo;JetBrainsMono Nerd Font Mono&amp;rsquo;&amp;quot;&lt;/p&gt;
 &lt;h2 id=&#34;一些好用的软件&#34;&gt;一些好用的软件
 &lt;/h2&gt;&lt;h3 id=&#34;raycast&#34;&gt;Raycast
 &lt;/h3&gt;&lt;p&gt;  今天在北京出差，偶然间刷到了一个关于Raycast的视频，现在进行windows的内测，感觉挺有意思的，想到了之前用Listary的时候，Listary使用的时候有一个很难受的问题是会自动建立U盘的索引，一旦U盘文件多了以后就会，很长时间内就无法弹出U盘，虽然可以设置Listary不建立索引，但是偶尔偶尔也会产生bug，比较奇葩。Raycast原先是适配MacOs的，之前用Mac的时候command+Q直接进行搜索确实方便，现在有了Raycast直接Alt+Space能做到类似的效果，比较喜欢，开一节记录一下使用感受ヾ(•ω•`)o&lt;/p&gt;
