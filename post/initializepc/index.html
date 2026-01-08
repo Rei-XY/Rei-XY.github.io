@@ -711,11 +711,9 @@
 </span><span class="lnt">61
 </span><span class="lnt">62
 </span><span class="lnt">63
-</span><span class="lnt">64
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-xy.omp.json" data-lang="xy.omp.json"><span class="line"><span class="cl"><span class="p">{</span>
-</span></span><span class="line"><span class="cl"><span class="err">{</span>
 </span></span><span class="line"><span class="cl">  <span class="nt">&#34;$schema&#34;</span><span class="p">:</span> <span class="s2">&#34;https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json&#34;</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">  <span class="nt">&#34;blocks&#34;</span><span class="p">:</span> <span class="p">[</span>
 </span></span><span class="line"><span class="cl">    <span class="p">{</span>
@@ -810,13 +808,31 @@
   下面是PowerShell配置文件内容：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># 选择自己想要的主题文件
@@ -826,6 +842,24 @@
 </span></span><span class="line"><span class="cl">Import-Module Terminal-Icons
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">cls
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># 简单的 Conda 延迟加载
+</span></span><span class="line"><span class="cl">function Invoke-CondaInit {
+</span></span><span class="line"><span class="cl">    if (-not $script:CondaAlreadyInitialized) {
+</span></span><span class="line"><span class="cl">        Write-Host &#34;正在初始化 Conda...&#34; -ForegroundColor Yellow
+</span></span><span class="line"><span class="cl">        If (Test-Path &#34;C:\Software\Anaconda\Scripts\conda.exe&#34;) {
+</span></span><span class="line"><span class="cl">            (&amp; &#34;C:\Software\Anaconda\Scripts\conda.exe&#34; &#34;shell.powershell&#34; &#34;hook&#34;) | Out-String | Where-Object {$_} | Invoke-Expression
+</span></span><span class="line"><span class="cl">        }
+</span></span><span class="line"><span class="cl">        $script:CondaAlreadyInitialized = $true
+</span></span><span class="line"><span class="cl">    }
+</span></span><span class="line"><span class="cl">}
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># 只有在使用 conda 相关命令时才初始化
+</span></span><span class="line"><span class="cl">Set-Alias -Name conda -Value conda-wrapper
+</span></span><span class="line"><span class="cl">function conda-wrapper {
+</span></span><span class="line"><span class="cl">    Invoke-CondaInit
+</span></span><span class="line"><span class="cl">    conda @args
+</span></span><span class="line"><span class="cl">}
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>  配置好PowerShell7后再配置系统自带的终端，让其默认以PowerShell打开。</p>
@@ -1047,6 +1081,7 @@
             <section class="running-time">
                 本博客已稳定运行
                 <span id="runningdays" class="running-days"></span>
+                <a href="https://beian.miit.gov.cn/" target="_blank">(备案号:苏ICP备2026001329号-1)</a>
             </section>
     </section>
 </footer>
