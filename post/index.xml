@@ -23,11 +23,19 @@
   &lt;div class=&#34;timeline-marker&#34;&gt;&lt;/div&gt;
   &lt;div class=&#34;timeline-content&#34;&gt;
       &lt;p class=&#34;timeline-date&#34;&gt;2026-01-01&lt;/p&gt;
-      &lt;div class=&#34;timeline-text&#34;&gt;
-  &amp;emsp;&amp;emsp;元旦南京行~&lt;br&gt;
-  &amp;emsp;&amp;emsp;在一家烧烤店看到的黄金迪迦，太带派了！！！
-  ![黄金迪迦](https://raw.githubusercontent.com/Rei-XY/Cloud-Image/main/Blog/2026-01-03元旦南京行/黄金迪迦.jpg)
-  &lt;/div&gt;
+      &lt;div class=&#34;timeline-text&#34;&gt;&lt;p&gt;  元旦南京行~&lt;br&gt;
+  在一家烧烤店看到的黄金迪迦，太带派了！！！
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+    &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://raw.githubusercontent.com/Rei-XY/Cloud-Image/main/Blog/2026-01-03%e5%85%83%e6%97%a6%e5%8d%97%e4%ba%ac%e8%a1%8c/%e9%bb%84%e9%87%91%e8%bf%aa%e8%bf%a6.jpg&#34;&gt;
+        &lt;img src=&#34;https://raw.githubusercontent.com/Rei-XY/Cloud-Image/main/Blog/2026-01-03%e5%85%83%e6%97%a6%e5%8d%97%e4%ba%ac%e8%a1%8c/%e9%bb%84%e9%87%91%e8%bf%aa%e8%bf%a6.jpg&#34; alt=&#34;黄金迪迦&#34;  /&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;/div&gt;
   &lt;/div&gt;
 &lt;/li&gt;
 
