@@ -69,7 +69,7 @@
   &lt;div class=&#34;timeline-content&#34;&gt;
       &lt;p class=&#34;timeline-date&#34;&gt;2026-01-08&lt;/p&gt;
       &lt;div class=&#34;timeline-text&#34;&gt;
-  &amp;emsp;&amp;emsp;2026年北京的第一次出差。
+  &amp;emsp;&amp;emsp;2026年第一次出差 —&gt; 北京
   &lt;/div&gt;
   &lt;/div&gt;
 &lt;/li&gt;
@@ -130,9 +130,73 @@
                             &lt;a href=&#34;&#34; class=&#34;cute&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;爱情怎么翻译?&lt;/a&gt;
                         &lt;/div&gt;
                         &lt;div class=&#34;rating&#34;&gt;
-                            &lt;span class=&#34;rating_nums&#34;&gt;Rating: ★★★★&lt;/span&gt;
+                            &lt;span class=&#34;rating_nums&#34;&gt;Rating: ★★★&lt;/span&gt;
                         &lt;/div&gt;
                         &lt;div class=&#34;db-card-abstract&#34;&gt;xxxx&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&#34;db-card-cate&#34;&gt;Tv&lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+
+
+  &lt;li class=&#34;timeline-item&#34;&gt;
+  &lt;div class=&#34;timeline-marker&#34;&gt;&lt;/div&gt;
+  &lt;div class=&#34;timeline-content&#34;&gt;
+      &lt;p class=&#34;timeline-date&#34;&gt;2026-01-27&lt;/p&gt;
+      &lt;div class=&#34;timeline-text&#34;&gt;&lt;p&gt;  2026年第二次出差 —&amp;gt; 北京&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/li&gt;
+
+
+  &lt;li class=&#34;timeline-item&#34;&gt;
+    &lt;div class=&#34;timeline-marker&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;timeline-content&#34;&gt;
+        &lt;p class=&#34;timeline-date&#34;&gt;2026-02-19&lt;/p&gt;
+        &lt;div class=&#34;timeline-text&#34;&gt;
+            &lt;div class=&#34;db-card timeline-db-card&#34;&gt;
+                &lt;div class=&#34;db-card-subject&#34;&gt;
+                    &lt;div class=&#34;db-card-post&#34;&gt;
+                        &lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; referrerpolicy=&#34;no-referrer&#34; src=&#34;https://raw.githubusercontent.com/Rei-XY/Cloud-Image/main/Blog/Cover/%e9%95%96%e4%ba%ba-%e6%b5%b7%e6%8a%a5.jpg&#34;&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&#34;db-card-content&#34;&gt;
+                        &lt;div class=&#34;db-card-title&#34;&gt;
+                            &lt;a href=&#34;&#34; class=&#34;cute&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;镖人：风起大漠&lt;/a&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&#34;rating&#34;&gt;
+                            &lt;span class=&#34;rating_nums&#34;&gt;Rating: ★★&lt;/span&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&#34;db-card-abstract&#34;&gt;WTF，太特么烂了，我居然能在2026年还能看到这种台词：“我是莫家的阿育娅，我就是大沙暴！”，这部剧的逻辑我感觉就是稀碎&amp;#43;稀烂，头号通缉犯&amp;#43;一代大儒居然喊着“知世郎要坐马车，知世郎要坐马车”，群像稀碎，懒得吐槽。&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&#34;db-card-cate&#34;&gt;Movie&lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+
+
+  &lt;li class=&#34;timeline-item&#34;&gt;
+    &lt;div class=&#34;timeline-marker&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;timeline-content&#34;&gt;
+        &lt;p class=&#34;timeline-date&#34;&gt;2026-02-20&lt;/p&gt;
+        &lt;div class=&#34;timeline-text&#34;&gt;
+            &lt;div class=&#34;db-card timeline-db-card&#34;&gt;
+                &lt;div class=&#34;db-card-subject&#34;&gt;
+                    &lt;div class=&#34;db-card-post&#34;&gt;
+                        &lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; referrerpolicy=&#34;no-referrer&#34; src=&#34;https://raw.githubusercontent.com/Rei-XY/Cloud-Image/main/Blog/Cover/%e8%af%b7%e5%9b%9e%e7%ad%941988-%e6%b5%b7%e6%8a%a5.jpg&#34;&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&#34;db-card-content&#34;&gt;
+                        &lt;div class=&#34;db-card-title&#34;&gt;
+                            &lt;a href=&#34;&#34; class=&#34;cute&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;请回答1988&lt;/a&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&#34;rating&#34;&gt;
+                            &lt;span class=&#34;rating_nums&#34;&gt;Rating: ★★★★★&lt;/span&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&#34;db-card-abstract&#34;&gt;&lt;/div&gt;
                     &lt;/div&gt;
                     &lt;div class=&#34;db-card-cate&#34;&gt;Tv&lt;/div&gt;
                 &lt;/div&gt;
