@@ -16,7 +16,7 @@
         <description>&lt;img src="https://blog.christinaxy.fun/img/defaultimage.png" alt="Featured image of post 2026" /&gt;&lt;h2 id=&#34;序&#34;&gt;序
 &lt;/h2&gt;&lt;h2 id=&#34;第一季度&#34;&gt;第一季度
 &lt;/h2&gt;&lt;h3 id=&#34;timeline&#34;&gt;Timeline
-&lt;/h3&gt;&lt;p&gt;&lt;ul class=&#34;timeline-container&#34;&gt;
+&lt;/h3&gt;&lt;ul class=&#34;timeline-container&#34;&gt;
   
 
   &lt;li class=&#34;timeline-item&#34;&gt;
@@ -136,6 +136,7 @@
                     &lt;/div&gt;
                     &lt;div class=&#34;db-card-cate&#34;&gt;Tv&lt;/div&gt;
                 &lt;/div&gt;
+                
             &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
@@ -153,63 +154,100 @@
 
 
   &lt;li class=&#34;timeline-item&#34;&gt;
-    &lt;div class=&#34;timeline-marker&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;timeline-content&#34;&gt;
-        &lt;p class=&#34;timeline-date&#34;&gt;2026-02-19&lt;/p&gt;
-        &lt;div class=&#34;timeline-text&#34;&gt;
-            &lt;div class=&#34;db-card timeline-db-card&#34;&gt;
-                &lt;div class=&#34;db-card-subject&#34;&gt;
-                    &lt;div class=&#34;db-card-post&#34;&gt;
-                        &lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; referrerpolicy=&#34;no-referrer&#34; src=&#34;https://raw.githubusercontent.com/Rei-XY/Cloud-Image/main/Blog/Cover/%e9%95%96%e4%ba%ba-%e6%b5%b7%e6%8a%a5.jpg&#34;&gt;
-                    &lt;/div&gt;
-                    &lt;div class=&#34;db-card-content&#34;&gt;
-                        &lt;div class=&#34;db-card-title&#34;&gt;
-                            &lt;a href=&#34;&#34; class=&#34;cute&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;镖人：风起大漠&lt;/a&gt;
-                        &lt;/div&gt;
-                        &lt;div class=&#34;rating&#34;&gt;
-                            &lt;span class=&#34;rating_nums&#34;&gt;Rating: ★★&lt;/span&gt;
-                        &lt;/div&gt;
-                        &lt;div class=&#34;db-card-abstract&#34;&gt;WTF，太特么烂了，我居然能在2026年还能看到这种台词：“我是莫家的阿育娅，我就是大沙暴！”，这部剧的逻辑我感觉就是稀碎&amp;#43;稀烂，头号通缉犯&amp;#43;一代大儒居然喊着“知世郎要坐马车，知世郎要坐马车”，群像稀碎，懒得吐槽。&lt;/div&gt;
-                    &lt;/div&gt;
-                    &lt;div class=&#34;db-card-cate&#34;&gt;Movie&lt;/div&gt;
-                &lt;/div&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/li&gt;
+  &lt;div class=&#34;timeline-marker&#34;&gt;&lt;/div&gt;
+  &lt;div class=&#34;timeline-content&#34;&gt;
+      &lt;p class=&#34;timeline-date&#34;&gt;2026-02-19&lt;/p&gt;
+      &lt;div class=&#34;timeline-text&#34;&gt;
+          &lt;div class=&#34;db-card timeline-db-card&#34;&gt;
+              &lt;div class=&#34;db-card-subject&#34;&gt;
+                  &lt;div class=&#34;db-card-post&#34;&gt;
+                      &lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; referrerpolicy=&#34;no-referrer&#34; src=&#34;https://raw.githubusercontent.com/Rei-XY/Cloud-Image/main/Blog/Cover/%e9%95%96%e4%ba%ba-%e6%b5%b7%e6%8a%a5.jpg&#34;&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;db-card-content&#34;&gt;
+                      &lt;div class=&#34;db-card-title&#34;&gt;
+                          &lt;a href=&#34;&#34; class=&#34;cute&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;镖人：风起大漠&lt;/a&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&#34;rating&#34;&gt;
+                          &lt;span class=&#34;rating_nums&#34;&gt;Rating: ★★&lt;/span&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&#34;db-card-abstract&#34;&gt;WTF，太特么烂了，我居然能在2026年还能看到这种台词：“我是莫家的阿育娅，我就是大沙暴！”，这部剧的逻辑我感觉就是稀碎&amp;#43;稀烂，头号通缉犯&amp;#43;一代大儒居然喊着“知世郎要坐马车，知世郎要坐马车”，群像稀碎，懒得吐槽。&lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;db-card-cate&#34;&gt;Movie&lt;/div&gt;
+              &lt;/div&gt;
+              
+              &lt;div class=&#34;db-card-extra&#34;&gt;
+                  
+  
+              &lt;/div&gt;
+              
+          &lt;/div&gt;
+      &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/li&gt;
 
 
   &lt;li class=&#34;timeline-item&#34;&gt;
-    &lt;div class=&#34;timeline-marker&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;timeline-content&#34;&gt;
-        &lt;p class=&#34;timeline-date&#34;&gt;2026-02-20&lt;/p&gt;
-        &lt;div class=&#34;timeline-text&#34;&gt;
-            &lt;div class=&#34;db-card timeline-db-card&#34;&gt;
-                &lt;div class=&#34;db-card-subject&#34;&gt;
-                    &lt;div class=&#34;db-card-post&#34;&gt;
-                        &lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; referrerpolicy=&#34;no-referrer&#34; src=&#34;https://raw.githubusercontent.com/Rei-XY/Cloud-Image/main/Blog/Cover/%e8%af%b7%e5%9b%9e%e7%ad%941988-%e6%b5%b7%e6%8a%a5.jpg&#34;&gt;
-                    &lt;/div&gt;
-                    &lt;div class=&#34;db-card-content&#34;&gt;
-                        &lt;div class=&#34;db-card-title&#34;&gt;
-                            &lt;a href=&#34;&#34; class=&#34;cute&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;请回答1988&lt;/a&gt;
-                        &lt;/div&gt;
-                        &lt;div class=&#34;rating&#34;&gt;
-                            &lt;span class=&#34;rating_nums&#34;&gt;Rating: ★★★★★&lt;/span&gt;
-                        &lt;/div&gt;
-                        &lt;div class=&#34;db-card-abstract&#34;&gt;&lt;/div&gt;
-                    &lt;/div&gt;
-                    &lt;div class=&#34;db-card-cate&#34;&gt;Tv&lt;/div&gt;
-                &lt;/div&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/li&gt;
+  &lt;div class=&#34;timeline-marker&#34;&gt;&lt;/div&gt;
+  &lt;div class=&#34;timeline-content&#34;&gt;
+      &lt;p class=&#34;timeline-date&#34;&gt;2026-02-20&lt;/p&gt;
+      &lt;div class=&#34;timeline-text&#34;&gt;
+          &lt;div class=&#34;db-card timeline-db-card&#34;&gt;
+              &lt;div class=&#34;db-card-subject&#34;&gt;
+                  &lt;div class=&#34;db-card-post&#34;&gt;
+                      &lt;img loading=&#34;lazy&#34; decoding=&#34;async&#34; referrerpolicy=&#34;no-referrer&#34; src=&#34;https://raw.githubusercontent.com/Rei-XY/Cloud-Image/main/Blog/Cover/%e8%af%b7%e5%9b%9e%e7%ad%941988-%e6%b5%b7%e6%8a%a5.jpg&#34;&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;db-card-content&#34;&gt;
+                      &lt;div class=&#34;db-card-title&#34;&gt;
+                          &lt;a href=&#34;&#34; class=&#34;cute&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;请回答1988&lt;/a&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&#34;rating&#34;&gt;
+                          &lt;span class=&#34;rating_nums&#34;&gt;Rating: ★★★★★&lt;/span&gt;
+                      &lt;/div&gt;
+                      &lt;div class=&#34;db-card-abstract&#34;&gt;该如何去形容看完这部剧的心情呢？开心、感动、难过、不舍，五味杂陈，就像失去了一群特别要好的朋友，怅然若失，好久没有如此强烈的戒断反应了，这部剧比《苦尽柑来遇到你》后劲更大，这种笑中带泪的观看体验真的太犯规了，结尾伴随着德善的旁白，一帧一帧闪过的回忆，倒放的镜头，真的很感慨，像是在和双门洞的老朋友告别，没有人会不喜欢双门洞4个家庭的友谊，也没有人会不喜欢1988年双门洞的锦瑟年华，再见双门洞≧﹏≦&lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;db-card-cate&#34;&gt;Tv&lt;/div&gt;
+              &lt;/div&gt;
+              
+              &lt;div class=&#34;db-card-extra&#34;&gt;
+                  
+  &lt;div class=&#34;music-container&#34;&gt;
+    &lt;meting-js server=&#34;netease&#34; type=&#34;song&#34; id=&#34;1883750028&#34;&gt;&lt;/meting-js&gt;
+  &lt;!-- MusicInfo --&gt;
+    &lt;p class=&#34;music-note&#34; style=&#34;color:#3388BB&#34;&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  
+              &lt;/div&gt;
+              
+          &lt;/div&gt;
+      &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/li&gt;
+
+
+  &lt;li class=&#34;timeline-item&#34;&gt;
+  &lt;div class=&#34;timeline-marker&#34;&gt;&lt;/div&gt;
+  &lt;div class=&#34;timeline-content&#34;&gt;
+      &lt;p class=&#34;timeline-date&#34;&gt;2026-02-28&lt;/p&gt;
+      &lt;div class=&#34;timeline-text&#34;&gt;&lt;p&gt;  美以攻打伊朗？伊朗solo高难度副本？！哈梅内伊居然安然无恙！！&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/li&gt;
+
+
+  &lt;li class=&#34;timeline-item&#34;&gt;
+  &lt;div class=&#34;timeline-marker&#34;&gt;&lt;/div&gt;
+  &lt;div class=&#34;timeline-content&#34;&gt;
+      &lt;p class=&#34;timeline-date&#34;&gt;2026-03-01&lt;/p&gt;
+      &lt;div class=&#34;timeline-text&#34;&gt;&lt;p&gt;  一觉醒来，哈梅内伊遇害了，悲{{{(&amp;gt;_&amp;lt;)}}}&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/li&gt;
 
 
   
 &lt;/ul&gt;
 
-xxxx&lt;/p&gt;
+&lt;p&gt;xxxx&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -269,6 +307,7 @@ xxxx&lt;/p&gt;
                   &lt;/div&gt;
                   &lt;div class=&#34;db-card-cate&#34;&gt;Movie&lt;/div&gt;
               &lt;/div&gt;
+              
           &lt;/div&gt;
       &lt;/div&gt;
   &lt;/div&gt;
@@ -349,6 +388,7 @@ xxxx&lt;/p&gt;
                   &lt;/div&gt;
                   &lt;div class=&#34;db-card-cate&#34;&gt;Anime&lt;/div&gt;
               &lt;/div&gt;
+              
           &lt;/div&gt;
       &lt;/div&gt;
   &lt;/div&gt;
@@ -376,6 +416,7 @@ xxxx&lt;/p&gt;
                   &lt;/div&gt;
                   &lt;div class=&#34;db-card-cate&#34;&gt;Movie&lt;/div&gt;
               &lt;/div&gt;
+              
           &lt;/div&gt;
       &lt;/div&gt;
   &lt;/div&gt;
@@ -426,6 +467,7 @@ xxxx&lt;/p&gt;
                   &lt;/div&gt;
                   &lt;div class=&#34;db-card-cate&#34;&gt;Anime&lt;/div&gt;
               &lt;/div&gt;
+              
           &lt;/div&gt;
       &lt;/div&gt;
   &lt;/div&gt;
@@ -545,6 +587,7 @@ xxxx&lt;/p&gt;
                   &lt;/div&gt;
                   &lt;div class=&#34;db-card-cate&#34;&gt;Tv&lt;/div&gt;
               &lt;/div&gt;
+              
           &lt;/div&gt;
       &lt;/div&gt;
   &lt;/div&gt;
@@ -572,6 +615,7 @@ xxxx&lt;/p&gt;
                   &lt;/div&gt;
                   &lt;div class=&#34;db-card-cate&#34;&gt;Tv&lt;/div&gt;
               &lt;/div&gt;
+              
           &lt;/div&gt;
       &lt;/div&gt;
   &lt;/div&gt;
@@ -758,6 +802,7 @@ JKW这破项目可算是通过了。
                   &lt;/div&gt;
                   &lt;div class=&#34;db-card-cate&#34;&gt;Movie&lt;/div&gt;
               &lt;/div&gt;
+              
           &lt;/div&gt;
       &lt;/div&gt;
   &lt;/div&gt;
@@ -785,6 +830,7 @@ JKW这破项目可算是通过了。
                   &lt;/div&gt;
                   &lt;div class=&#34;db-card-cate&#34;&gt;Movie&lt;/div&gt;
               &lt;/div&gt;
+              
           &lt;/div&gt;
       &lt;/div&gt;
   &lt;/div&gt;
