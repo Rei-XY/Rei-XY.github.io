@@ -307,6 +307,15 @@
 &lt;/li&gt;
 
 
+  &lt;li class=&#34;timeline-item&#34;&gt;
+  &lt;div class=&#34;timeline-marker&#34;&gt;&lt;/div&gt;
+  &lt;div class=&#34;timeline-content&#34;&gt;
+      &lt;p class=&#34;timeline-date&#34;&gt;2026-04-20&lt;/p&gt;
+      &lt;div class=&#34;timeline-text&#34;&gt;&lt;p&gt;  决定彻底弃用Edge，转投Chrome，Chrome的密码同步不是即时的，跨设备之间不能完全一致，于是改成了“Vaultwarden”+“https+Nginx反代”，工作区的快捷键暂时还没发现，不过标签页可以即时进行，打算用这个代替Edge的工作区功能，目前唯一的不爽是腾讯云的域名免费证书只能支持90天，目前先这么使用，后续7.20到期的时候，再试着用“ Let&amp;rsquo;s Encrypt + acme.sh”或者“Certimate”，自动部署SSL证书。&lt;/p&gt;
+&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/li&gt;
+
 
   
 &lt;/ul&gt;
