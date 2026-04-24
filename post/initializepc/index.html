@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://blog.christinaxy.fun/post/initializepc/'>
 
-<link rel="stylesheet" href="/scss/style.min.f0898b05ec235b7b428ef8dd6684477d2c9a5672669f3497bd852ded18c26f1a.css"><meta property='og:title' content="新机初始化配置">
+<link rel="stylesheet" href="/scss/style.min.d121ef780b791324fd1d92853f63073aba54bc6ab799772eac5b5dab41a08487.css"><meta property='og:title' content="新机初始化配置">
 <meta property='og:description' content="序 最近几天因为导师给的ThinkPad X1 Carbon实在是一言难尽（但是不得不说X1 Carbon是真的精致，碳纤维总成，合格的接口，4K的屏幕，长键程，但是里子真的用的难受，16G的内存配合win11实在是不够用，稍微跑点程序，风扇就呼呼起飞，边缘烫的一，真的难为它这个单风扇单热管了。）还是忍不住换了个新机子，之前用的YOGA玻璃覆盖的A面真的很喜欢，于是在小黄鱼上3900同城买了个YOGA Air 14s 2023，也算是新老交替了，开一篇文记录一下新机子到手的一系列配置，maybe若干年后换新笔电也能做个参考。\n">
 <meta property='og:url' content='https://blog.christinaxy.fun/post/initializepc/'>
 <meta property='og:site_name' content='NERV Christina'>
@@ -23,6 +23,9 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
         <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
         
+        <script>
+            var meting_api = 'https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&r=:r';
+        </script>
         <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
     </head>
     <body class="
@@ -923,14 +926,40 @@
 </div> -->
 <!-- <div class="music-container">
     
-        <iframe
-            frameborder="no"
-            border="0"
-            marginwidth="0"
-            marginheight="0"
-            style="width: 100%; height: 86px; border-radius: 8px; display: block;"
-            src="//music.163.com/outchain/player?type=2&id=%e7%bd%91%e6%98%93%e4%ba%91%e9%9f%b3%e4%b9%90id&auto=1&height=66">
-        </iframe>
+        
+        
+        
+        
+        
+        
+        
+        
+            
+            
+            
+        
+        <div id="aplayer-netease-网易云音乐id-2" class="aplayer"></div>
+        <script>
+        (function() {
+            var songName = "";
+            var songArtist = "";
+            var songUrl = "";
+            var songCover = "";
+            var songLrc = "";
+            new APlayer({
+                container: document.getElementById('aplayer-netease-网易云音乐id-2'),
+                audio: [{
+                    name: songName,
+                    artist: songArtist,
+                    url: songUrl,
+                    cover: songCover,
+                    lrc: songLrc,
+                }],
+                lrcType: 1,
+                autoplay: false
+            });
+        })();
+        </script>
     
 
     <p class="music-note" style="color:#BB9955">PS:注意音量，建议最小一格</p>
