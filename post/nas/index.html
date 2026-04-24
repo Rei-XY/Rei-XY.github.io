@@ -550,22 +550,24 @@
             
             
         
-        <div id="aplayer-netease-网易云音乐id-3" class="aplayer"></div>
+        
+        <div id="aplayer-netease-网易云音乐id-3" class="aplayer"
+            data-name=""
+            data-artist=""
+            data-url=""
+            data-cover=""
+            data-lrc=""></div>
         <script>
         (function() {
-            var songName = "";
-            var songArtist = "";
-            var songUrl = "";
-            var songCover = "";
-            var songLrc = "";
+            var el = document.getElementById('aplayer-netease-网易云音乐id-3');
             new APlayer({
-                container: document.getElementById('aplayer-netease-网易云音乐id-3'),
+                container: el,
                 audio: [{
-                    name: songName,
-                    artist: songArtist,
-                    url: songUrl,
-                    cover: songCover,
-                    lrc: songLrc,
+                    name: el.dataset.name,
+                    artist: el.dataset.artist,
+                    url: el.dataset.url,
+                    cover: el.dataset.cover,
+                    lrc: el.dataset.lrc,
                 }],
                 lrcType: 1,
                 autoplay: false

@@ -562,22 +562,24 @@
             
             
         
-        &lt;div id=&#34;aplayer-netease-网易云音乐id-2&#34; class=&#34;aplayer&#34;&gt;&lt;/div&gt;
+        
+        &lt;div id=&#34;aplayer-netease-网易云音乐id-2&#34; class=&#34;aplayer&#34;
+            data-name=&#34;&#34;
+            data-artist=&#34;&#34;
+            data-url=&#34;&#34;
+            data-cover=&#34;&#34;
+            data-lrc=&#34;&#34;&gt;&lt;/div&gt;
         &lt;script&gt;
         (function() {
-            var songName = &#34;&#34;;
-            var songArtist = &#34;&#34;;
-            var songUrl = &#34;&#34;;
-            var songCover = &#34;&#34;;
-            var songLrc = &#34;&#34;;
+            var el = document.getElementById(&#39;aplayer-netease-网易云音乐id-2&#39;);
             new APlayer({
-                container: document.getElementById(&#39;aplayer-netease-网易云音乐id-2&#39;),
+                container: el,
                 audio: [{
-                    name: songName,
-                    artist: songArtist,
-                    url: songUrl,
-                    cover: songCover,
-                    lrc: songLrc,
+                    name: el.dataset.name,
+                    artist: el.dataset.artist,
+                    url: el.dataset.url,
+                    cover: el.dataset.cover,
+                    lrc: el.dataset.lrc,
                 }],
                 lrcType: 1,
                 autoplay: false
