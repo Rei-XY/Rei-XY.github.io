@@ -811,9 +811,15 @@
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># 安装scoop（可选，包管理也可以用winget）
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># 安装scoop（包管理也可以用winget）
+</span></span><span class="line"><span class="cl">iwr -useb get.scoop.sh | iex
+</span></span><span class="line"><span class="cl">scoop bucket add extras
+</span></span><span class="line"><span class="cl">scoop install terminal-icons
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"># winget安装模块
 </span></span><span class="line"><span class="cl">Install-Module -Name Terminal-Icons -Repository PSGallery

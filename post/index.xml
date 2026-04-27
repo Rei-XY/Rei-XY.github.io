@@ -441,6 +441,26 @@
 &lt;/li&gt;
 
 
+  &lt;li class=&#34;timeline-item&#34;&gt;
+  &lt;div class=&#34;timeline-marker&#34;&gt;&lt;/div&gt;
+  &lt;div class=&#34;timeline-content&#34;&gt;
+      &lt;p class=&#34;timeline-date&#34;&gt;2026-04-26&lt;/p&gt;
+      &lt;div class=&#34;timeline-text&#34;&gt;&lt;p&gt;终于补完牙了，就差一颗智齿了。刚补完的牙涨了一晚上了，＞﹏＜&lt;/p&gt;
+&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/li&gt;
+
+
+  &lt;li class=&#34;timeline-item&#34;&gt;
+  &lt;div class=&#34;timeline-marker&#34;&gt;&lt;/div&gt;
+  &lt;div class=&#34;timeline-content&#34;&gt;
+      &lt;p class=&#34;timeline-date&#34;&gt;2026-04-27&lt;/p&gt;
+      &lt;div class=&#34;timeline-text&#34;&gt;&lt;p&gt;G！剔牙的时候昨天补的牙崩了&amp;hellip;..&lt;/p&gt;
+&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/li&gt;
+
+
 
   
 &lt;/ul&gt;
@@ -1473,9 +1493,15 @@ JKW这破项目可算是通过了。
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# 安装scoop（可选，包管理也可以用winget）
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# 安装scoop（包管理也可以用winget）
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;iwr -useb get.scoop.sh | iex
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;scoop bucket add extras
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;scoop install terminal-icons
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# winget安装模块
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Install-Module -Name Terminal-Icons -Repository PSGallery
