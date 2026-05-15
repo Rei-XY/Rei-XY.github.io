@@ -4714,7 +4714,7 @@ JKW这破项目可算是通过了。
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 成功挂起后，加入zerotier局域网并添加moon节点&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;zerotier-cli join &amp;lt;network-id&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;zerotier-cli obrit &amp;lt;&amp;gt; &amp;lt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;zerotier-cli orbit &amp;lt;&amp;gt; &amp;lt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 重启服务&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;systemctl restart zerotier-one.service
@@ -4728,7 +4728,8 @@ JKW这破项目可算是通过了。
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;结&#34;&gt;结
 &lt;/h2&gt;&lt;p&gt;  这样基本就配置成功了，走虚拟路由也方便异地串流；&lt;/p&gt;
-&lt;p align=&#34;right&#34;&gt;Done&lt;br&gt;2025.12.11 14:39 Update&lt;/p&gt;</description>
+&lt;p align=&#34;right&#34;&gt;Done&lt;br&gt;2025.12.11 14:39 Update&lt;/p&gt;
+</description>
         </item>
         <item>
         <title>你的颜色 | 山田尚子</title>
