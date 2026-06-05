@@ -1832,7 +1832,9 @@
         <pubDate>Mon, 15 Dec 2025 16:18:45 +0800</pubDate>
         
         <guid>https://blog.christinaxy.fun/post/initializepc/</guid>
-        <description>&lt;img src="https://blog.christinaxy.fun/post/initializepc/Cover.png" alt="Featured image of post 新机初始化配置" /&gt;&lt;h2 id=&#34;序&#34;&gt;序
+        <description>&lt;img src="https://cdn.jsdelivr.net/gh/Rei-XY/Cloud-Image@main/Blog/Articles/2025-12-15InitializePC/Cover.png" alt="Featured image of post 新机初始化配置" /&gt;&lt;!-- markdownlint-disable MD033 --&gt;
+&lt;!-- markdownlint-disable MD040 --&gt;
+&lt;h2 id=&#34;序&#34;&gt;序
 &lt;/h2&gt;&lt;p&gt;  最近几天因为导师给的ThinkPad X1 Carbon实在是一言难尽（但是不得不说X1 Carbon是真的精致，碳纤维总成，合格的接口，4K的屏幕，长键程，但是里子真的用的难受，16G的内存配合win11实在是不够用，稍微跑点程序，风扇就呼呼起飞，边缘烫的一，真的难为它这个单风扇单热管了。）还是忍不住换了个新机子，之前用的YOGA玻璃覆盖的A面真的很喜欢，于是在小黄鱼上3900同城买了个YOGA Air 14s 2023，也算是新老交替了，开一篇文记录一下新机子到手的一系列配置，maybe若干年后换新笔电也能做个参考。&lt;/p&gt;
 &lt;h2 id=&#34;基本配置&#34;&gt;基本配置
 &lt;/h2&gt;&lt;p&gt;  系统目前来说win11 24H2专业版已经使用习惯了，已经回不去win10咧，到手激活后把能更新的驱动都更新完毕，然后直接关闭更新：&lt;/p&gt;
@@ -2098,8 +2100,8 @@
 
 
 &lt;div class=&#34;post-img-view&#34;&gt;
-    &lt;a data-fancybox=&#34;gallery&#34; href=&#34;pics/pwsh.jpg&#34;&gt;
-        &lt;img src=&#34;pics/pwsh.jpg&#34; alt=&#34;安装内容&#34;  /&gt;
+    &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://cdn.jsdelivr.net/gh/Rei-XY/Cloud-Image@main/Blog/Articles/2025-12-15InitializePC/pwsh.jpg&#34;&gt;
+        &lt;img src=&#34;https://cdn.jsdelivr.net/gh/Rei-XY/Cloud-Image@main/Blog/Articles/2025-12-15InitializePC/pwsh.jpg&#34; alt=&#34;安装内容&#34;  /&gt;
     &lt;/a&gt;
 &lt;/div&gt;
 
@@ -2342,8 +2344,8 @@
 
 
 &lt;div class=&#34;post-img-view&#34;&gt;
-    &lt;a data-fancybox=&#34;gallery&#34; href=&#34;pics/terminal_settings1.jpg&#34;&gt;
-        &lt;img src=&#34;pics/terminal_settings1.jpg&#34; alt=&#34;alt text&#34;  /&gt;
+    &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://cdn.jsdelivr.net/gh/Rei-XY/Cloud-Image@main/Blog/Articles/2025-12-15InitializePC/terminal_settings1.jpg&#34;&gt;
+        &lt;img src=&#34;https://cdn.jsdelivr.net/gh/Rei-XY/Cloud-Image@main/Blog/Articles/2025-12-15InitializePC/terminal_settings1.jpg&#34; alt=&#34;alt text&#34;  /&gt;
     &lt;/a&gt;
 &lt;/div&gt;
 
@@ -2423,7 +2425,7 @@
         <pubDate>Mon, 10 Mar 2025 20:11:14 +0800</pubDate>
         
         <guid>https://blog.christinaxy.fun/post/macos/</guid>
-        <description>&lt;img src="https://raw.githubusercontent.com/Rei-XY/Cloud-Image/main/Blog/Covers/2025.03.10MacOSCover.png" alt="Featured image of post NewMac" /&gt;&lt;p&gt;  陪我了4年，走过本科和硕士的笔电摔了，没什么大事，还能用，但是B、C壳变形了，屏幕也漏光了，虽然能正常使用但是我好担心出差的时候突然一个不吱声坏了，所以还是淘一个备用机试试。&lt;/p&gt;
+        <description>&lt;img src="https://cdn.jsdelivr.net/gh/Rei-XY/Cloud-Image@main/Blog/Articles/2025-03-10-NewMac/2025.03.10MacOSCover.png" alt="Featured image of post NewMac" /&gt;&lt;p&gt;  陪我了4年，走过本科和硕士的笔电摔了，没什么大事，还能用，但是B、C壳变形了，屏幕也漏光了，虽然能正常使用但是我好担心出差的时候突然一个不吱声坏了，所以还是淘一个备用机试试。&lt;/p&gt;
 &lt;p&gt;  本着已经有了两台win PC了，出差也用不到多少性能，所以想试试macOS系统，正好学校里一个学弟想出一个M1的Macbook Air，于是谈了一下2700大米拿下了，不得不说乔布斯的设计是真好看，最后一代楔形设计的MacBook Air了，没有风扇，超安静而且续航妥妥够了，本身也没有什么磕碰，除了键盘有点打油，打算买张键盘膜贴一下。
 以此贴记录一下折腾macOS的过程，瑞思拜。&lt;/p&gt;
 &lt;h2 id=&#34;上的第一个当&#34;&gt;上的第一个当

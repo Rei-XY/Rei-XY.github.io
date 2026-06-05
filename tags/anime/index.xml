@@ -13,7 +13,8 @@
         <pubDate>Mon, 31 Mar 2025 11:19:29 +0800</pubDate>
         
         <guid>https://blog.christinaxy.fun/post/anime-mujica/</guid>
-        <description>&lt;img src="https://raw.githubusercontent.com/Rei-XY/Cloud-Image/main/Blog/Covers/2025.03.31AveMujicaCover.jpg" alt="Featured image of post Ave Mujica" /&gt;&lt;!-- &lt;details class=&#34;sc-details&#34;&gt;
+        <description>&lt;img src="https://cdn.jsdelivr.net/gh/Rei-XY/Cloud-Image@main/Blog/Articles/2025-03-ave-mujica/2025.03.31AveMujicaCover.jpg" alt="Featured image of post Ave Mujica" /&gt;&lt;!-- markdownlint-disable MD033 --&gt;
+&lt;!-- &lt;details class=&#34;sc-details&#34;&gt;
     &lt;summary&gt;details&lt;/summary&gt;
     &lt;div class=&#34;sc-details-inner&#34;&gt;正文&lt;/div&gt;
 &lt;/details&gt;
@@ -649,7 +650,7 @@
   &lt;p class=&#34;music-note&#34; style=&#34;color:#BB9955&#34;&gt;放张初华的演出照，无关剧情，真的很好看啊&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;photo-container&#34;&gt;
-    &lt;img src=&#34;Uika.jpg&#34; 
+    &lt;img src=&#34;https://cdn.jsdelivr.net/gh/Rei-XY/Cloud-Image@main/Blog/Articles/2025-03-ave-mujica/Uika.jpg&#34;
          alt=&#34;图片说明&#34;
          class=&#34;photo&#34;&gt;
     &lt;span class=&#34;photo-caption&#34; style=&#34;color:#BB9955&#34;&gt;「循此苦旅 终抵繁星」 再见了 所有的Ave Mujica&lt;/span&gt;
