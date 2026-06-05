@@ -13,7 +13,7 @@
         <pubDate>Thu, 07 May 2026 12:58:52 +0800</pubDate>
         
         <guid>https://blog.christinaxy.fun/post/yazi/</guid>
-        <description>&lt;img src="https://blog.christinaxy.fun/post/yazi/Yazi-Cover.jpg" alt="Featured image of post Yazi Configuration" /&gt;&lt;h2 id=&#34;序&#34;&gt;序
+        <description>&lt;img src="https://cdn.jsdelivr.net/gh/Rei-XY/Cloud-Image@main/Blog/Articles/2026-05-07Yazi/Yazi-Cover.jpg" alt="Featured image of post Yazi Configuration" /&gt;&lt;h2 id=&#34;序&#34;&gt;序
 &lt;/h2&gt;&lt;p&gt;最近沉迷配置终端，刷到了yazi这个工具，怎么说呢，感觉很好用啊，也想着以后从GUI的工作模式部分转向类似Terminal的方式，遂开一章记录一下！&lt;/p&gt;
 &lt;h2 id=&#34;yazi-configuration&#34;&gt;Yazi Configuration
 &lt;/h2&gt;&lt;p&gt;所有的相关配置都可以在三咲雅的官方文档里查到，很详细 —&amp;gt; &lt;a class=&#34;link&#34; href=&#34;https://yazi-rs.github.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -3781,7 +3781,7 @@ JKW这破项目可算是通过了。
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;  飞牛系统里文件夹的权限已经放开，可以直接运行，待构建完成后，启动容器即可，简单配置以后基本页面如下所示：&lt;/p&gt;
 &lt;div class=&#34;photo-container&#34;&gt;
-    &lt;img src=&#34;./pics/ezbookkeeping_demo.png&#34; alt=&#34;图片说明&#34; class=&#34;photo&#34;&gt;
+    &lt;img src=&#34;https://cdn.jsdelivr.net/gh/Rei-XY/Cloud-Image@main/Blog/Articles/2025-12-11Nas/ezbookkeeping_demo.png&#34; alt=&#34;图片说明&#34; class=&#34;photo&#34;&gt;
     &lt;span class=&#34;photo-caption&#34; style=&#34;color:#BB9955&#34;&gt;ezbookkeeping展示界面&lt;/span&gt;
 &lt;/div&gt;
 &lt;p&gt;  目前使用下来，ezbookkeeping的使用体验还行，亟待后续反馈更新。&lt;/p&gt;
@@ -4885,7 +4885,7 @@ JKW这破项目可算是通过了。
         <pubDate>Mon, 24 Feb 2025 21:06:57 +0800</pubDate>
         
         <guid>https://blog.christinaxy.fun/post/2025movie-%E4%BD%A0%E7%9A%84%E9%A2%9C%E8%89%B2/</guid>
-        <description>&lt;img src="https://blog.christinaxy.fun/post/2025movie-%E4%BD%A0%E7%9A%84%E9%A2%9C%E8%89%B2/%E4%BD%A0%E7%9A%84%E9%A2%9C%E8%89%B2%E6%B5%B7%E6%8A%A5.jpg" alt="Featured image of post 你的颜色 | 山田尚子" /&gt;&lt;details class=&#34;sc-details&#34;&gt;
+        <description>&lt;img src="https://cdn.jsdelivr.net/gh/Rei-XY/Cloud-Image@main/Blog/Movies-TV/你的颜色.jpg" alt="Featured image of post 你的颜色 | 山田尚子" /&gt;&lt;details class=&#34;sc-details&#34;&gt;
     &lt;summary&gt;观影插曲&lt;/summary&gt;
     &lt;div class=&#34;sc-details-inner&#34;&gt;看这部电影的时候发生了一个插曲，影片放映到1/3的时候，影厅的放映机坏了，被迫中止然后换到下一个片场继续看，挺神奇的，这是我长这么大头一次碰到这样的事。&lt;/div&gt;
 &lt;/details&gt;
