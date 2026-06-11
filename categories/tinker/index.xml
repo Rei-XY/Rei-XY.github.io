@@ -3175,14 +3175,21 @@
         <pubDate>Mon, 10 Mar 2025 20:11:14 +0800</pubDate>
         
         <guid>https://blog.christinaxy.fun/post/macos/</guid>
-        <description>&lt;img src="https://cdn.jsdelivr.net/gh/Rei-XY/Cloud-Image@main/Blog/Life/MacBookCover.jpg" alt="Featured image of post NewMac" /&gt;&lt;p&gt;  陪我了4年，走过本科和硕士的笔电摔了，没什么大事，还能用，但是B、C壳变形了，屏幕也漏光了，虽然能正常使用但是我好担心出差的时候突然一个不吱声坏了，所以还是淘一个备用机试试。&lt;/p&gt;
+        <description>&lt;img src="https://cdn.jsdelivr.net/gh/Rei-XY/Cloud-Image@main/Blog/Life/MacBookCover.jpg" alt="Featured image of post NewMac" /&gt;&lt;!-- markdownlint-disable MD033 --&gt;
+&lt;h2 id=&#34;初次见面&#34;&gt;初次见面
+&lt;/h2&gt;&lt;p align=&#34;center&#34;&gt;
+  &lt;span style=&#34;display:inline-block;background:#f0f0f0;color:#666;padding:2px 12px;border-radius:12px;font-size:0.85em;&#34;&gt;
+    📅 2025.03.10 ～ 2025.12.15
+  &lt;/span&gt;
+&lt;/p&gt;
+&amp;emsp;&amp;emsp;陪我了4年，走过本科和硕士的笔电摔了，没什么大事，还能用，但是B、C壳变形了，屏幕也漏光了，虽然能正常使用但是我好担心出差的时候突然一个不吱声坏了，所以还是淘一个备用机试试。
 &lt;p&gt;  本着已经有了两台win PC了，出差也用不到多少性能，所以想试试macOS系统，正好学校里一个学弟想出一个M1的Macbook Air，于是谈了一下2700大米拿下了，不得不说乔布斯的设计是真好看，最后一代楔形设计的MacBook Air了，没有风扇，超安静而且续航妥妥够了，本身也没有什么磕碰，除了键盘有点打油，打算买张键盘膜贴一下。
 以此贴记录一下折腾macOS的过程，瑞思拜。&lt;/p&gt;
-&lt;h2 id=&#34;上的第一个当&#34;&gt;上的第一个当
-&lt;/h2&gt;&lt;p&gt;键盘打油挺严重的，买了个膜，好G2贵，但是质量一般，第一个当&lt;/p&gt;
-&lt;p&gt;第二个当，键盘膜是不透光的，那岂不是晚上用不了，直接pass了，贴到一半才发现，而且很难揭下来，最后只贴了空格键，还好我的nuphy还没有二手出掉，直接拿来用！🤣&lt;/p&gt;
-&lt;h2 id=&#34;homebrew&#34;&gt;Homebrew
-&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;h3 id=&#34;上的第一个当&#34;&gt;上的第一个当
+&lt;/h3&gt;&lt;p&gt;  键盘打油挺严重的，买了个膜，好G2贵，但是质量一般，第一个当&lt;/p&gt;
+&lt;p&gt;  第二个当，键盘膜是不透光的，那岂不是晚上用不了，直接pass了，贴到一半才发现，而且很难揭下来，最后只贴了空格键，还好我的nuphy还没有二手出掉，直接拿来用！🤣&lt;/p&gt;
+&lt;h3 id=&#34;homebrew&#34;&gt;Homebrew
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
@@ -3204,9 +3211,9 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;HOMEBREW_NO_AUTO_UPDATE&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;true&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;picgo-install&#34;&gt;PicGo Install
-&lt;/h2&gt;&lt;p&gt;从官网上下的包总是显示损坏，无语。。。。。&lt;/p&gt;
-&lt;p&gt;改用homebrew(这玩意挺好使hh)&lt;/p&gt;
+&lt;/div&gt;&lt;h3 id=&#34;picgo-install&#34;&gt;PicGo Install
+&lt;/h3&gt;&lt;p&gt;  从官网上下的包总是显示损坏，无语。。。。。&lt;/p&gt;
+&lt;p&gt;  改用homebrew(这玩意挺好使hh)&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
@@ -3215,8 +3222,8 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;brew install picgo --cask
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;不好使，下的不是最新版本的，有的功能无法使用&lt;/p&gt;
-&lt;p&gt;macOS疑似有点太封闭了，需要重置文件属性才能正常安装第三方软件😅:&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;  不好使，下的不是最新版本的，有的功能无法使用&lt;/p&gt;
+&lt;p&gt;  macOS疑似有点太封闭了，需要重置文件属性才能正常安装第三方软件😅:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
@@ -3226,8 +3233,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;重置完基本就能正常安装了。&lt;/p&gt;
-&lt;h2 id=&#34;moonlight串流丢包&#34;&gt;moonlight串流丢包
-&lt;/h2&gt;&lt;p&gt;  最近在用Moonlight串流的时候总是卡顿丢帧，显示串流质量差，但是ping主机的时候延迟是正常的，7～10ms样子，打开监控的才发现是丢包率过高，最高的时候甚至到了50%多，直接掉线了，寻思不正常，我以为是宿舍网络的问题，重启宿主机后恢复正常，但是再次串流的时候还是一样的老毛病，但是在同一局域网的windows主机上完全没问题，甚至码率可以设的更高，怀疑是不是MacBook网卡的问题，但是Mac的网卡更换以及驱动更新都太过麻烦，查了github上的issue，发现有人也有同样的问题，不只是M1的，M系列的Mac都有问题，最直接的解决方式是，把路由器的5G Wi-Fi信道调整到149。。。。。。&lt;/p&gt;
+&lt;h3 id=&#34;moonlight串流丢包&#34;&gt;moonlight串流丢包
+&lt;/h3&gt;&lt;p&gt;  最近在用Moonlight串流的时候总是卡顿丢帧，显示串流质量差，但是ping主机的时候延迟是正常的，7～10ms样子，打开监控的才发现是丢包率过高，最高的时候甚至到了50%多，直接掉线了，寻思不正常，我以为是宿舍网络的问题，重启宿主机后恢复正常，但是再次串流的时候还是一样的老毛病，但是在同一局域网的windows主机上完全没问题，甚至码率可以设的更高，怀疑是不是MacBook网卡的问题，但是Mac的网卡更换以及驱动更新都太过麻烦，查了github上的issue，发现有人也有同样的问题，不只是M1的，M系列的Mac都有问题，最直接的解决方式是，把路由器的5G Wi-Fi信道调整到149。。。。。。&lt;/p&gt;
 &lt;p&gt;  调整完Wi-Fi信号后暂时正常，还有待观察。&lt;/p&gt;
 &lt;p&gt;  哈哈，又卡顿掉帧了，不知道什么情况，麻了。&lt;/p&gt;
 &lt;p&gt;  说是隔空投送的网络端口awdl0导致的网络波动，当无线AP多的时候会造成网络的卡顿和波动，参考的文章在这:&lt;a class=&#34;link&#34; href=&#34;https://jiapan.me/2023/AWDL-Mac-disconnected/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -3249,11 +3256,11 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;  布豪!隔一段时间它就自己开了，shit，但是这个功能会影响AirDrop实在是难顶，平时拿来串流清手游体力，时间倒不是特别长，先凑活一下试试。&lt;/p&gt;
 &lt;p&gt;  很奇怪的一点是，AWDL0只影响moonlight串流，但是Windows的远程桌面并不影响，很奇怪。&lt;/p&gt;
-&lt;h2 id=&#34;添加快捷键&#34;&gt;添加快捷键
-&lt;/h2&gt;&lt;p&gt;  &lt;a class=&#34;link&#34; href=&#34;https://blog.csdn.net/Archiena/article/details/130336634&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h3 id=&#34;添加快捷键&#34;&gt;添加快捷键
+&lt;/h3&gt;&lt;p&gt;  &lt;a class=&#34;link&#34; href=&#34;https://blog.csdn.net/Archiena/article/details/130336634&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Mac如何实现用快捷键输入当前时间&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;影音播放软件缩略图生成&#34;&gt;影音播放软件+缩略图生成
-&lt;/h2&gt;&lt;p&gt;  IINA+QuickLook Video&lt;/p&gt;
+&lt;h3 id=&#34;影音播放软件缩略图生成&#34;&gt;影音播放软件+缩略图生成
+&lt;/h3&gt;&lt;p&gt;  IINA+QuickLook Video&lt;/p&gt;
 &lt;p&gt;  macOS自带的播放器不好用，而且Windows阵营的Potplayer并没有对macOS环境进行开发，App Store上Omini player添加字幕什么的功能居然还要收费，实在是受不了了，转过头投靠IINA，IINA基础功能还能接受，外挂字幕、倍速播放、小窗播放等等都有，基本满足需要，只可惜没有像Potplayer那样的截图和录制的快捷键，等等配合Snipaste看看行不行。&lt;/p&gt;
 &lt;p&gt;  macOS为啥视频缩略图支持的编码有点少啊，mkv的都不支持的嘛😤，还得靠开源&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -3264,13 +3271,17 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;brew install --cask qlvideo
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;鼠标的适配&#34;&gt;鼠标的适配
-&lt;/h2&gt;&lt;p&gt;macOS鼠标滚轮和Windows是反过来的，但是触控板的逻辑我是习惯的&amp;hellip;&lt;/p&gt;
+&lt;/div&gt;&lt;h3 id=&#34;鼠标的适配&#34;&gt;鼠标的适配
+&lt;/h3&gt;&lt;p&gt;macOS鼠标滚轮和Windows是反过来的，但是触控板的逻辑我是习惯的&amp;hellip;&lt;/p&gt;
 &lt;p&gt;开源插件+1:Mos&lt;/p&gt;
 &lt;p&gt;  乐，还是太高看Air了，虽然真的很轻便，续航真的好，但是Macos真的一言难尽啊，给项目写了几个页面，要读串口，macos的串口管理就很麻烦，串流也有很大问题，也不能让甲方自适应一下软件的适配，只能说Mac还是不适合我这种牛马（＞﹏＜），还是折价出了，悲。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;&#34;&gt;
-&lt;/h2&gt;&lt;p&gt;  笑，因为AI Agent的关系，每次的新功能都默认优先在macOS上面发布，最近也一直在用Proma和Claude Code，所以趁着国补重新入手了MacBook Air M5，刚到手没一会给logo滑了个印子，我真是艸了，买了个logo贴贴上，也算是图个心理安慰。&lt;/p&gt;
+&lt;h2 id=&#34;再次回归&#34;&gt;再次回归
+&lt;/h2&gt;&lt;p align=&#34;center&#34;&gt;
+  &lt;span style=&#34;display:inline-block;background:#f0f0f0;color:#666;padding:2px 12px;border-radius:12px;font-size:0.85em;&#34;&gt;
+    📅 2026.06.04
+  &lt;/span&gt;
+&lt;/p&gt;
+&amp;emsp;&amp;emsp;笑，因为AI Agent的关系，每次的新功能都默认优先在macOS上面发布，最近也一直在用Proma和Claude Code，所以趁着国补重新入手了MacBook Air M5，刚到手没一会给logo滑了个印子，我真是艸了，买了个logo贴贴上，也算是图个心理安慰。
 &lt;p&gt;  现在重新给MacBook个性化配置了，重新续写了帖子，记录如下。&lt;/p&gt;
 &lt;p align=&#34;center&#34;&gt;Update On G652 2026.06.08 07:42&lt;/p&gt;
 </description>
