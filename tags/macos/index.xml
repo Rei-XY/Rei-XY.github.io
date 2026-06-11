@@ -5,7 +5,7 @@
         <link>https://blog.christinaxy.fun/tags/macos/</link>
         <description>Recent content in MacOS on NERV Christina</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
+        <language>zh-cn</language>
         <copyright>Rei</copyright>
         <lastBuildDate>Mon, 10 Mar 2025 20:11:14 +0800</lastBuildDate><atom:link href="https://blog.christinaxy.fun/tags/macos/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>NewMac</title>
@@ -13,7 +13,7 @@
         <pubDate>Mon, 10 Mar 2025 20:11:14 +0800</pubDate>
         
         <guid>https://blog.christinaxy.fun/post/macos/</guid>
-        <description>&lt;img src="https://cdn.jsdelivr.net/gh/Rei-XY/Cloud-Image@main/Blog/Articles/2025-03-10-NewMac/2025.03.10MacOSCover.png" alt="Featured image of post NewMac" /&gt;&lt;p&gt;  陪我了4年，走过本科和硕士的笔电摔了，没什么大事，还能用，但是B、C壳变形了，屏幕也漏光了，虽然能正常使用但是我好担心出差的时候突然一个不吱声坏了，所以还是淘一个备用机试试。&lt;/p&gt;
+        <description>&lt;img src="https://cdn.jsdelivr.net/gh/Rei-XY/Cloud-Image@main/Blog/Life/MacBookCover.jpg" alt="Featured image of post NewMac" /&gt;&lt;p&gt;  陪我了4年，走过本科和硕士的笔电摔了，没什么大事，还能用，但是B、C壳变形了，屏幕也漏光了，虽然能正常使用但是我好担心出差的时候突然一个不吱声坏了，所以还是淘一个备用机试试。&lt;/p&gt;
 &lt;p&gt;  本着已经有了两台win PC了，出差也用不到多少性能，所以想试试macOS系统，正好学校里一个学弟想出一个M1的Macbook Air，于是谈了一下2700大米拿下了，不得不说乔布斯的设计是真好看，最后一代楔形设计的MacBook Air了，没有风扇，超安静而且续航妥妥够了，本身也没有什么磕碰，除了键盘有点打油，打算买张键盘膜贴一下。
 以此贴记录一下折腾macOS的过程，瑞思拜。&lt;/p&gt;
 &lt;h2 id=&#34;上的第一个当&#34;&gt;上的第一个当
@@ -106,6 +106,11 @@
 &lt;/h2&gt;&lt;p&gt;macOS鼠标滚轮和Windows是反过来的，但是触控板的逻辑我是习惯的&amp;hellip;&lt;/p&gt;
 &lt;p&gt;开源插件+1:Mos&lt;/p&gt;
 &lt;p&gt;  乐，还是太高看Air了，虽然真的很轻便，续航真的好，但是Macos真的一言难尽啊，给项目写了几个页面，要读串口，macos的串口管理就很麻烦，串流也有很大问题，也不能让甲方自适应一下软件的适配，只能说Mac还是不适合我这种牛马（＞﹏＜），还是折价出了，悲。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;&#34;&gt;
+&lt;/h2&gt;&lt;p&gt;  笑，因为AI Agent的关系，每次的新功能都默认优先在macOS上面发布，最近也一直在用Proma和Claude Code，所以趁着国补重新入手了MacBook Air M5，刚到手没一会给logo滑了个印子，我真是艸了，买了个logo贴贴上，也算是图个心理安慰。&lt;/p&gt;
+&lt;p&gt;  现在重新给MacBook个性化配置了，重新续写了帖子，记录如下。&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;Update On G652 2026.06.08 07:42&lt;/p&gt;
 </description>
         </item>
         
