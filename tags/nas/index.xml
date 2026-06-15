@@ -174,41 +174,11 @@
 
 &lt;div class=&#34;music-container&#34;&gt;
     
-        
-        
-        
-        
-        
-        
-        
-        
-            
-            
-        
-        
-        &lt;div id=&#34;aplayer-netease-网易云音乐id-3&#34; class=&#34;aplayer&#34;
-            data-name=&#34;&#34;
-            data-artist=&#34;&#34;
-            data-url=&#34;&#34;
-            data-cover=&#34;&#34;
-            data-lrc=&#34;&#34;&gt;&lt;/div&gt;
-        &lt;script&gt;
-        (function() {
-            var el = document.getElementById(&#39;aplayer-netease-网易云音乐id-3&#39;);
-            new APlayer({
-                container: el,
-                audio: [{
-                    name: el.dataset.name,
-                    artist: el.dataset.artist,
-                    url: el.dataset.url,
-                    cover: el.dataset.cover,
-                    lrc: el.dataset.lrc,
-                }],
-                lrcType: 1,
-                autoplay: false
-            });
-        })();
-        &lt;/script&gt;
+    
+      
+      
+      
+      
     
 
     &lt;p class=&#34;music-note&#34; style=&#34;color:#BB9955&#34;&gt;PS:注意音量，建议最小一格&lt;/p&gt;
