@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="配置zerotier，添加moon节点来稳定穿透服务">
-<title>内网穿透-异地组网</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="云服务Vps配置整理">
+<title>Vps配置记录</title>
 
-<link rel='canonical' href='https://blog.christinaxy.fun/post/zerotier-moon/'>
+<link rel='canonical' href='https://blog.christinaxy.fun/post/vps/'>
 
-<link rel="stylesheet" href="/scss/style.min.116a0e12f7604652d07070d445f151936a1900da9e853a214e05be8871ce2e3b.css"><meta property='og:title' content="内网穿透-异地组网">
-<meta property='og:description' content="配置zerotier，添加moon节点来稳定穿透服务">
-<meta property='og:url' content='https://blog.christinaxy.fun/post/zerotier-moon/'>
+<link rel="stylesheet" href="/scss/style.min.116a0e12f7604652d07070d445f151936a1900da9e853a214e05be8871ce2e3b.css"><meta property='og:title' content="Vps配置记录">
+<meta property='og:description' content="云服务Vps配置整理">
+<meta property='og:url' content='https://blog.christinaxy.fun/post/vps/'>
 <meta property='og:site_name' content='NERV Christina'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='zerotier-NAT' /><meta property='article:tag' content='Vps' /><meta property='article:published_time' content='2025-02-27T16:38:38&#43;08:00'/><meta property='article:modified_time' content='2025-02-27T16:38:38&#43;08:00'/><meta property='og:image' content='https://cdn.jsdelivr.net/gh/Rei-XY/Cloud-Image@main/Blog/Articles/2025-02-07Zerotier/%E5%8D%9A%E5%AE%A2%E5%B0%81%E9%9D%A2Cover.png' />
-<meta name="twitter:title" content="内网穿透-异地组网">
-<meta name="twitter:description" content="配置zerotier，添加moon节点来稳定穿透服务"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://cdn.jsdelivr.net/gh/Rei-XY/Cloud-Image@main/Blog/Articles/2025-02-07Zerotier/%E5%8D%9A%E5%AE%A2%E5%B0%81%E9%9D%A2Cover.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='vps' /><meta property='article:published_time' content='2026-07-07T15:08:15&#43;08:00'/><meta property='article:modified_time' content='2026-07-07T15:08:15&#43;08:00'/><meta property='og:image' content='https://cdn.jsdelivr.net/gh/Rei-XY/Cloud-Image@main/Blog/Articles/2026-07-07Vps/vps-cover-2026.png' />
+<meta name="twitter:title" content="Vps配置记录">
+<meta name="twitter:description" content="云服务Vps配置整理"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://cdn.jsdelivr.net/gh/Rei-XY/Cloud-Image@main/Blog/Articles/2026-07-07Vps/vps-cover-2026.png' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
 
@@ -284,19 +284,20 @@
             <nav id="TableOfContents">
   <ol>
     <li><a href="#序">序</a></li>
-    <li><a href="#服务器配置zerotiermoon">服务器配置Zerotier+Moon</a>
+    <li><a href="#基础配置">基础配置</a>
       <ol>
-        <li><a href="#安装zerotier">安装zerotier</a></li>
-        <li><a href="#配置moon">配置moon</a></li>
+        <li><a href="#安全性配置">安全性配置</a></li>
       </ol>
     </li>
-    <li><a href="#客户端添加moon">客户端添加moon</a>
+    <li><a href="#服务配置">服务配置</a>
       <ol>
-        <li><a href="#windows环境">Windows环境</a></li>
-        <li><a href="#linux环境">Linux环境</a></li>
+        <li><a href="#zerotier">zerotier</a></li>
+        <li><a href="#bitwardenmemos--ezbookkeeping">bitwarden、memos &amp; ezbookkeeping</a></li>
+        <li><a href="#fast-note-sync">fast note sync</a></li>
+        <li><a href="#nginx">nginx</a></li>
       </ol>
     </li>
-    <li><a href="#结">结</a></li>
+    <li><a href="#nginx反向代理">nginx反向代理</a></li>
   </ol>
 </nav>
         </div>
@@ -311,9 +312,9 @@
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/post/zerotier-moon/">
+            <a href="/post/vps/">
                 
-                    <img src="https://cdn.jsdelivr.net/gh/Rei-XY/Cloud-Image@main/Blog/Articles/2025-02-07Zerotier/%E5%8D%9A%E5%AE%A2%E5%B0%81%E9%9D%A2Cover.png" loading="lazy" alt="Featured image of post 内网穿透-异地组网" />
+                    <img src="https://cdn.jsdelivr.net/gh/Rei-XY/Cloud-Image@main/Blog/Articles/2026-07-07Vps/vps-cover-2026.png" loading="lazy" alt="Featured image of post Vps配置记录" />
                 
             </a>
         </div>
@@ -322,12 +323,12 @@
     <div class="article-details">
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/post/zerotier-moon/">内网穿透-异地组网</a>
+            <a href="/post/vps/">Vps配置记录</a>
         </h2>
     
         
         <h3 class="article-subtitle">
-            配置zerotier，添加moon节点来稳定穿透服务
+            云服务Vps配置整理
         </h3>
         
     </div>
@@ -348,7 +349,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">2025-02-27</time>
+                <time class="article-time--published">2026-07-07</time>
             </div>
         
 
@@ -375,16 +376,23 @@
     
     
     <h2 id="序">序
-</h2><p>  最初打算用公网服务器+Frp来实现内网穿透，这是稳定的方案，但使用下来会有几个问题。</p>
-<ol>
-<li>mstsc走公网ip+端口号的方式，在我理解里是三根水管相连，数据要通过云服务器上传，不只是端口映射，木桶效应在于云服务器的带宽限制(2~3M过于卡顿).</li>
-<li>Frp会一直扫公网ip的端口号，尽管可以添加SSL，但是远程桌面走的是tcp服务，stcp不能成功打开udp的远程桌面，也可能是我没配置正确，暂时还在寻找原因.</li>
-<li>宿舍用moonlight串流工位电脑，用zerotier会比较方便和管理.</li>
-</ol>
-<p>  之前不喜欢zerotier的原因是因为planet的服务器在国外，用户多的时候会打洞失败，而且延迟巨高！遇到过好几次了，但是现在我有了国内的云服务器，可以自行添加moon节点，P2P打洞，这样的话就是木桶效应是工位网络的上行带宽。</p>
-<h2 id="服务器配置zerotiermoon">服务器配置Zerotier+Moon
-</h2><h3 id="安装zerotier">安装zerotier
-</h3><div class="highlight"><div class="chroma">
+</h2><p>  最开始是为了有个公网IP，可以让我宿舍的主机通过自建的zerotier-moon节点进行串流，好在空闲时刻摸鱼，(嘿嘿｀・ω・´)，后来又购买了域名，增加了越来越多的服务，加上移动端的zerotier很难完整打洞成功，逐渐发现自己的很多生活组件可以部署在云上，简单的4核服务器其实就可以满足很多日常的基础功能了，后悔当时腾讯云客服给我打电话问我要不要一次买3年，没买啊∑🍺👊😩！，遂开一条帖子记录，以便后续迁移云的时候可以有个参考。</p>
+<h2 id="基础配置">基础配置
+</h2><p>  底层操作系统是Linux，一般选择是Ubuntu的LTS版本，这里是22.04LTS，下一次迁移云可以考虑换一下底层系统。安装好系统后，添加运维面板和neovim，这里选择的是1Panel。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">bash -c <span class="s2">&#34;</span><span class="k">$(</span>curl -sSL https://resource.fit2cloud.com/1panel/package/v2/quick_start.sh<span class="k">)</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">sudo snap install nvim --classic
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="安全性配置">安全性配置
+</h3><p>  首先需要更改SSH连接的端口，禁用密码登陆，同时增加SSH密钥。
+  下面是增加SSH密钥的步骤，先生成对应的密钥文件，生成完毕后再复制公钥内容到Vps中。</p>
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -400,39 +408,21 @@
 </span><span class="lnt">12
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Linux 下载安装</span>
-</span></span><span class="line"><span class="cl">curl -s https://install.zerotier.com/ <span class="p">|</span> sudo bash
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Generate key</span>
+</span></span><span class="line"><span class="cl">ssh-keygen -t ed25519
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># 验证安装情况</span>
-</span></span><span class="line"><span class="cl">zerotier-cli info
+</span></span><span class="line"><span class="cl"><span class="c1"># Get public key</span>
+</span></span><span class="line"><span class="cl">cat ~/.ssh/keyname.pub
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># 启动并设置开机自启动</span>
-</span></span><span class="line"><span class="cl">systemctl start zerotier-one.service
-</span></span><span class="line"><span class="cl">systemctl <span class="nb">enable</span> zerotier-one.service
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># 加入到个人的虚拟局域网</span>
-</span></span><span class="line"><span class="cl">zerotier-cli join Network-ID
+</span></span><span class="line"><span class="cl"><span class="c1"># Copy public key to Vps</span>
+</span></span><span class="line"><span class="cl">ssh root@vps
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> ~/.ssh
+</span></span><span class="line"><span class="cl">nvim authorized_keys
+</span></span><span class="line"><span class="cl">chmod <span class="m">700</span> ~/.ssh
+</span></span><span class="line"><span class="cl">chmod <span class="m">600</span> ~/.ssh/authorized_keys
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>  安装成功后显示的信息:<code>200 info 39a50xxxxx 1.14.2 ONLINE</code>，其中<code>39a50xxxxx</code>为该设备的zerotier-id，<code>1.14.2</code>是zerotier的版本号。</p>
-<h3 id="配置moon">配置moon
-</h3><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 进入配置目录</span>
-</span></span><span class="line"><span class="cl"><span class="nb">cd</span> /var/lib/zerotier-one
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># 生成初始配置。读取 identity.public 中的公钥信息，生成初始的 moon 节点配置的 JSON 文件:</span>
-</span></span><span class="line"><span class="cl">zerotier-idtool initmoon identity.public &gt; moon.json
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>  moon.json包含了设备的id信息等等，同时需要额外配置ip地址和节点信息，在<code>stableEndpoints</code>一栏添加公网ip和端口号(默认是<code>9993</code>)，注意格式问题<code>Ipv4 Addr/9993</code>以及在云服务器放开9993端口(udp协议)。</p>
+</div><p>  这边测试能使用密钥登陆后，修改登陆配置文件</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -448,26 +438,86 @@
 </span><span class="lnt">11
 </span><span class="lnt">12
 </span><span class="lnt">13
-</span><span class="lnt">14
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
-</span></span><span class="line"><span class="cl"> <span class="nt">&#34;id&#34;</span><span class="p">:</span> <span class="s2">&#34;39a50xxxxx&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl"> <span class="nt">&#34;objtype&#34;</span><span class="p">:</span> <span class="s2">&#34;world&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl"> <span class="nt">&#34;roots&#34;</span><span class="p">:</span> <span class="p">[</span>
-</span></span><span class="line"><span class="cl">  <span class="p">{</span>
-</span></span><span class="line"><span class="cl">   <span class="nt">&#34;identity&#34;</span><span class="p">:</span> <span class="s2">&#34;39a50xxxxx:0:90bc7bf3e1d39a2df373f3fcfc5fc103c6b333226f0949d47906b1c613ff6441850ad3217184277b5b65e381b59289d17561978393fd77ee5ff9d36c37xxxxx&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">   <span class="nt">&#34;stableEndpoints&#34;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&#34;Ipv4 Addr/9993&#34;</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">  <span class="p">}</span>
-</span></span><span class="line"><span class="cl"> <span class="p">],</span>
-</span></span><span class="line"><span class="cl"> <span class="nt">&#34;signingKey&#34;</span><span class="p">:</span> <span class="s2">&#34;883bbd62ba065db9879c6bad1ba874b567ff8f7d25349e811669270c0dcb7e4e2989e02cc2ebc6681da2f5b9b7037c3c66a68eb5b6843d5067e4db3c1dxxxxx&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl"> <span class="nt">&#34;signingKey_SECRET&#34;</span><span class="p">:</span> <span class="s2">&#34;4a72efbf7da50602ba01e413588badb9294a64f27bdc600c297f2e591d7b437ac856cfa4ded3e5478fb914054df5d96ef2ed4ce667e5603669f4c7799e1xxxxx&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl"> <span class="nt">&#34;updatesMustBeSignedBy&#34;</span><span class="p">:</span> <span class="s2">&#34;883bbd62ba065db9879c6bad1ba874b567ff8f7d25349e811669270c0dcb7e4e2989e02cc2ebc6681da2f5b9b7037c3c66a68eb5b6843d5067e4db3c1ddxxxxx&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl"> <span class="nt">&#34;worldType&#34;</span><span class="p">:</span> <span class="s2">&#34;moon&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># copy for the backup</span>
+</span></span><span class="line"><span class="cl">sudo cp /etc/ssh/sshd_config /etc/ssh/sshd_config.bak
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># modify ssh config</span>
+</span></span><span class="line"><span class="cl">sudo nvim /etc/ssh/sshd_config
+</span></span><span class="line"><span class="cl">Port xxx
+</span></span><span class="line"><span class="cl">PermitRootLogin no
+</span></span><span class="line"><span class="cl">PasswordAuthentication no
+</span></span><span class="line"><span class="cl">PubkeyAcceptedKeyTypes +ssh-rsa
+</span></span><span class="line"><span class="cl">PermitEmptyPasswords no
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># reload ssh service</span>
+</span></span><span class="line"><span class="cl">sudo systemctl restart ssh
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>  配置完毕，保存并退出，最后基于moon.json文件生成最终的moon配置文件:</p>
+</div><h2 id="服务配置">服务配置
+</h2><p>  云服务常用的组件有这几个：zerotier、bitwarden、ezbookkeeping、memos和fast note sync，这些服务通过nginx和通配符域名进行端口转发实现访问。</p>
+<h3 id="zerotier">zerotier
+</h3><p>  安装zerotier服务</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">curl -s https://install.zerotier.com <span class="p">|</span> sudo bash
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>  加入虚拟局域网并配置moon节点。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> /var/lib/zerotier-one
+</span></span><span class="line"><span class="cl">sudo zerotier-idtool initmoon identity.public &gt;&gt;moon.json
+</span></span><span class="line"><span class="cl">nvim moon.json
+</span></span><span class="line"><span class="cl"><span class="c1"># add ipv4/9993 copy id value</span>
+</span></span><span class="line"><span class="cl">sudo zerotier-idtool genmoon moon.json
+</span></span><span class="line"><span class="cl">mkdir -p moons.d
+</span></span><span class="line"><span class="cl">mv 000000id.moon moons.d/
+</span></span><span class="line"><span class="cl">sudo systemctl restart zerotier-one
+</span></span><span class="line"><span class="cl">sudo systemctl <span class="nb">enable</span> zerotier-one.service
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>  至此服务端配置完毕，虚拟局域网内的设备需要添加moon可执行以下命令。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">zerotier-cli orbit &lt;moon-id&gt; &lt;moon-id&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="bitwardenmemos--ezbookkeeping">bitwarden、memos &amp; ezbookkeeping
+</h3><p>  为了后续迁移，这边直接在1Panel的应用商店进行一键安装配置，在防火墙中分别放行对应的端口即可。</p>
+<h3 id="fast-note-sync">fast note sync
+</h3><p>  为了多端同步obsidian的笔记信息，利用docker部署。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> docker
+</span></span><span class="line"><span class="cl">mkdir -p fastnotesync <span class="o">&amp;&amp;</span> <span class="nb">cd</span> fastnotesync
+</span></span><span class="line"><span class="cl">nvim docker-compose.yaml
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>其中docker-compose.yaml的内容如下：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -483,88 +533,54 @@
 </span><span class="lnt">11
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 新建文件夹，方便管理</span>
-</span></span><span class="line"><span class="cl">mkdir moons.d 
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># 生成最终配置文件。基于 moon.json 配置文件，生成最终的 moon 配置文件（通常命名为 000000xxxx.moon）：</span>
-</span></span><span class="line"><span class="cl">zerotier-idtool genmoon moon.json
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># 移动moon配置文件</span>
-</span></span><span class="line"><span class="cl">mv 00000039a50xxxx.moon moons.d/
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># 重启服务</span>
-</span></span><span class="line"><span class="cl">systemctl restart zerotier-one
-</span></span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;3&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">services</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">fast-note-sync-service</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l">haierkeys/fast-note-sync-service:latest</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">container_name</span><span class="p">:</span><span class="w"> </span><span class="l">fast-note-sync-service</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">restart</span><span class="p">:</span><span class="w"> </span><span class="l">always</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">ports</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s2">&#34;9000:9000&#34;</span><span class="w">  </span><span class="c"># RESTful API &amp; WebSocket port, where /api/user/sync is the WebSocket endpoint</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">volumes</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">./storage:/fast-note-sync/storage </span><span class="w"> </span><span class="c"># Data storage</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">./config:/fast-note-sync/config   </span><span class="w"> </span><span class="c"># Configuration files</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
 </div>
-</div><p>  最终会生成带zerotier-id的moon配置文件，文件名就是moon-id，在老版本是16位的，新版本(1.12.2ver后)都是10位的，即不含前面的6个数字0;</p>
-<p>  000000xxxx.moon是个二进制文件，不可读，而且带加密签名，将这个文件下载到服务端电脑上。</p>
-<h2 id="客户端添加moon">客户端添加moon
-</h2><h3 id="windows环境">Windows环境
-</h3><p>  以我的PC为例，Christina - win1123H2 - Zerotier 1.14.2 &amp; moon的配置文件</p>
-<p>  进入zerotier的配置路径，默认是C:\ProgramData\ZeroTier\One，新建一个moons.d文件夹并将000000xxxx.moon文件放置其中(需要管理员权限)，在services.msc中重启zerotier服务。</p>
-<p>  以管理员身份启动powershell:</p>
+</div><p>PS：镜像原可以换成<code>docker.cnb.cool/haierkeys/fast-note-sync-service:latest</code></p>
+<h3 id="nginx">nginx
+</h3><p>  重装底层系统后一般不会预装nginx，后面需要利用nginx反向代理云服务组件。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-pwsh" data-lang="pwsh"><span class="line"><span class="cl"><span class="nb">cd </span><span class="n">C:</span><span class="p">\</span><span class="n">ProgramData</span><span class="p">\</span><span class="n">ZeroTier</span><span class="p">\</span><span class="n">One</span>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt update
+</span></span><span class="line"><span class="cl">sudo apt install nginx -y
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c"># 检查路由</span>
-</span></span><span class="line"><span class="cl"><span class="nb">zerotier-cli</span> <span class="n">listpeers</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>  listpeers可以看到虚拟局域网下的各个节点信息和连接情况：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span><span class="lnt">8
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-pwsh" data-lang="pwsh"><span class="line"><span class="cl"><span class="mf">200</span> <span class="n">listpeers</span> <span class="p">&lt;</span><span class="n">ztaddr</span><span class="p">&gt;</span> <span class="p">&lt;</span><span class="n">path</span><span class="p">&gt;</span> <span class="p">&lt;</span><span class="n">latency</span><span class="p">&gt;</span> <span class="p">&lt;</span><span class="n">version</span><span class="p">&gt;</span> <span class="p">&lt;</span><span class="n">role</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl"><span class="mf">200</span> <span class="n">listpeers</span> <span class="n">39a50xxxxx</span> <span class="mf">1.95</span><span class="p">.</span><span class="n">xxxxxx</span><span class="p">/</span><span class="mf">9993</span><span class="p">;</span><span class="mf">2904</span><span class="p">;</span><span class="mf">2808</span> <span class="mf">96</span> <span class="mf">1.14</span><span class="p">.</span><span class="py">2</span> <span class="n">MOON</span>
-</span></span><span class="line"><span class="cl"><span class="mf">200</span> <span class="n">listpeers</span> <span class="n">778cdxxxxx</span> <span class="p">-</span> <span class="mf">-1</span> <span class="p">-</span> <span class="n">PLANET</span>
-</span></span><span class="line"><span class="cl"><span class="mf">200</span> <span class="n">listpeers</span> <span class="n">bbd67xxxxx</span> <span class="mf">192.168</span><span class="p">.</span><span class="py">5</span><span class="p">.</span><span class="mf">8</span><span class="p">/</span><span class="mf">22591</span><span class="p">;</span><span class="mf">2906</span><span class="p">;</span><span class="mf">2896</span> <span class="mf">9</span> <span class="mf">1.14</span><span class="p">.</span><span class="py">0</span> <span class="n">LEAF</span>
-</span></span><span class="line"><span class="cl"><span class="mf">200</span> <span class="n">listpeers</span> <span class="n">cafe0xxxxx</span> <span class="p">-</span> <span class="mf">-1</span> <span class="p">-</span> <span class="n">PLANET</span>
-</span></span><span class="line"><span class="cl"><span class="mf">200</span> <span class="n">listpeers</span> <span class="n">cafe8xxxxx</span> <span class="p">-</span> <span class="mf">-1</span> <span class="p">-</span> <span class="n">PLANET</span>
-</span></span><span class="line"><span class="cl"><span class="mf">200</span> <span class="n">listpeers</span> <span class="n">cafefxxxxx</span> <span class="p">-</span> <span class="mf">-1</span> <span class="p">-</span> <span class="n">PLANET</span>
-</span></span><span class="line"><span class="cl"><span class="mf">200</span> <span class="n">listpeers</span> <span class="n">d2f9cxxxxxb</span> <span class="mf">192.168</span><span class="p">.</span><span class="py">5</span><span class="p">.</span><span class="mf">5</span><span class="p">/</span><span class="mf">9993</span><span class="p">;</span><span class="mf">8190</span><span class="p">;</span><span class="mf">8184</span> <span class="mf">5</span> <span class="mf">1.14</span><span class="p">.</span><span class="py">2</span> <span class="n">LEAF</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>  其中，<code>&lt;ztaddr&gt;</code>代表zerotier-id，<code>&lt;path&gt;</code>代表路由，<code>&lt;latency&gt;</code>代表延迟，<code>&lt;role&gt;</code>代表节点的身份信息</p>
-<ul>
-<li>PLANET就是zerotier官方的中转节点，-1基本上就是官方的节点挂了&hellip;.</li>
-<li>MOON是自建的zerotier的节点，延迟96ms</li>
-<li>LEAF是虚拟局域网的各个设备节点</li>
-</ul>
-<p>  一些额外的指令：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-pwsh" data-lang="pwsh"><span class="line"><span class="cl"><span class="c"># 加入moon节点</span>
-</span></span><span class="line"><span class="cl"><span class="nb">zerotier-cli</span> <span class="n">orbit</span> <span class="p">&lt;</span><span class="nb">moon-id</span><span class="p">&gt;</span> <span class="p">&lt;</span><span class="nb">moon-id</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 设为开机自启</span>
+</span></span><span class="line"><span class="cl">sudo systemctl <span class="nb">enable</span> nginx
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c"># 取消加入moon节点</span>
-</span></span><span class="line"><span class="cl"><span class="nb">zerotier-cli</span> <span class="n">deorbit</span> <span class="p">&lt;</span><span class="nb">moon-id</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 启动服务</span>
+</span></span><span class="line"><span class="cl">sudo systemctl start nginx
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 检查状态</span>
+</span></span><span class="line"><span class="cl">sudo systemctl status nginx
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="linux环境">Linux环境
-</h3><p>  跟windows环境部署类似，以我自己的Nas举例，飞牛nas的底层是debian，通过xshell或者直接在飞牛的终端里进行操作</p>
+</div><p>除此之外需要配置防火墙放行 80/443 端。</p>
+<h2 id="nginx反向代理">nginx反向代理
+</h2><p>  这边通过1Panel自带的证书管理工具申请通配符的证书文件，挂载到nginx的目录下面<code>/etc/nginx/</code>，自动续签时执行脚本<code>nginx -s reload</code>。
+  在nginx中通过域名进行反向代理并开启https。以Fast Note Sync为例</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -594,49 +610,98 @@
 </span><span class="lnt">25
 </span><span class="lnt">26
 </span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 进入root管理</span>
-</span></span><span class="line"><span class="cl">sudo -i
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"> <span class="c1"># ================================================================</span>
+</span></span><span class="line"><span class="cl"> <span class="c1"># Fast Note Sync — sync.example.com</span>
+</span></span><span class="line"><span class="cl"> <span class="c1"># ================================================================</span>
+</span></span><span class="line"><span class="cl"> server <span class="o">{</span>
+</span></span><span class="line"><span class="cl">  listen <span class="m">443</span> ssl<span class="p">;</span>
+</span></span><span class="line"><span class="cl">  listen <span class="o">[</span>::<span class="o">]</span>:443 ssl<span class="p">;</span>
+</span></span><span class="line"><span class="cl">  server_name sync.example.com<span class="p">;</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># 安装zerotier</span>
-</span></span><span class="line"><span class="cl">curl -s https://install.zerotier.com/ <span class="p">|</span> sudo bash
+</span></span><span class="line"><span class="cl">  <span class="c1"># 文件同步场景 body 可能很大</span>
+</span></span><span class="line"><span class="cl">  client_max_body_size 50m<span class="p">;</span>
+</span></span><span class="line"><span class="cl">  proxy_max_temp_file_size 0<span class="p">;</span>
+</span></span><span class="line"><span class="cl">  proxy_buffering off<span class="p">;</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># 切换到zerotier路径</span>
-</span></span><span class="line"><span class="cl"><span class="nb">cd</span> /var/lib/zerotier-one
+</span></span><span class="line"><span class="cl">  ssl_certificate     /etc/nginx/fullchain.pem<span class="p">;</span>
+</span></span><span class="line"><span class="cl">  ssl_certificate_key /etc/nginx/privkey.pem<span class="p">;</span>
+</span></span><span class="line"><span class="cl">  ssl_session_timeout 5m<span class="p">;</span>
+</span></span><span class="line"><span class="cl">  ssl_protocols TLSv1.2 TLSv1.3<span class="p">;</span>
+</span></span><span class="line"><span class="cl">  ssl_ciphers ECDHE-RSA-AES128-GCM-SHA256:ECDHE:ECDH:AES:HIGH:!NULL:!aNULL:!MD5:!ADH:!RC4<span class="p">;</span>
+</span></span><span class="line"><span class="cl">  ssl_prefer_server_ciphers on<span class="p">;</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># 启动zerotier</span>
-</span></span><span class="line"><span class="cl">systemctl start zerotier-one.service
+</span></span><span class="line"><span class="cl">  <span class="c1"># 主入口 — 普通 HTTP 请求</span>
+</span></span><span class="line"><span class="cl">  location / <span class="o">{</span>
+</span></span><span class="line"><span class="cl">   <span class="c1"># TODO: 按实际情况改端口</span>
+</span></span><span class="line"><span class="cl">   <span class="c1">#   - 宿主机暴露端口：http://127.0.0.1:9000</span>
+</span></span><span class="line"><span class="cl">   <span class="c1">#   - nginx 也在同一 Docker 网络：http://fast-note-sync-service:9000</span>
+</span></span><span class="line"><span class="cl">   proxy_pass http://127.0.0.1:9000<span class="p">;</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># 查询状态</span>
-</span></span><span class="line"><span class="cl">zerotier-cli status
+</span></span><span class="line"><span class="cl">   proxy_set_header Host <span class="nv">$host</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">   proxy_set_header X-Real-IP <span class="nv">$remote_addr</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">   proxy_set_header X-Forwarded-For <span class="nv">$proxy_add_x_forwarded_for</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">   proxy_set_header X-Forwarded-Proto <span class="nv">$scheme</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="o">}</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># 成功挂起后，加入zerotier局域网并添加moon节点</span>
-</span></span><span class="line"><span class="cl">zerotier-cli join &lt;network-id&gt;
-</span></span><span class="line"><span class="cl">zerotier-cli orbit &lt;&gt; &lt;&gt;
+</span></span><span class="line"><span class="cl">  <span class="c1"># WebSocket 同步端点 — 长连接必须升级协议</span>
+</span></span><span class="line"><span class="cl">  location /api/user/sync <span class="o">{</span>
+</span></span><span class="line"><span class="cl">   proxy_pass http://127.0.0.1:9000/api/user/sync<span class="p">;</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># 重启服务</span>
-</span></span><span class="line"><span class="cl">systemctl restart zerotier-one.service
+</span></span><span class="line"><span class="cl">   proxy_http_version 1.1<span class="p">;</span>
+</span></span><span class="line"><span class="cl">   proxy_set_header Upgrade <span class="nv">$http_upgrade</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">   proxy_set_header Connection <span class="s2">&#34;upgrade&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">   proxy_set_header Host <span class="nv">$host</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">   proxy_set_header X-Real-IP <span class="nv">$remote_addr</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">   proxy_set_header X-Forwarded-For <span class="nv">$proxy_add_x_forwarded_for</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">   proxy_set_header X-Forwarded-Proto <span class="nv">$scheme</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="o">}</span>
+</span></span><span class="line"><span class="cl"> <span class="o">}</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># 启动并设置开机自启动</span>
-</span></span><span class="line"><span class="cl">systemctl <span class="nb">enable</span> zerotier-one.service
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># 查询节点状态</span>
-</span></span><span class="line"><span class="cl">zerotier-cli listpeers
+</span></span><span class="line"><span class="cl"> <span class="c1"># Fast Note Sync HTTP → HTTPS 重定向</span>
+</span></span><span class="line"><span class="cl"> server <span class="o">{</span>
+</span></span><span class="line"><span class="cl">  listen 80<span class="p">;</span>
+</span></span><span class="line"><span class="cl">  listen <span class="o">[</span>::<span class="o">]</span>:80<span class="p">;</span>
+</span></span><span class="line"><span class="cl">  server_name sync.example.com<span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="m">301</span> https://<span class="nv">$host$request_uri</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"> <span class="o">}</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h2 id="结">结
-</h2><p>  这样基本就配置成功了，走虚拟路由也方便异地串流；</p>
-<p align="right">Done<br>2025.12.11 14:39 Update</p>
-
+</div>
 </section>
 
 
     <footer class="article-footer">
     
     <section class="article-tags">
-        
-            <a href="/tags/zerotier-nat/">Zerotier-NAT</a>
         
             <a href="/tags/vps/">Vps</a>
         
@@ -698,25 +763,6 @@
             
                 
 <article class="has-image">
-    <a href="/post/vps/">
-        
-        
-            <div class="article-image">
-                
-                    <img src="https://cdn.jsdelivr.net/gh/Rei-XY/Cloud-Image@main/Blog/Articles/2026-07-07Vps/vps-cover-2026.png" loading="lazy" data-key="vps" data-hash="https://cdn.jsdelivr.net/gh/Rei-XY/Cloud-Image@main/Blog/Articles/2026-07-07Vps/vps-cover-2026.png"/>
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Vps配置记录</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
     <a href="/post/yazi/">
         
         
@@ -767,6 +813,25 @@
 
         <div class="article-details">
             <h2 class="article-title">折腾折腾Nas</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/post/zerotier-moon/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://cdn.jsdelivr.net/gh/Rei-XY/Cloud-Image@main/Blog/Articles/2025-02-07Zerotier/%E5%8D%9A%E5%AE%A2%E5%B0%81%E9%9D%A2Cover.png" loading="lazy" data-key="zerotier-moon" data-hash="https://cdn.jsdelivr.net/gh/Rei-XY/Cloud-Image@main/Blog/Articles/2025-02-07Zerotier/%E5%8D%9A%E5%AE%A2%E5%B0%81%E9%9D%A2Cover.png"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">内网穿透-异地组网</h2>
         </div>
     </a>
 </article>
