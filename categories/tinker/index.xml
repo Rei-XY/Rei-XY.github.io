@@ -28,8 +28,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h3 id=&#34;安全性配置&#34;&gt;安全性配置
-&lt;/h3&gt;&lt;p&gt;  首先需要更改SSH连接的端口，禁用密码登陆，同时增加SSH密钥。
-  下面是增加SSH密钥的步骤，先生成对应的密钥文件，生成完毕后再复制公钥内容到Vps中。&lt;/p&gt;
+&lt;/h3&gt;&lt;p&gt;  首先需要更改SSH连接的端口，禁用密码登陆，同时增加SSH密钥。&lt;/p&gt;
+&lt;p&gt;  下面是增加SSH密钥的步骤，先生成对应的密钥文件，生成完毕后再复制公钥内容到Vps中。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
@@ -184,7 +184,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;./config:/fast-note-sync/config   &lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# Configuration files&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;PS：镜像原可以换成&lt;code&gt;docker.cnb.cool/haierkeys/fast-note-sync-service:latest&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;PS：镜像源可以换成&lt;code&gt;docker.cnb.cool/haierkeys/fast-note-sync-service:latest&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&#34;nginx&#34;&gt;nginx
 &lt;/h3&gt;&lt;p&gt;  重装底层系统后一般不会预装nginx，后面需要利用nginx反向代理云服务组件。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;

@@ -390,8 +390,8 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="安全性配置">安全性配置
-</h3><p>  首先需要更改SSH连接的端口，禁用密码登陆，同时增加SSH密钥。
-  下面是增加SSH密钥的步骤，先生成对应的密钥文件，生成完毕后再复制公钥内容到Vps中。</p>
+</h3><p>  首先需要更改SSH连接的端口，禁用密码登陆，同时增加SSH密钥。</p>
+<p>  下面是增加SSH密钥的步骤，先生成对应的密钥文件，生成完毕后再复制公钥内容到Vps中。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -546,7 +546,7 @@
 </span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">./config:/fast-note-sync/config   </span><span class="w"> </span><span class="c"># Configuration files</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
-</div><p>PS：镜像原可以换成<code>docker.cnb.cool/haierkeys/fast-note-sync-service:latest</code></p>
+</div><p>PS：镜像源可以换成<code>docker.cnb.cool/haierkeys/fast-note-sync-service:latest</code></p>
 <h3 id="nginx">nginx
 </h3><p>  重装底层系统后一般不会预装nginx，后面需要利用nginx反向代理云服务组件。</p>
 <div class="highlight"><div class="chroma">
