@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Vps on NERV Christina</title>
-        <link>https://blog.christinaxy.fun/tags/vps/</link>
+        <link>https://blog.christinaxy.top/tags/vps/</link>
         <description>Recent content in Vps on NERV Christina</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Rei</copyright>
-        <lastBuildDate>Tue, 07 Jul 2026 15:08:15 +0800</lastBuildDate><atom:link href="https://blog.christinaxy.fun/tags/vps/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 07 Jul 2026 15:08:15 +0800</lastBuildDate><atom:link href="https://blog.christinaxy.top/tags/vps/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Vps配置记录</title>
-        <link>https://blog.christinaxy.fun/post/vps/</link>
+        <link>https://blog.christinaxy.top/post/vps/</link>
         <pubDate>Tue, 07 Jul 2026 15:08:15 +0800</pubDate>
         
-        <guid>https://blog.christinaxy.fun/post/vps/</guid>
+        <guid>https://blog.christinaxy.top/post/vps/</guid>
         <description>&lt;img src="https://cdn.jsdelivr.net/gh/Rei-XY/Cloud-Image@main/Blog/Articles/2026-07-07Vps/vps-cover-2026.png" alt="Featured image of post Vps配置记录" /&gt;&lt;h2 id=&#34;序&#34;&gt;序
 &lt;/h2&gt;&lt;p&gt;  最开始是为了有个公网IP，可以让我宿舍的主机通过自建的zerotier-moon节点进行串流，好在空闲时刻摸鱼，(嘿嘿｀・ω・´)，后来又购买了域名，增加了越来越多的服务，加上移动端的zerotier很难完整打洞成功，逐渐发现自己的很多生活组件可以部署在云上，简单的4核服务器其实就可以满足很多日常的基础功能了，后悔当时腾讯云客服给我打电话问我要不要一次买3年，没买啊∑🍺👊😩！，遂开一条帖子记录，以便后续迁移云的时候可以有个参考。&lt;/p&gt;
 &lt;h2 id=&#34;基础配置&#34;&gt;基础配置
@@ -337,10 +337,10 @@
         </item>
         <item>
         <title>内网穿透-异地组网</title>
-        <link>https://blog.christinaxy.fun/post/zerotier-moon/</link>
+        <link>https://blog.christinaxy.top/post/zerotier-moon/</link>
         <pubDate>Thu, 27 Feb 2025 16:38:38 +0800</pubDate>
         
-        <guid>https://blog.christinaxy.fun/post/zerotier-moon/</guid>
+        <guid>https://blog.christinaxy.top/post/zerotier-moon/</guid>
         <description>&lt;img src="https://cdn.jsdelivr.net/gh/Rei-XY/Cloud-Image@main/Blog/Articles/2025-02-07Zerotier/%E5%8D%9A%E5%AE%A2%E5%B0%81%E9%9D%A2Cover.png" alt="Featured image of post 内网穿透-异地组网" /&gt;&lt;h2 id=&#34;序&#34;&gt;序
 &lt;/h2&gt;&lt;p&gt;  最初打算用公网服务器+Frp来实现内网穿透，这是稳定的方案，但使用下来会有几个问题。&lt;/p&gt;
 &lt;ol&gt;

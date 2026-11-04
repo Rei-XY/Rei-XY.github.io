@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>折腾折腾 on NERV Christina</title>
-        <link>https://blog.christinaxy.fun/categories/tinker/</link>
+        <link>https://blog.christinaxy.top/categories/tinker/</link>
         <description>Recent content in 折腾折腾 on NERV Christina</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Rei</copyright>
-        <lastBuildDate>Tue, 07 Jul 2026 15:08:15 +0800</lastBuildDate><atom:link href="https://blog.christinaxy.fun/categories/tinker/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 07 Jul 2026 15:08:15 +0800</lastBuildDate><atom:link href="https://blog.christinaxy.top/categories/tinker/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Vps配置记录</title>
-        <link>https://blog.christinaxy.fun/post/vps/</link>
+        <link>https://blog.christinaxy.top/post/vps/</link>
         <pubDate>Tue, 07 Jul 2026 15:08:15 +0800</pubDate>
         
-        <guid>https://blog.christinaxy.fun/post/vps/</guid>
+        <guid>https://blog.christinaxy.top/post/vps/</guid>
         <description>&lt;img src="https://cdn.jsdelivr.net/gh/Rei-XY/Cloud-Image@main/Blog/Articles/2026-07-07Vps/vps-cover-2026.png" alt="Featured image of post Vps配置记录" /&gt;&lt;h2 id=&#34;序&#34;&gt;序
 &lt;/h2&gt;&lt;p&gt;  最开始是为了有个公网IP，可以让我宿舍的主机通过自建的zerotier-moon节点进行串流，好在空闲时刻摸鱼，(嘿嘿｀・ω・´)，后来又购买了域名，增加了越来越多的服务，加上移动端的zerotier很难完整打洞成功，逐渐发现自己的很多生活组件可以部署在云上，简单的4核服务器其实就可以满足很多日常的基础功能了，后悔当时腾讯云客服给我打电话问我要不要一次买3年，没买啊∑🍺👊😩！，遂开一条帖子记录，以便后续迁移云的时候可以有个参考。&lt;/p&gt;
 &lt;h2 id=&#34;基础配置&#34;&gt;基础配置
@@ -337,10 +337,10 @@
         </item>
         <item>
         <title>Yazi Configuration</title>
-        <link>https://blog.christinaxy.fun/post/yazi/</link>
+        <link>https://blog.christinaxy.top/post/yazi/</link>
         <pubDate>Thu, 07 May 2026 12:58:52 +0800</pubDate>
         
-        <guid>https://blog.christinaxy.fun/post/yazi/</guid>
+        <guid>https://blog.christinaxy.top/post/yazi/</guid>
         <description>&lt;img src="https://cdn.jsdelivr.net/gh/Rei-XY/Cloud-Image@main/Blog/Articles/2026-05-07Yazi/Yazi-Cover.jpg" alt="Featured image of post Yazi Configuration" /&gt;&lt;h2 id=&#34;序&#34;&gt;序
 &lt;/h2&gt;&lt;p&gt;最近沉迷配置终端，刷到了yazi这个工具，怎么说呢，感觉很好用啊，也想着以后从GUI的工作模式部分转向类似Terminal的方式，遂开一章记录一下！&lt;/p&gt;
 &lt;h2 id=&#34;yazi-configuration&#34;&gt;Yazi Configuration
@@ -2695,10 +2695,10 @@
         </item>
         <item>
         <title>新机初始化配置</title>
-        <link>https://blog.christinaxy.fun/post/initializepc/</link>
+        <link>https://blog.christinaxy.top/post/initializepc/</link>
         <pubDate>Mon, 15 Dec 2025 16:18:45 +0800</pubDate>
         
-        <guid>https://blog.christinaxy.fun/post/initializepc/</guid>
+        <guid>https://blog.christinaxy.top/post/initializepc/</guid>
         <description>&lt;img src="https://cdn.jsdelivr.net/gh/Rei-XY/Cloud-Image@main/Blog/Articles/2025-12-15InitializePC/Cover.png" alt="Featured image of post 新机初始化配置" /&gt;&lt;!-- markdownlint-disable MD033 --&gt;
 &lt;!-- markdownlint-disable MD040 --&gt;
 &lt;h2 id=&#34;序&#34;&gt;序
@@ -3257,10 +3257,10 @@
         </item>
         <item>
         <title>折腾折腾Nas</title>
-        <link>https://blog.christinaxy.fun/post/nas/</link>
+        <link>https://blog.christinaxy.top/post/nas/</link>
         <pubDate>Thu, 11 Dec 2025 17:15:56 +0800</pubDate>
         
-        <guid>https://blog.christinaxy.fun/post/nas/</guid>
+        <guid>https://blog.christinaxy.top/post/nas/</guid>
         <description>&lt;img src="https://cdn.jsdelivr.net/gh/Rei-XY/Cloud-Image@main/Blog/Articles/2025-12-11%E6%8A%98%E8%85%BE%E6%8A%98%E8%85%BENas/nas-cover.png" alt="Featured image of post 折腾折腾Nas" /&gt;&lt;!-- markdownlint-disable MD033 --&gt;
 &lt;h2 id=&#34;序&#34;&gt;序
 &lt;/h2&gt;&lt;p&gt;  之前的一个Nas用之前实验室的一台老机子改装的，硬盘位有限而且用的也是老硬盘，加上散热奇差，夏天一到，风扇的声音简直闹心，而且最重要的一点是，这个机子的所有权不是我自己hhh，所以年中的时候搭建了自己的一个DIY Nas，配置单如下：&lt;/p&gt;
@@ -3306,7 +3306,7 @@
 &lt;/div&gt;
 &lt;p&gt;  内存和散热用的都是之前剩下的，硬盘害，现在涨的这么厉害，早知道多买几块了，不过也是存点电影什么的，8T组Raid0毕业前肯定够用了，系统是飞牛Os，整套下来算上硬盘大约2200块，个人感觉还行，主流的编解码都支持，目前几个月用下来，非常安静。&lt;/p&gt;
 &lt;h2 id=&#34;内网穿透&#34;&gt;内网穿透
-&lt;/h2&gt;&lt;p&gt;  飞牛自带的内网穿透2M不太够用，也不是很想花钱，加上学校的小水管网络，买了100M的套餐，下行大约80M，上行30M，有的时候还不太稳定，就拿自己的Vps做了zerotier的内网穿透。详情见&lt;a class=&#34;link&#34; href=&#34;https://blog.christinaxy.fun/post/zerotier-moon/&#34; &gt;Zerotier内网穿透&lt;/a&gt;&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;  飞牛自带的内网穿透2M不太够用，也不是很想花钱，加上学校的小水管网络，买了100M的套餐，下行大约80M，上行30M，有的时候还不太稳定，就拿自己的Vps做了zerotier的内网穿透。详情见&lt;a class=&#34;link&#34; href=&#34;https://blog.christinaxy.top/post/zerotier-moon/&#34; &gt;Zerotier内网穿透&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;虚拟机&#34;&gt;虚拟机
 &lt;/h2&gt;&lt;p&gt;  安装win11虚拟机（4核心的i3和16GB内存现在用起来发现有点捉襟见肘，但还是能用），使用几个小任务bilidown和抢票软件bypass。实在是太卡了，用起来太膈应了。。&lt;/p&gt;
 &lt;h2 id=&#34;docker服务&#34;&gt;Docker服务
@@ -3439,10 +3439,10 @@
         </item>
         <item>
         <title>内网穿透-异地组网</title>
-        <link>https://blog.christinaxy.fun/post/zerotier-moon/</link>
+        <link>https://blog.christinaxy.top/post/zerotier-moon/</link>
         <pubDate>Thu, 27 Feb 2025 16:38:38 +0800</pubDate>
         
-        <guid>https://blog.christinaxy.fun/post/zerotier-moon/</guid>
+        <guid>https://blog.christinaxy.top/post/zerotier-moon/</guid>
         <description>&lt;img src="https://cdn.jsdelivr.net/gh/Rei-XY/Cloud-Image@main/Blog/Articles/2025-02-07Zerotier/%E5%8D%9A%E5%AE%A2%E5%B0%81%E9%9D%A2Cover.png" alt="Featured image of post 内网穿透-异地组网" /&gt;&lt;h2 id=&#34;序&#34;&gt;序
 &lt;/h2&gt;&lt;p&gt;  最初打算用公网服务器+Frp来实现内网穿透，这是稳定的方案，但使用下来会有几个问题。&lt;/p&gt;
 &lt;ol&gt;
@@ -3701,10 +3701,10 @@
         </item>
         <item>
         <title>赛博小屋装修记</title>
-        <link>https://blog.christinaxy.fun/post/hugo-stack-mod/</link>
+        <link>https://blog.christinaxy.top/post/hugo-stack-mod/</link>
         <pubDate>Mon, 10 Feb 2025 22:28:15 +0800</pubDate>
         
-        <guid>https://blog.christinaxy.fun/post/hugo-stack-mod/</guid>
+        <guid>https://blog.christinaxy.top/post/hugo-stack-mod/</guid>
         <description>&lt;h2 id=&#34;主题修改&#34;&gt;主题修改
 &lt;/h2&gt;&lt;h3 id=&#34;字体修改&#34;&gt;字体修改
 &lt;/h3&gt;&lt;p&gt;   MacBook上感觉文档的字体渲染挺锐的，怪不得好多人拿Mac办公，确实看的舒服，但是网页上代码块的渲染有点难受，平常的win本一直是用JetBrains Mono，调整一下:&lt;/p&gt;
@@ -4766,7 +4766,7 @@ test:⬇️
 [00:33.820]今夜私の神話になって (只求你在今夜，成为我的神话)
 [00:42.990]ほら逃げられないわ (看吧，你已无路可逃)
 [00:47.110]弱っていく君閉じ込めて (将逐渐虚弱的你，紧紧关住)
-[00:53.920] you know i want ... i want ... i want .… i want you so , i want . (你知晓我渴望...我渴望...我渴望...我如此渴望着你...)
+[00:53.920]You know I want… I want… I want… I want you so, I want (你知晓我渴望...我渴望...我渴望...我如此渴望着你...)
 [01:04.719]いなければよかったのに  なぜ (若不存在该多好，为何...)
 [01:08.290] you know … you know . you know .… you know i want you to know how much i need you so , (你知晓...你知晓...你知晓...我渴望你知晓，我对你如此渴求)
 [01:18.360]いま  狂おしいほど (此刻我如痴如狂)
@@ -4777,12 +4777,12 @@ test:⬇️
 [01:53.620]葬る私を受け入れて (只求你能接纳，如此不堪的我)
 [02:00.140]危きこころの壁に (心灵之壁摇摇欲坠)
 [02:06.799]忍ぶは理不尽な夢 (残酷梦境暗藏其中)
-[02:13.610] i say , you &amp;#39; re mine ... you &amp;#39; re mine ... (我说，你属于我...你属于我...)
+[02:13.610]I say, you&amp;#39;re mine… You&amp;#39;re mine ... (我说，你属于我...你属于我...)
 [02:17.780]ほらすぐそこにいるのに (看吧，分明近在咫尺)
 [02:26.090]叶わないそれでも (无法实现，纵使如此)
-[02:29.460] iwant .. iwant . iwant you so , i want (我渴望...我渴望...我如此渴望着你...)
+[02:29.460]I want ... I want ... I want you so , I want (我渴望...我渴望...我如此渴望着你...)
 [02:38.080]想い出なんていらない  だから (我不需要回忆所以...)
-[02:41.759] you know you knowyou know … so , you know i want you to know how much i need you so , (你知晓...你知晓...你知晓...所以，你知晓...我渴望你知晓，我对你如此渴求)
+[02:41.759]you know you know you know … so , you know i want you to know how much i need you so , (你知晓...你知晓...你知晓...所以，你知晓...我渴望你知晓，我对你如此渴求)
 [02:51.740]いま狂おしいほど (此刻我如痴如狂)&#34;&gt;&lt;/div&gt;
         &lt;script&gt;
         (function() {
@@ -4867,12 +4867,12 @@ test:⬇️
 [01:20.730] 鮮やかな夜明けとともにさあ ( 与鲜艳的佛晓一同，来吧)
 [01:31.080] ゆこう明日へと美しい時代よ ( 前往明天吧，美好时代啊)
 [01:40.800] 人は忘れてくいつかは消えてく ( 人会逐渐忘却，一切终将消逝)
-[02:05.700] 想いを綴るようになったのはなぜ ( 为何开始书写自己的心绪)
+[02:05.700]思いを綴るようになったのはなぜ ( 为何开始书写自己的心绪)
 [02:10.600] 光と闇を司るその命 ( 那司掌光与暗的生命)
 [02:15.670] きっとすべてに物語がある ( 森罗万象都必有其故事)
 [02:19.720] tell me a story.. tell me a story.. ( 为我讲述...那个故事)
 [02:22.280] 叶うなら ( 若能实现)
-[02:25.740] こんなに誰かを想うのはああ なぜ ( 为何会如此思念某个人)
+[02:25.740]こんなに誰かを思うのはああ なぜ ( 为何会如此思念某个人)
 [02:30.740] 光と闇を抱いたまま胸焦がし ( 怀抱光与暗，胸口焦灼难耐)
 [02:35.760] そうさすべてに物語がある ( 没错，森罗万象都有其故事)
 [02:40.190] tell me mo&amp;#39;.. tell me mo&amp;#39;..don&amp;#39;t stop ( 为我讲述...更多故事...莫要停下)
@@ -4880,7 +4880,7 @@ test:⬇️
 [03:08.260] 輝くよ何度も ( 一次又一次闪耀)
 [03:11.250] 崩れてく失ってく ( 逐渐崩毁，逐渐失去)
 [03:13.620] ああずっと探してた刹那の遠い色 ( 啊，苦苦寻找的，刹那间的遥远色彩)
-[03:21.650] もしもこの詩が天球に夢のつづきを描くのなら ( 若这首诗在天球上描绘梦的延续)
+[03:21.650] もしもこの詩が天球に夢のつづきを描くのなら (若这首诗在天空上描绘梦的延续)
 [03:32.880] 見つめて ( 就定睛注视吧)
 [03:34.950] ぼくらいま解き放つ ( 此刻我们释放一切)
 [03:40.140] let&amp;#39;s sing along let&amp;#39;s sing along ( 一起歌唱吧，一起歌唱吧)

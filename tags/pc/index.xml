@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>PC on NERV Christina</title>
-        <link>https://blog.christinaxy.fun/tags/pc/</link>
+        <link>https://blog.christinaxy.top/tags/pc/</link>
         <description>Recent content in PC on NERV Christina</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Rei</copyright>
-        <lastBuildDate>Thu, 07 May 2026 12:58:52 +0800</lastBuildDate><atom:link href="https://blog.christinaxy.fun/tags/pc/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 07 May 2026 12:58:52 +0800</lastBuildDate><atom:link href="https://blog.christinaxy.top/tags/pc/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Yazi Configuration</title>
-        <link>https://blog.christinaxy.fun/post/yazi/</link>
+        <link>https://blog.christinaxy.top/post/yazi/</link>
         <pubDate>Thu, 07 May 2026 12:58:52 +0800</pubDate>
         
-        <guid>https://blog.christinaxy.fun/post/yazi/</guid>
+        <guid>https://blog.christinaxy.top/post/yazi/</guid>
         <description>&lt;img src="https://cdn.jsdelivr.net/gh/Rei-XY/Cloud-Image@main/Blog/Articles/2026-05-07Yazi/Yazi-Cover.jpg" alt="Featured image of post Yazi Configuration" /&gt;&lt;h2 id=&#34;序&#34;&gt;序
 &lt;/h2&gt;&lt;p&gt;最近沉迷配置终端，刷到了yazi这个工具，怎么说呢，感觉很好用啊，也想着以后从GUI的工作模式部分转向类似Terminal的方式，遂开一章记录一下！&lt;/p&gt;
 &lt;h2 id=&#34;yazi-configuration&#34;&gt;Yazi Configuration
@@ -2367,10 +2367,10 @@
         </item>
         <item>
         <title>新机初始化配置</title>
-        <link>https://blog.christinaxy.fun/post/initializepc/</link>
+        <link>https://blog.christinaxy.top/post/initializepc/</link>
         <pubDate>Mon, 15 Dec 2025 16:18:45 +0800</pubDate>
         
-        <guid>https://blog.christinaxy.fun/post/initializepc/</guid>
+        <guid>https://blog.christinaxy.top/post/initializepc/</guid>
         <description>&lt;img src="https://cdn.jsdelivr.net/gh/Rei-XY/Cloud-Image@main/Blog/Articles/2025-12-15InitializePC/Cover.png" alt="Featured image of post 新机初始化配置" /&gt;&lt;!-- markdownlint-disable MD033 --&gt;
 &lt;!-- markdownlint-disable MD040 --&gt;
 &lt;h2 id=&#34;序&#34;&gt;序
