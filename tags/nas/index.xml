@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Nas on NERV Christina</title>
-        <link>https://blog.christinaxy.top/tags/nas/</link>
+        <link>https://blog.christinafun.top/tags/nas/</link>
         <description>Recent content in Nas on NERV Christina</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Rei</copyright>
-        <lastBuildDate>Thu, 11 Dec 2025 17:15:56 +0800</lastBuildDate><atom:link href="https://blog.christinaxy.top/tags/nas/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 11 Dec 2025 17:15:56 +0800</lastBuildDate><atom:link href="https://blog.christinafun.top/tags/nas/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>折腾折腾Nas</title>
-        <link>https://blog.christinaxy.top/post/nas/</link>
+        <link>https://blog.christinafun.top/post/nas/</link>
         <pubDate>Thu, 11 Dec 2025 17:15:56 +0800</pubDate>
         
-        <guid>https://blog.christinaxy.top/post/nas/</guid>
+        <guid>https://blog.christinafun.top/post/nas/</guid>
         <description>&lt;img src="https://cdn.jsdelivr.net/gh/Rei-XY/Cloud-Image@main/Blog/Articles/2025-12-11%E6%8A%98%E8%85%BE%E6%8A%98%E8%85%BENas/nas-cover.png" alt="Featured image of post 折腾折腾Nas" /&gt;&lt;!-- markdownlint-disable MD033 --&gt;
 &lt;h2 id=&#34;序&#34;&gt;序
 &lt;/h2&gt;&lt;p&gt;  之前的一个Nas用之前实验室的一台老机子改装的，硬盘位有限而且用的也是老硬盘，加上散热奇差，夏天一到，风扇的声音简直闹心，而且最重要的一点是，这个机子的所有权不是我自己hhh，所以年中的时候搭建了自己的一个DIY Nas，配置单如下：&lt;/p&gt;
@@ -58,7 +58,7 @@
 &lt;/div&gt;
 &lt;p&gt;  内存和散热用的都是之前剩下的，硬盘害，现在涨的这么厉害，早知道多买几块了，不过也是存点电影什么的，8T组Raid0毕业前肯定够用了，系统是飞牛Os，整套下来算上硬盘大约2200块，个人感觉还行，主流的编解码都支持，目前几个月用下来，非常安静。&lt;/p&gt;
 &lt;h2 id=&#34;内网穿透&#34;&gt;内网穿透
-&lt;/h2&gt;&lt;p&gt;  飞牛自带的内网穿透2M不太够用，也不是很想花钱，加上学校的小水管网络，买了100M的套餐，下行大约80M，上行30M，有的时候还不太稳定，就拿自己的Vps做了zerotier的内网穿透。详情见&lt;a class=&#34;link&#34; href=&#34;https://blog.christinaxy.top/post/zerotier-moon/&#34; &gt;Zerotier内网穿透&lt;/a&gt;&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;  飞牛自带的内网穿透2M不太够用，也不是很想花钱，加上学校的小水管网络，买了100M的套餐，下行大约80M，上行30M，有的时候还不太稳定，就拿自己的Vps做了zerotier的内网穿透。详情见&lt;a class=&#34;link&#34; href=&#34;https://blog.christinafun.top/post/zerotier-moon/&#34; &gt;Zerotier内网穿透&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;虚拟机&#34;&gt;虚拟机
 &lt;/h2&gt;&lt;p&gt;  安装win11虚拟机（4核心的i3和16GB内存现在用起来发现有点捉襟见肘，但还是能用），使用几个小任务bilidown和抢票软件bypass。实在是太卡了，用起来太膈应了。。&lt;/p&gt;
 &lt;h2 id=&#34;docker服务&#34;&gt;Docker服务
